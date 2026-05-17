@@ -22,7 +22,7 @@
 7. [x] ETF 가격은 왜 계속 움직일까
 8. [x] ETF와 펀드 차이
 9. [x] 초보자는 왜 ETF부터 시작할까
-10. [ ] ETF 적립식 투자란?
+10. [x] ETF 적립식 투자란?
 11. [ ] ETF 장기투자가 중요한 이유
 12. [ ] ETF 세금 쉽게 설명
 13. [ ] 해외 ETF 세금 구조
@@ -174,6 +174,11 @@
   - 영상: media_agent/data_shorts/renders/scr_20260517_etf_vs_fund_final_720p.mp4
   - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_vs_fund_thumbnail_final.jpg
   - YouTube: https://www.youtube.com/watch?v=RHAHO5aXRlw
+- 완료: 10. ETF 적립식 투자란?
+  - 관련 영상: ETF 적립식 투자란?
+  - 영상: media_agent/data_shorts/renders/scr_20260517_etf_dca_final_720p.mp4
+  - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_dca_thumbnail_final.jpg
+  - YouTube: https://www.youtube.com/watch?v=-zAxjWE2ZaQ
 - 완료: 9. 초보자는 왜 ETF부터 시작할까
   - 관련 영상: ETF 처음이면 이것부터 보세요
   - 영상: media_agent/data_shorts/renders/scr_20260517_etf_start_here_final_720p.mp4

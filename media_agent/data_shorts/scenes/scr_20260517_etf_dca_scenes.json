@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_dca",
+    "scene_id": "sc_001",
+    "objective": "dca_hook",
+    "narration": "ETF 적립식 투자란 뭘까요? 한 번에 큰돈을 넣는 대신, 정해진 주기로 같은 ETF를 꾸준히 사는 방식입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF 적립식",
+        "투자란?",
+        "꾸준히 사기"
+      ],
+      "subtitle_line": "정해진 주기로 꾸준히 사는 방식입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_dca_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_dca_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_dca",
+    "scene_id": "sc_002",
+    "objective": "dca_how",
+    "narration": "예를 들어 매달 월급날마다 일정 금액을 투자합니다. 가격이 높을 때도 사고, 낮을 때도 사는 구조입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "매달",
+        "일정 금액",
+        "반복"
+      ],
+      "subtitle_line": "높을 때도 낮을 때도 같은 규칙으로 삽니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_dca_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_dca_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_dca",
+    "scene_id": "sc_003",
+    "objective": "dca_average",
+    "narration": "이 방식의 장점은 타이밍 부담을 줄여준다는 겁니다. 바닥을 맞히려 하지 않고, 평균 매입 단가를 만들어갑니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "타이밍 부담",
+        "줄이기",
+        "평균 단가"
+      ],
+      "subtitle_line": "바닥을 맞히기보다 평균을 만들어갑니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_dca_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_dca_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_dca",
+    "scene_id": "sc_004",
+    "objective": "dca_discipline",
+    "narration": "하지만 적립식도 무조건 안전한 건 아닙니다. 오래 들고 갈 수 있는 자산인지, 내 생활비와 분리했는지 먼저 봐야 합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "무조건 안전",
+        "아님",
+        "생활비 분리"
+      ],
+      "subtitle_line": "생활비와 투자금은 반드시 분리하세요",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_dca_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_dca_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_dca",
+    "scene_id": "sc_005",
+    "objective": "dca_close",
+    "narration": "정리하면 적립식 투자는 예측보다 습관에 가까운 전략입니다. 초보자라면 금액보다 먼저, 오래 지속할 규칙을 정하세요.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "예측보다",
+        "습관",
+        "규칙"
+      ],
+      "subtitle_line": "금액보다 오래 지속할 규칙이 먼저입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_dca_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_dca_sc_005_audio.mp3"
+  }
+]
