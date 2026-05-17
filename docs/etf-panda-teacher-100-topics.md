@@ -13,7 +13,7 @@
 
 ## ETF 초보 입문
 
-1. [ ] ETF가 정확히 뭔가요?
+1. [x] ETF가 정확히 뭔가요?
 2. [ ] 주식과 ETF 차이 쉽게 설명
 3. [ ] ETF 하나만 사도 분산투자인 이유
 4. [ ] ETF는 누가 만드는 걸까?
@@ -134,6 +134,11 @@
 
 ## 제작 완료 기록
 
+- 완료: 1. ETF가 정확히 뭔가요?
+  - 관련 영상: ETF가 정확히 뭔가요? 초보자는 이 비유 하나면 됩니다
+  - 영상: media_agent/data_shorts/renders/scr_20260517_etf_what_is_etf_final_720p.mp4
+  - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_what_is_etf_thumbnail_final.jpg
+  - YouTube: https://www.youtube.com/watch?v=KOBAhuUDuew
 - 완료: 9. 초보자는 왜 ETF부터 시작할까
   - 관련 영상: ETF 처음이면 이것부터 보세요
   - 영상: media_agent/data_shorts/renders/scr_20260517_etf_start_here_final_720p.mp4

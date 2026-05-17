@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_etf_what_is_etf",
+  "cluster_id": "manual_etf_what_is_etf_20260517",
+  "title": "ETF가 정확히 뭔가요?",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "ETF의 기본 개념을 한 바구니 비유로 설명하는 초보 입문 쇼츠.",
+  "target_duration_sec": 45,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 특정 ETF 매수/매도 추천이 아니라 ETF 개념 설명.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "what_hook",
+      "narration": "ETF가 뭔지 헷갈린다면, 이렇게 생각하면 됩니다. ETF는 여러 자산을 한 바구니에 담아, 주식처럼 사고파는 상품입니다.",
+      "spoken_narration": "ETF가 뭔지 헷갈린다면, 이렇게 생각하면 됩니다. ETF는 여러 자산을 한 바구니에 담아, 주식처럼 사고파는 상품입니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "what_basket",
+      "narration": "예를 들어 ETF 하나 안에는 삼성전자 같은 개별 주식, 미국 대형주, 채권, 금 같은 자산이 묶여 있을 수 있습니다.",
+      "spoken_narration": "예를 들어 ETF 하나 안에는 삼성전자 같은 개별 주식, 미국 대형주, 채권, 금 같은 자산이 묶여 있을 수 있습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "what_trade",
+      "narration": "중요한 건 거래 방식입니다. 펀드처럼 맡겨두기만 하는 게 아니라, 주식처럼 장중에 가격을 보며 사고팔 수 있습니다.",
+      "spoken_narration": "중요한 건 거래 방식입니다. 펀드처럼 맡겨두기만 하는 게 아니라, 주식처럼 장중에 가격을 보며 사고팔 수 있습니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "what_difference",
+      "narration": "그래서 초보자에게 ETF가 쉬운 이유는 하나입니다. 한 기업에만 올인하지 않고, 여러 곳에 나눠 담는 구조이기 때문입니다.",
+      "spoken_narration": "그래서 초보자에게 ETF가 쉬운 이유는 하나입니다. 한 기업에만 올인하지 않고, 여러 곳에 나눠 담는 구조이기 때문입니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "what_close",
+      "narration": "단, ETF도 손실이 날 수 있습니다. 이름만 보지 말고, 안에 뭐가 들었는지, 수수료는 얼마인지, 내 목적과 맞는지 확인하세요.",
+      "spoken_narration": "단, ETF도 손실이 날 수 있습니다. 이름만 보지 말고, 안에 뭐가 들었는지, 수수료는 얼마인지, 내 목적과 맞는지 확인하세요."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}

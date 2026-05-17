@@ -1,237 +1,237 @@
 {
-  "scriptId": "scr_20260517_etf_start_here",
+  "scriptId": "scr_20260517_etf_what_is_etf",
   "fps": 30,
   "width": 720,
   "height": 1280,
-  "durationFrames": 1388,
+  "durationFrames": 1362,
   "scenes": [
     {
       "sceneId": "sc_001",
-      "objective": "start_hook",
-      "durationFrames": 233,
+      "objective": "what_hook",
+      "durationFrames": 276,
       "startFrame": 0,
-      "card": "media/scr_20260517_etf_start_here_sc_001_bg.jpg",
-      "audio": "media/scr_20260517_etf_start_here_sc_001_audio.mp3",
+      "card": "media/scr_20260517_etf_what_is_etf_sc_001_bg.jpg",
+      "audio": "media/scr_20260517_etf_what_is_etf_sc_001_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_start_here_sc_001_bg.jpg",
-      "backgroundLoopFrames": 233,
+      "backgroundImage": "media/scr_20260517_etf_what_is_etf_sc_001_bg.jpg",
+      "backgroundLoopFrames": 276,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "ETF 처음",
-          "이것부터",
-          "목적 먼저"
+          "ETF가 정확히",
+          "뭔가요?",
+          "한 바구니"
         ],
-        "subtitle_line": "상품보다 목적이 먼저입니다",
+        "subtitle_line": "여러 자산을 한 바구니에 담은 상품",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "ETF 처음이면 이것부터 보세요.",
+          "text": "ETF가 뭔지 헷갈린다면,",
           "startFrame": 0,
-          "durationFrames": 76
+          "durationFrames": 61
         },
         {
-          "text": "어떤 ETF가 좋냐보다,",
-          "startFrame": 76,
-          "durationFrames": 56
+          "text": "이렇게 생각하면 됩니다.",
+          "startFrame": 61,
+          "durationFrames": 57
         },
         {
-          "text": "내 돈이 어떤 역할을 해야 하는지가 먼저입니다.",
-          "startFrame": 132,
-          "durationFrames": 101
+          "text": "ETF는 여러 자산을 한 바구니에 담아,",
+          "startFrame": 118,
+          "durationFrames": 86
+        },
+        {
+          "text": "주식처럼 사고파는 상품입니다.",
+          "startFrame": 204,
+          "durationFrames": 72
         }
       ]
     },
     {
       "sceneId": "sc_002",
-      "objective": "start_goal",
-      "durationFrames": 278,
-      "startFrame": 233,
-      "card": "media/scr_20260517_etf_start_here_sc_002_bg.jpg",
-      "audio": "media/scr_20260517_etf_start_here_sc_002_audio.mp3",
+      "objective": "what_basket",
+      "durationFrames": 274,
+      "startFrame": 276,
+      "card": "media/scr_20260517_etf_what_is_etf_sc_002_bg.jpg",
+      "audio": "media/scr_20260517_etf_what_is_etf_sc_002_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_start_here_sc_002_bg.jpg",
-      "backgroundLoopFrames": 278,
+      "backgroundImage": "media/scr_20260517_etf_what_is_etf_sc_002_bg.jpg",
+      "backgroundLoopFrames": 274,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "1단계",
-          "목적",
-          "배당 성장 안정"
+          "하나만 사도",
+          "여러 자산",
+          "묶여 있음"
         ],
-        "subtitle_line": "배당 성장 안정 중 하나를 고르세요",
+        "subtitle_line": "ETF 하나 안에 여러 자산이 들어갑니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "첫 번째는 목적입니다.",
+          "text": "예를 들어 ETF 하나 안에는 삼성전자 같은 개별 주식,",
           "startFrame": 0,
-          "durationFrames": 53
+          "durationFrames": 131
         },
         {
-          "text": "매달 현금흐름이 필요한지,",
-          "startFrame": 53,
-          "durationFrames": 64
+          "text": "미국 대형주,",
+          "startFrame": 131,
+          "durationFrames": 34
         },
         {
-          "text": "장기 성장이 필요한지,",
-          "startFrame": 118,
-          "durationFrames": 53
+          "text": "채권,",
+          "startFrame": 165,
+          "durationFrames": 27
         },
         {
-          "text": "아니면 변동성을 줄이고 싶은지부터 정하세요.",
-          "startFrame": 171,
-          "durationFrames": 107
+          "text": "금 같은 자산이 묶여 있을 수 있습니다.",
+          "startFrame": 192,
+          "durationFrames": 81
         }
       ]
     },
     {
       "sceneId": "sc_003",
-      "objective": "start_type",
-      "durationFrames": 338,
-      "startFrame": 511,
-      "card": "media/scr_20260517_etf_start_here_sc_003_bg.jpg",
-      "audio": "media/scr_20260517_etf_start_here_sc_003_audio.mp3",
+      "objective": "what_trade",
+      "durationFrames": 268,
+      "startFrame": 550,
+      "card": "media/scr_20260517_etf_what_is_etf_sc_003_bg.jpg",
+      "audio": "media/scr_20260517_etf_what_is_etf_sc_003_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_start_here_sc_003_bg.jpg",
-      "backgroundLoopFrames": 338,
+      "backgroundImage": "media/scr_20260517_etf_what_is_etf_sc_003_bg.jpg",
+      "backgroundLoopFrames": 268,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "2단계",
-          "종류",
-          "역할"
+          "주식처럼",
+          "장중 거래",
+          "가격 변동"
         ],
-        "subtitle_line": "지수 섹터 배당 ETF는 역할이 다릅니다",
+        "subtitle_line": "주식처럼 장중에 사고팔 수 있습니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "두 번째는 종류입니다.",
+          "text": "중요한 건 거래 방식입니다.",
           "startFrame": 0,
-          "durationFrames": 58
+          "durationFrames": 66
         },
         {
-          "text": "시장 전체를 사는 지수 ETF,",
-          "startFrame": 58,
-          "durationFrames": 76
+          "text": "펀드처럼 맡겨두기만 하는 게 아니라,",
+          "startFrame": 66,
+          "durationFrames": 87
         },
         {
-          "text": "특정 산업에 거는 섹터 ETF,",
-          "startFrame": 134,
-          "durationFrames": 76
-        },
-        {
-          "text": "현금흐름을 노리는 배당 ETF는 역할이 다릅니다.",
-          "startFrame": 210,
-          "durationFrames": 128
+          "text": "주식처럼 장중에 가격을 보며 사고팔 수 있습니다.",
+          "startFrame": 153,
+          "durationFrames": 115
         }
       ]
     },
     {
       "sceneId": "sc_004",
-      "objective": "start_check",
-      "durationFrames": 239,
-      "startFrame": 849,
-      "card": "media/scr_20260517_etf_start_here_sc_004_bg.jpg",
-      "audio": "media/scr_20260517_etf_start_here_sc_004_audio.mp3",
+      "objective": "what_difference",
+      "durationFrames": 268,
+      "startFrame": 818,
+      "card": "media/scr_20260517_etf_what_is_etf_sc_004_bg.jpg",
+      "audio": "media/scr_20260517_etf_what_is_etf_sc_004_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_start_here_sc_004_bg.jpg",
-      "backgroundLoopFrames": 239,
+      "backgroundImage": "media/scr_20260517_etf_what_is_etf_sc_004_bg.jpg",
+      "backgroundLoopFrames": 268,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "3단계",
-          "비용",
-          "리스크"
+          "초보자가",
+          "ETF부터",
+          "보는 이유"
         ],
-        "subtitle_line": "수수료와 흔들림을 같이 보세요",
+        "subtitle_line": "한 기업 올인이 아니라 나눠 담는 구조",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "세 번째는 비용과 리스크입니다.",
+          "text": "그래서 초보자에게 ETF가 쉬운 이유는 하나입니다.",
           "startFrame": 0,
-          "durationFrames": 74
+          "durationFrames": 116
         },
         {
-          "text": "수수료가 낮은지,",
-          "startFrame": 74,
-          "durationFrames": 42
+          "text": "한 기업에만 올인하지 않고,",
+          "startFrame": 116,
+          "durationFrames": 61
         },
         {
-          "text": "내가 버틸 수 있는 만큼만 흔들리는지 같이 봐야 합니다.",
-          "startFrame": 117,
-          "durationFrames": 122
+          "text": "여러 곳에 나눠 담는 구조이기 때문입니다.",
+          "startFrame": 177,
+          "durationFrames": 91
         }
       ]
     },
     {
       "sceneId": "sc_005",
-      "objective": "start_close",
-      "durationFrames": 300,
-      "startFrame": 1088,
-      "card": "media/scr_20260517_etf_start_here_sc_005_bg.jpg",
-      "audio": "media/scr_20260517_etf_start_here_sc_005_audio.mp3",
+      "objective": "what_close",
+      "durationFrames": 276,
+      "startFrame": 1086,
+      "card": "media/scr_20260517_etf_what_is_etf_sc_005_bg.jpg",
+      "audio": "media/scr_20260517_etf_what_is_etf_sc_005_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_start_here_sc_005_bg.jpg",
-      "backgroundLoopFrames": 300,
+      "backgroundImage": "media/scr_20260517_etf_what_is_etf_sc_005_bg.jpg",
+      "backgroundLoopFrames": 276,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "선택 순서",
-          "목적",
-          "비용"
+          "ETF도",
+          "손실 가능",
+          "3가지만 확인"
         ],
-        "subtitle_line": "목적 종류 비용 이 순서입니다",
+        "subtitle_line": "내용물, 수수료, 목적을 확인하세요",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "정리하면 순서는 간단합니다.",
+          "text": "단,",
           "startFrame": 0,
-          "durationFrames": 67
+          "durationFrames": 27
         },
         {
-          "text": "목적을 정하고,",
-          "startFrame": 67,
-          "durationFrames": 36
+          "text": "ETF도 손실이 날 수 있습니다.",
+          "startFrame": 27,
+          "durationFrames": 70
         },
         {
-          "text": "종류를 고르고,",
-          "startFrame": 103,
-          "durationFrames": 36
+          "text": "이름만 보지 말고,",
+          "startFrame": 97,
+          "durationFrames": 40
         },
         {
-          "text": "비용과 리스크를 확인하세요.",
-          "startFrame": 140,
-          "durationFrames": 67
+          "text": "안에 뭐가 들었는지,",
+          "startFrame": 137,
+          "durationFrames": 46
         },
         {
-          "text": "ETF는 인기보다",
-          "startFrame": 207,
-          "durationFrames": 41
+          "text": "수수료는 얼마인지,",
+          "startFrame": 183,
+          "durationFrames": 45
         },
         {
-          "text": "내 계획이 먼저입니다.",
-          "startFrame": 248,
-          "durationFrames": 52
+          "text": "내 목적과 맞는지 확인하세요.",
+          "startFrame": 228,
+          "durationFrames": 48
         }
       ]
     }
