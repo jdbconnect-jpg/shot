@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_price_moves",
+    "scene_id": "sc_001",
+    "objective": "price_hook",
+    "narration": "ETF 가격은 왜 계속 움직일까요? ETF도 거래소에서 사고파는 상품이라, 주식처럼 실시간으로 가격이 변합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF 가격",
+        "왜 계속",
+        "움직일까?"
+      ],
+      "subtitle_line": "ETF도 거래소에서 사고팔기 때문입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_price_moves_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_price_moves_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_price_moves",
+    "scene_id": "sc_002",
+    "objective": "price_assets",
+    "narration": "첫 번째 이유는 안에 든 자산 가치입니다. ETF가 담고 있는 주식이나 채권 가격이 움직이면, ETF의 기준가도 같이 흔들립니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "안에 든",
+        "자산 가치",
+        "같이 움직임"
+      ],
+      "subtitle_line": "안에 든 자산 가치가 움직입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_price_moves_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_price_moves_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_price_moves",
+    "scene_id": "sc_003",
+    "objective": "price_market",
+    "narration": "두 번째는 시장에서 실제로 사고파는 힘입니다. 사려는 사람이 많으면 가격이 올라가고, 팔려는 사람이 많으면 내려갑니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "사려는 힘",
+        "팔려는 힘",
+        "가격 변화"
+      ],
+      "subtitle_line": "수요와 공급도 가격을 움직입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_price_moves_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_price_moves_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_price_moves",
+    "scene_id": "sc_004",
+    "objective": "price_gap",
+    "narration": "그래서 ETF 가격은 기준가와 거의 비슷하게 움직이지만, 순간적으로는 조금 차이가 날 수도 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "기준가와",
+        "비슷하지만",
+        "차이 가능"
+      ],
+      "subtitle_line": "순간적으로 기준가와 차이가 날 수 있습니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_price_moves_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_price_moves_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_price_moves",
+    "scene_id": "sc_005",
+    "objective": "price_close",
+    "narration": "정리하면 ETF 가격은 안의 자산 가치와 거래 수요가 함께 만듭니다. 초보자는 가격만 보지 말고, 무엇을 담은 ETF인지 먼저 보세요.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "가격보다",
+        "내용물",
+        "먼저 확인"
+      ],
+      "subtitle_line": "가격보다 내용물을 먼저 확인하세요",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_price_moves_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_price_moves_sc_005_audio.mp3"
+  }
+]
