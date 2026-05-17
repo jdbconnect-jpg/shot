@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_tax_basic",
+    "scene_id": "sc_001",
+    "objective": "tax_hook",
+    "narration": "ETF 세금, 어렵게 느껴지죠? 초보자는 딱 두 가지만 먼저 보면 됩니다. 돈을 받을 때와, 팔아서 이익이 날 때입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF 세금",
+        "두 가지",
+        "받을 때·팔 때"
+      ],
+      "subtitle_line": "세금은 받을 때와 팔 때를 먼저 봅니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_tax_basic_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_tax_basic_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_tax_basic",
+    "scene_id": "sc_002",
+    "objective": "tax_distribution",
+    "narration": "먼저 분배금입니다. ETF가 배당이나 이자를 모아 투자자에게 나눠주면, 보통 그 금액에 세금이 붙을 수 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "분배금",
+        "배당·이자",
+        "세금 가능"
+      ],
+      "subtitle_line": "분배금에는 세금이 붙을 수 있습니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_tax_basic_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_tax_basic_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_tax_basic",
+    "scene_id": "sc_003",
+    "objective": "tax_profit",
+    "narration": "두 번째는 매매차익입니다. 내가 산 가격보다 비싸게 팔아 이익이 생겼을 때, ETF 종류에 따라 과세 방식이 달라질 수 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "매매차익",
+        "ETF 종류",
+        "과세 방식"
+      ],
+      "subtitle_line": "매매차익은 ETF 종류에 따라 달라집니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_tax_basic_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_tax_basic_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_tax_basic",
+    "scene_id": "sc_004",
+    "objective": "tax_account",
+    "narration": "그리고 같은 ETF라도 계좌가 중요합니다. 일반 계좌인지, 연금 계좌인지, 국내 상장 해외 ETF인지에 따라 결과가 달라질 수 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "계좌 중요",
+        "일반·연금",
+        "국내상장 해외ETF"
+      ],
+      "subtitle_line": "같은 ETF라도 계좌에 따라 달라질 수 있습니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_tax_basic_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_tax_basic_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_tax_basic",
+    "scene_id": "sc_005",
+    "objective": "tax_close",
+    "narration": "정리하면 세금은 수익률 다음에 보는 게 아닙니다. ETF를 고르기 전, 분배금, 매매차익, 계좌 유형을 함께 확인해야 합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "수익률 전에",
+        "분배금",
+        "계좌 유형"
+      ],
+      "subtitle_line": "수익률 전에 세금 구조도 함께 확인하세요",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_tax_basic_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_tax_basic_sc_005_audio.mp3"
+  }
+]

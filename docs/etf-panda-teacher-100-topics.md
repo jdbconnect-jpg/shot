@@ -24,7 +24,7 @@
 9. [x] 초보자는 왜 ETF부터 시작할까
 10. [x] ETF 적립식 투자란?
 11. [x] ETF 장기투자가 중요한 이유
-12. [ ] ETF 세금 쉽게 설명
+12. [x] ETF 세금 쉽게 설명
 13. [ ] 해외 ETF 세금 구조
 14. [ ] 미국 ETF를 많이 사는 이유
 15. [ ] 한국 ETF vs 미국 ETF
@@ -184,6 +184,11 @@
   - 영상: media_agent/data_shorts/renders/scr_20260517_etf_longterm_final_720p.mp4
   - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_longterm_thumbnail_final.jpg
   - YouTube: https://www.youtube.com/watch?v=hdPkt2aWSwk
+- 완료: 12. ETF 세금 쉽게 설명
+  - 관련 영상: ETF 세금 쉽게 설명
+  - 영상: media_agent/data_shorts/renders/scr_20260517_etf_tax_basic_final_720p.mp4
+  - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_tax_basic_thumbnail_final.jpg
+  - YouTube: https://www.youtube.com/watch?v=rVdGFMzPXZI
 - 완료: 9. 초보자는 왜 ETF부터 시작할까
   - 관련 영상: ETF 처음이면 이것부터 보세요
   - 영상: media_agent/data_shorts/renders/scr_20260517_etf_start_here_final_720p.mp4

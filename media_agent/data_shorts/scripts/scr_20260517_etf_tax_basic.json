@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_etf_tax_basic",
+  "cluster_id": "manual_etf_tax_basic_20260517",
+  "title": "ETF 세금 쉽게 설명",
+  "tone": "educational_korean_finance_shorts_male",
+  "description": "ETF 세금의 기본 요소를 초보자에게 교육 목적으로 설명하는 쇼츠. 특정 상품 매수/매도 권유가 아니다.",
+  "target_duration_sec": 50,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 세법은 상품, 계좌, 시점에 따라 달라질 수 있으며 특정 ETF 추천이 아니다.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "tax_hook",
+      "narration": "ETF 세금, 어렵게 느껴지죠? 초보자는 딱 두 가지만 먼저 보면 됩니다. 돈을 받을 때와, 팔아서 이익이 날 때입니다.",
+      "spoken_narration": "ETF 세금, 어렵게 느껴지죠? 초보자는 딱 두 가지만 먼저 보면 됩니다. 돈을 받을 때와, 팔아서 이익이 날 때입니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "tax_distribution",
+      "narration": "먼저 분배금입니다. ETF가 배당이나 이자를 모아 투자자에게 나눠주면, 보통 그 금액에 세금이 붙을 수 있습니다.",
+      "spoken_narration": "먼저 분배금입니다. ETF가 배당이나 이자를 모아 투자자에게 나눠주면, 보통 그 금액에 세금이 붙을 수 있습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "tax_profit",
+      "narration": "두 번째는 매매차익입니다. 내가 산 가격보다 비싸게 팔아 이익이 생겼을 때, ETF 종류에 따라 과세 방식이 달라질 수 있습니다.",
+      "spoken_narration": "두 번째는 매매차익입니다. 내가 산 가격보다 비싸게 팔아 이익이 생겼을 때, ETF 종류에 따라 과세 방식이 달라질 수 있습니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "tax_account",
+      "narration": "그리고 같은 ETF라도 계좌가 중요합니다. 일반 계좌인지, 연금 계좌인지, 국내 상장 해외 ETF인지에 따라 결과가 달라질 수 있습니다.",
+      "spoken_narration": "그리고 같은 ETF라도 계좌가 중요합니다. 일반 계좌인지, 연금 계좌인지, 국내 상장 해외 ETF인지에 따라 결과가 달라질 수 있습니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "tax_close",
+      "narration": "정리하면 세금은 수익률 다음에 보는 게 아닙니다. ETF를 고르기 전, 분배금, 매매차익, 계좌 유형을 함께 확인해야 합니다.",
+      "spoken_narration": "정리하면 세금은 수익률 다음에 보는 게 아닙니다. ETF를 고르기 전, 분배금, 매매차익, 계좌 유형을 함께 확인해야 합니다."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}
