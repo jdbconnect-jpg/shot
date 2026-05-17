@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_creator",
+    "scene_id": "sc_001",
+    "objective": "creator_hook",
+    "narration": "ETF는 누가 만드는 걸까요? 투자자가 직접 바구니를 짜는 게 아니라, 자산운용사가 규칙을 정해서 상품으로 만듭니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF는",
+        "누가 만들까?",
+        "자산운용사"
+      ],
+      "subtitle_line": "ETF는 자산운용사가 만드는 상품입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_creator_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_creator_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_creator",
+    "scene_id": "sc_002",
+    "objective": "creator_issuer",
+    "narration": "운용사는 어떤 지수를 따라갈지, 어떤 종목을 얼마나 담을지, 수수료는 얼마로 할지 설계합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "운용사가",
+        "규칙을",
+        "설계"
+      ],
+      "subtitle_line": "지수, 종목, 비율, 수수료를 설계합니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_creator_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_creator_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_creator",
+    "scene_id": "sc_003",
+    "objective": "creator_rule",
+    "narration": "예를 들어 코스피 이백을 따라가는 ETF라면, 코스피 이백에 맞춰 종목과 비중을 최대한 비슷하게 맞추는 식입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "정해진",
+        "규칙대로",
+        "맞춤"
+      ],
+      "subtitle_line": "정해진 지수를 따라가도록 맞춥니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_creator_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_creator_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_creator",
+    "scene_id": "sc_004",
+    "objective": "creator_manage",
+    "narration": "그리고 시장이 바뀌면 운용사가 안의 구성도 조정합니다. 투자자는 그 완성된 바구니를 거래소에서 사고파는 겁니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "운용사는",
+        "관리",
+        "투자자는 거래"
+      ],
+      "subtitle_line": "운용사는 관리하고 투자자는 거래합니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_creator_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_creator_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_creator",
+    "scene_id": "sc_005",
+    "objective": "creator_close",
+    "narration": "그래서 ETF를 볼 때는 운용사 이름, 추종 지수, 총보수, 안에 든 종목을 함께 봐야 합니다. 이름보다 구조가 먼저입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "운용사",
+        "추종 지수",
+        "총보수"
+      ],
+      "subtitle_line": "이름보다 구조를 먼저 확인하세요",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_creator_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_creator_sc_005_audio.mp3"
+  }
+]

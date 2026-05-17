@@ -1,222 +1,217 @@
 {
-  "scriptId": "scr_20260517_etf_diversification",
+  "scriptId": "scr_20260517_etf_creator",
   "fps": 30,
   "width": 720,
   "height": 1280,
-  "durationFrames": 1375,
+  "durationFrames": 1300,
   "scenes": [
     {
       "sceneId": "sc_001",
-      "objective": "div_hook",
-      "durationFrames": 274,
+      "objective": "creator_hook",
+      "durationFrames": 260,
       "startFrame": 0,
-      "card": "media/scr_20260517_etf_diversification_sc_001_bg.jpg",
-      "audio": "media/scr_20260517_etf_diversification_sc_001_audio.mp3",
+      "card": "media/scr_20260517_etf_creator_sc_001_bg.jpg",
+      "audio": "media/scr_20260517_etf_creator_sc_001_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_diversification_sc_001_bg.jpg",
-      "backgroundLoopFrames": 274,
+      "backgroundImage": "media/scr_20260517_etf_creator_sc_001_bg.jpg",
+      "backgroundLoopFrames": 260,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "ETF 하나만",
-          "사도 왜",
-          "분산투자?"
+          "ETF는",
+          "누가 만들까?",
+          "자산운용사"
         ],
-        "subtitle_line": "ETF 하나 안에 여러 종목이 들어 있습니다",
+        "subtitle_line": "ETF는 자산운용사가 만드는 상품입니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "ETF 하나만 사도 분산투자라는 말,",
+          "text": "ETF는 누가 만드는 걸까요?",
           "startFrame": 0,
-          "durationFrames": 77
+          "durationFrames": 66
         },
         {
-          "text": "왜 나오는 걸까요?",
-          "startFrame": 77,
-          "durationFrames": 38
+          "text": "투자자가 직접 바구니를 짜는 게 아니라,",
+          "startFrame": 66,
+          "durationFrames": 86
         },
         {
-          "text": "이유는 간단합니다.",
-          "startFrame": 115,
-          "durationFrames": 43
-        },
-        {
-          "text": "ETF 하나 안에 이미 여러 종목이 들어 있기 때문입니다.",
-          "startFrame": 158,
-          "durationFrames": 115
+          "text": "자산운용사가 규칙을 정해서 상품으로 만듭니다.",
+          "startFrame": 152,
+          "durationFrames": 107
         }
       ]
     },
     {
       "sceneId": "sc_002",
-      "objective": "div_inside",
-      "durationFrames": 283,
-      "startFrame": 274,
-      "card": "media/scr_20260517_etf_diversification_sc_002_bg.jpg",
-      "audio": "media/scr_20260517_etf_diversification_sc_002_audio.mp3",
+      "objective": "creator_issuer",
+      "durationFrames": 216,
+      "startFrame": 260,
+      "card": "media/scr_20260517_etf_creator_sc_002_bg.jpg",
+      "audio": "media/scr_20260517_etf_creator_sc_002_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_diversification_sc_002_bg.jpg",
-      "backgroundLoopFrames": 283,
+      "backgroundImage": "media/scr_20260517_etf_creator_sc_002_bg.jpg",
+      "backgroundLoopFrames": 216,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "한 회사가",
-          "아니라",
-          "여러 기업"
+          "운용사가",
+          "규칙을",
+          "설계"
         ],
-        "subtitle_line": "여러 기업을 한 상품처럼 묶은 구조입니다",
+        "subtitle_line": "지수, 종목, 비율, 수수료를 설계합니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "예를 들어 시장 지수 ETF는 한 회사만 담지 않습니다.",
+          "text": "운용사는 어떤 지수를 따라갈지,",
           "startFrame": 0,
-          "durationFrames": 118
+          "durationFrames": 74
         },
         {
-          "text": "여러 기업을 정해진 비율로 묶어서,",
-          "startFrame": 118,
-          "durationFrames": 77
+          "text": "어떤 종목을 얼마나 담을지,",
+          "startFrame": 74,
+          "durationFrames": 63
         },
         {
-          "text": "한 상품처럼 거래되게 만든 구조입니다.",
-          "startFrame": 195,
-          "durationFrames": 88
+          "text": "수수료는 얼마로 할지 설계합니다.",
+          "startFrame": 137,
+          "durationFrames": 79
         }
       ]
     },
     {
       "sceneId": "sc_003",
-      "objective": "div_sector",
-      "durationFrames": 255,
-      "startFrame": 557,
-      "card": "media/scr_20260517_etf_diversification_sc_003_bg.jpg",
-      "audio": "media/scr_20260517_etf_diversification_sc_003_audio.mp3",
+      "objective": "creator_rule",
+      "durationFrames": 264,
+      "startFrame": 476,
+      "card": "media/scr_20260517_etf_creator_sc_003_bg.jpg",
+      "audio": "media/scr_20260517_etf_creator_sc_003_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_diversification_sc_003_bg.jpg",
-      "backgroundLoopFrames": 255,
+      "backgroundImage": "media/scr_20260517_etf_creator_sc_003_bg.jpg",
+      "backgroundLoopFrames": 264,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "한 주를 사도",
-          "여러 곳에",
-          "나눠 투자"
+          "정해진",
+          "규칙대로",
+          "맞춤"
         ],
-        "subtitle_line": "한 주를 사도 여러 곳에 나눠 들어갑니다",
+        "subtitle_line": "정해진 지수를 따라가도록 맞춥니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "그래서 내가 ETF 한 주를 사면,",
+          "text": "예를 들어 코스피 이백을 따라가는 ETF라면,",
           "startFrame": 0,
-          "durationFrames": 76
+          "durationFrames": 107
         },
         {
-          "text": "실제로는 그 안에 들어 있는 여러 회사나 자산에 나눠 투자하는 효과가",
-          "startFrame": 76,
-          "durationFrames": 152
-        },
-        {
-          "text": "생깁니다.",
-          "startFrame": 228,
-          "durationFrames": 27
+          "text": "코스피 이백에 맞춰 종목과 비중을 최대한 비슷하게 맞추는 식입니다.",
+          "startFrame": 107,
+          "durationFrames": 156
         }
       ]
     },
     {
       "sceneId": "sc_004",
-      "objective": "div_risk",
-      "durationFrames": 278,
-      "startFrame": 812,
-      "card": "media/scr_20260517_etf_diversification_sc_004_bg.jpg",
-      "audio": "media/scr_20260517_etf_diversification_sc_004_audio.mp3",
+      "objective": "creator_manage",
+      "durationFrames": 272,
+      "startFrame": 740,
+      "card": "media/scr_20260517_etf_creator_sc_004_bg.jpg",
+      "audio": "media/scr_20260517_etf_creator_sc_004_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_diversification_sc_004_bg.jpg",
-      "backgroundLoopFrames": 278,
+      "backgroundImage": "media/scr_20260517_etf_creator_sc_004_bg.jpg",
+      "backgroundLoopFrames": 272,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "손실이",
-          "사라지진 않음",
-          "위험 완화"
+          "운용사는",
+          "관리",
+          "투자자는 거래"
         ],
-        "subtitle_line": "손실 제거가 아니라 위험 완화입니다",
+        "subtitle_line": "운용사는 관리하고 투자자는 거래합니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "물론 분산투자가 손실을 없애주진 않습니다.",
+          "text": "그리고 시장이 바뀌면 운용사가 안의 구성도 조정합니다.",
           "startFrame": 0,
-          "durationFrames": 98
+          "durationFrames": 133
         },
         {
-          "text": "다만 한 종목이 흔들릴 때,",
-          "startFrame": 98,
-          "durationFrames": 56
-        },
-        {
-          "text": "전체가 한 번에 무너지는 위험을 줄이는 데 도움이 됩니다.",
-          "startFrame": 154,
-          "durationFrames": 123
+          "text": "투자자는 그 완성된 바구니를 거래소에서 사고파는 겁니다.",
+          "startFrame": 133,
+          "durationFrames": 139
         }
       ]
     },
     {
       "sceneId": "sc_005",
-      "objective": "div_close",
-      "durationFrames": 285,
-      "startFrame": 1090,
-      "card": "media/scr_20260517_etf_diversification_sc_005_bg.jpg",
-      "audio": "media/scr_20260517_etf_diversification_sc_005_audio.mp3",
+      "objective": "creator_close",
+      "durationFrames": 288,
+      "startFrame": 1012,
+      "card": "media/scr_20260517_etf_creator_sc_005_bg.jpg",
+      "audio": "media/scr_20260517_etf_creator_sc_005_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_diversification_sc_005_bg.jpg",
-      "backgroundLoopFrames": 285,
+      "backgroundImage": "media/scr_20260517_etf_creator_sc_005_bg.jpg",
+      "backgroundLoopFrames": 288,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "많이 사는 게",
-          "아니라",
-          "다르게 담기"
+          "운용사",
+          "추종 지수",
+          "총보수"
         ],
-        "subtitle_line": "분산은 많이가 아니라 다르게 담기입니다",
+        "subtitle_line": "이름보다 구조를 먼저 확인하세요",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "초보자라면 ETF 이름보다",
+          "text": "그래서 ETF를 볼 때는 운용사 이름,",
           "startFrame": 0,
-          "durationFrames": 62
+          "durationFrames": 88
         },
         {
-          "text": "먼저 안에 뭐가 들어 있는지 보세요.",
-          "startFrame": 62,
-          "durationFrames": 78
+          "text": "추종 지수,",
+          "startFrame": 88,
+          "durationFrames": 28
         },
         {
-          "text": "분산투자는 많이 사는 게 아니라,",
-          "startFrame": 140,
-          "durationFrames": 72
+          "text": "총보수,",
+          "startFrame": 116,
+          "durationFrames": 27
         },
         {
-          "text": "다르게 담는 것에서 시작합니다.",
-          "startFrame": 212,
-          "durationFrames": 72
+          "text": "안에 든 종목을 함께 봐야 합니다.",
+          "startFrame": 143,
+          "durationFrames": 77
+        },
+        {
+          "text": "이름보다",
+          "startFrame": 220,
+          "durationFrames": 27
+        },
+        {
+          "text": "구조가 먼저입니다.",
+          "startFrame": 247,
+          "durationFrames": 40
         }
       ]
     }

@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_etf_creator",
+  "cluster_id": "manual_etf_creator_20260517",
+  "title": "ETF는 누가 만드는 걸까?",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "ETF를 자산운용사가 어떻게 만들고 관리하는지 설명하는 초보 입문 쇼츠.",
+  "target_duration_sec": 48,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 특정 상품 매수/매도 추천이 아니라 개념 설명.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "creator_hook",
+      "narration": "ETF는 누가 만드는 걸까요? 투자자가 직접 바구니를 짜는 게 아니라, 자산운용사가 규칙을 정해서 상품으로 만듭니다.",
+      "spoken_narration": "ETF는 누가 만드는 걸까요? 투자자가 직접 바구니를 짜는 게 아니라, 자산운용사가 규칙을 정해서 상품으로 만듭니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "creator_issuer",
+      "narration": "운용사는 어떤 지수를 따라갈지, 어떤 종목을 얼마나 담을지, 수수료는 얼마로 할지 설계합니다.",
+      "spoken_narration": "운용사는 어떤 지수를 따라갈지, 어떤 종목을 얼마나 담을지, 수수료는 얼마로 할지 설계합니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "creator_rule",
+      "narration": "예를 들어 코스피 이백을 따라가는 ETF라면, 코스피 이백에 맞춰 종목과 비중을 최대한 비슷하게 맞추는 식입니다.",
+      "spoken_narration": "예를 들어 코스피 이백을 따라가는 ETF라면, 코스피 이백에 맞춰 종목과 비중을 최대한 비슷하게 맞추는 식입니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "creator_manage",
+      "narration": "그리고 시장이 바뀌면 운용사가 안의 구성도 조정합니다. 투자자는 그 완성된 바구니를 거래소에서 사고파는 겁니다.",
+      "spoken_narration": "그리고 시장이 바뀌면 운용사가 안의 구성도 조정합니다. 투자자는 그 완성된 바구니를 거래소에서 사고파는 겁니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "creator_close",
+      "narration": "그래서 ETF를 볼 때는 운용사 이름, 추종 지수, 총보수, 안에 든 종목을 함께 봐야 합니다. 이름보다 구조가 먼저입니다.",
+      "spoken_narration": "그래서 ETF를 볼 때는 운용사 이름, 추종 지수, 총보수, 안에 든 종목을 함께 봐야 합니다. 이름보다 구조가 먼저입니다."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}
