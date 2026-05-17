@@ -21,7 +21,7 @@
 6. [ ] ETF 수수료 꼭 봐야 하는 이유
 7. [ ] ETF 가격은 왜 계속 움직일까
 8. [ ] ETF와 펀드 차이
-9. [ ] 초보자는 왜 ETF부터 시작할까
+9. [x] 초보자는 왜 ETF부터 시작할까
 10. [ ] ETF 적립식 투자란?
 11. [ ] ETF 장기투자가 중요한 이유
 12. [ ] ETF 세금 쉽게 설명
@@ -31,7 +31,7 @@
 16. [ ] ETF 배당금은 어디서 나올까
 17. [ ] ETF는 언제 사는 게 좋을까
 18. [ ] ETF는 매달 사야 할까?
-19. [ ] ETF 투자할 때 가장 중요한 것
+19. [x] ETF 투자할 때 가장 중요한 것
 20. [ ] ETF 이름 보는 방법
 
 ## 인기 ETF 분석
@@ -59,7 +59,7 @@
 
 ## 초보 투자 실수
 
-41. [ ] 초보 투자자가 가장 많이 하는 실수
+41. [x] 초보 투자자가 가장 많이 하는 실수
 42. [ ] 남들 따라 투자하면 위험한 이유
 43. [ ] 수익률만 보고 투자하면 안 되는 이유
 44. [ ] 배당률만 보면 안 되는 이유
@@ -134,7 +134,23 @@
 
 ## 제작 완료 기록
 
-아직 이 100개 백로그 기준으로 체크 완료한 항목은 없다. 기존에 만든 영상은 아래 별도 참고로 둔다.
+- 완료: 9. 초보자는 왜 ETF부터 시작할까
+  - 관련 영상: ETF 처음이면 이것부터 보세요
+  - 영상: media_agent/data_shorts/renders/scr_20260517_etf_start_here_final_720p.mp4
+  - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_start_here_thumbnail_final.jpg
+  - YouTube: https://www.youtube.com/watch?v=3tyOa9v-Lfg
+- 완료: 19. ETF 투자할 때 가장 중요한 것
+  - 관련 영상: ETF 처음이면 이것부터 보세요
+  - 영상: media_agent/data_shorts/renders/scr_20260517_etf_start_here_final_720p.mp4
+  - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_start_here_thumbnail_final.jpg
+  - YouTube: https://www.youtube.com/watch?v=3tyOa9v-Lfg
+- 완료: 41. 초보 투자자가 가장 많이 하는 실수
+  - 관련 영상: 초보자가 ETF 고를 때 제일 많이 하는 실수
+  - 영상: media_agent/data_shorts/renders/scr_20260517_etf_beginner_mistakes_v2_final_720p.mp4
+  - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_beginner_mistakes_v2_thumbnail_final.jpg
+  - YouTube: https://www.youtube.com/watch?v=i0uMhFO350g
+
+기존에 만든 영상 중 백로그 주제와 정확히 일치하지 않는 항목은 아래 별도 참고로 둔다.
 
 - 참고: `ETF 처음이면 이것부터 보세요`
   - 영상: `media_agent/data_shorts/renders/scr_20260517_etf_start_here_final_720p.mp4`
@@ -144,4 +160,3 @@
   - 영상: `media_agent/data_shorts/renders/scr_20260517_etf_beginner_mistakes_v2_final_720p.mp4`
   - 썸네일: `media_agent/data_shorts/thumbnails/scr_20260517_etf_beginner_mistakes_v2_thumbnail_final.jpg`
   - YouTube: https://www.youtube.com/watch?v=i0uMhFO350g
-

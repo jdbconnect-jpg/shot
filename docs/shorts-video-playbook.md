@@ -22,6 +22,9 @@
    - 중앙 이미지
    - 하단 자막 밴드
    - 하단 프로그레스바 없음
+6. 썸네일은 영상과 항상 세트로 만든다.
+   - 최종 영상 파일이 생기면 같은 script_id의 최종 JPG/PNG 썸네일도 만든다.
+   - metadata의 thumbnail_path를 비워두지 않는다.
 
 ## Voice Policy
 

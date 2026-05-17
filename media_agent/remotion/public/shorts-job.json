@@ -1,187 +1,237 @@
 {
-  "scriptId": "scr_20260517_us_etf_top3_panda",
+  "scriptId": "scr_20260517_etf_start_here",
   "fps": 30,
   "width": 720,
   "height": 1280,
-  "durationFrames": 1304,
+  "durationFrames": 1388,
   "scenes": [
     {
       "sceneId": "sc_001",
-      "objective": "us_top3_hook",
-      "durationFrames": 242,
+      "objective": "start_hook",
+      "durationFrames": 233,
       "startFrame": 0,
-      "card": "media/scr_20260517_us_etf_top3_panda_sc_001_bg.png",
-      "audio": "media/scr_20260517_us_etf_top3_panda_sc_001_audio.mp3",
+      "card": "media/scr_20260517_etf_start_here_sc_001_bg.jpg",
+      "audio": "media/scr_20260517_etf_start_here_sc_001_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_001_bg.png",
-      "backgroundLoopFrames": 242,
+      "backgroundImage": "media/scr_20260517_etf_start_here_sc_001_bg.jpg",
+      "backgroundLoopFrames": 233,
       "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "미장 ETF",
-          "TOP3",
-          "셋 다 S&P500"
+          "ETF 처음",
+          "이것부터",
+          "목적 먼저"
         ],
-        "subtitle_line": "순위보다 차이를 봐야 합니다",
-        "character_lock": "same cute young male panda presenter with glasses and navy suit",
-        "tts_provider": "ElevenLabs or Edge",
-        "voice": "trustworthy Korean male"
+        "subtitle_line": "상품보다 목적이 먼저입니다",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "미장 ETF TOP 3는 의외로 전부 S&P500입니다.",
+          "text": "ETF 처음이면 이것부터 보세요.",
           "startFrame": 0,
-          "durationFrames": 121
+          "durationFrames": 76
         },
         {
-          "text": "그래서 순위보다, 왜 고르는지가 더 중요합니다.",
-          "startFrame": 121,
-          "durationFrames": 121
+          "text": "어떤 ETF가 좋냐보다,",
+          "startFrame": 76,
+          "durationFrames": 56
+        },
+        {
+          "text": "내 돈이 어떤 역할을 해야 하는지가 먼저입니다.",
+          "startFrame": 132,
+          "durationFrames": 101
         }
       ]
     },
     {
       "sceneId": "sc_002",
-      "objective": "us_top3_rank1",
-      "durationFrames": 279,
-      "startFrame": 242,
-      "card": "media/scr_20260517_us_etf_top3_panda_sc_002_bg.png",
-      "audio": "media/scr_20260517_us_etf_top3_panda_sc_002_audio.mp3",
+      "objective": "start_goal",
+      "durationFrames": 278,
+      "startFrame": 233,
+      "card": "media/scr_20260517_etf_start_here_sc_002_bg.jpg",
+      "audio": "media/scr_20260517_etf_start_here_sc_002_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_002_bg.png",
-      "backgroundLoopFrames": 279,
+      "backgroundImage": "media/scr_20260517_etf_start_here_sc_002_bg.jpg",
+      "backgroundLoopFrames": 278,
       "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "1위 SPY",
-          "거래량",
-          "유동성"
+          "1단계",
+          "목적",
+          "배당 성장 안정"
         ],
-        "subtitle_line": "짧게 사고팔 땐 유동성이 강점",
-        "character_lock": "same cute young male panda presenter with glasses and navy suit",
-        "tts_provider": "ElevenLabs or Edge",
-        "voice": "trustworthy Korean male"
+        "subtitle_line": "배당 성장 안정 중 하나를 고르세요",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "1위는 SPY.",
+          "text": "첫 번째는 목적입니다.",
           "startFrame": 0,
-          "durationFrames": 139
+          "durationFrames": 53
         },
         {
-          "text": "가장 오래됐고 거래량이 압도적입니다. 단기 매매나 옵션까지 보는 사람에게 익숙한 이름입니다.",
-          "startFrame": 139,
-          "durationFrames": 140
+          "text": "매달 현금흐름이 필요한지,",
+          "startFrame": 53,
+          "durationFrames": 64
+        },
+        {
+          "text": "장기 성장이 필요한지,",
+          "startFrame": 118,
+          "durationFrames": 53
+        },
+        {
+          "text": "아니면 변동성을 줄이고 싶은지부터 정하세요.",
+          "startFrame": 171,
+          "durationFrames": 107
         }
       ]
     },
     {
       "sceneId": "sc_003",
-      "objective": "us_top3_rank2",
-      "durationFrames": 244,
-      "startFrame": 521,
-      "card": "media/scr_20260517_us_etf_top3_panda_sc_003_bg.png",
-      "audio": "media/scr_20260517_us_etf_top3_panda_sc_003_audio.mp3",
+      "objective": "start_type",
+      "durationFrames": 338,
+      "startFrame": 511,
+      "card": "media/scr_20260517_etf_start_here_sc_003_bg.jpg",
+      "audio": "media/scr_20260517_etf_start_here_sc_003_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_003_bg.png",
-      "backgroundLoopFrames": 244,
+      "backgroundImage": "media/scr_20260517_etf_start_here_sc_003_bg.jpg",
+      "backgroundLoopFrames": 338,
       "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "2위 IVV",
-          "저비용",
-          "코어"
+          "2단계",
+          "종류",
+          "역할"
         ],
-        "subtitle_line": "장기 계좌에 담기 쉬운 저비용 ETF",
-        "character_lock": "same cute young male panda presenter with glasses and navy suit",
-        "tts_provider": "ElevenLabs or Edge",
-        "voice": "trustworthy Korean male"
+        "subtitle_line": "지수 섹터 배당 ETF는 역할이 다릅니다",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "2위는 IVV.",
+          "text": "두 번째는 종류입니다.",
           "startFrame": 0,
-          "durationFrames": 122
+          "durationFrames": 58
         },
         {
-          "text": "같은 S&P500을 따라가지만 비용이 낮고 구조가 단순해서, 장기 코어로 많이 봅니다.",
-          "startFrame": 122,
-          "durationFrames": 122
+          "text": "시장 전체를 사는 지수 ETF,",
+          "startFrame": 58,
+          "durationFrames": 76
+        },
+        {
+          "text": "특정 산업에 거는 섹터 ETF,",
+          "startFrame": 134,
+          "durationFrames": 76
+        },
+        {
+          "text": "현금흐름을 노리는 배당 ETF는 역할이 다릅니다.",
+          "startFrame": 210,
+          "durationFrames": 128
         }
       ]
     },
     {
       "sceneId": "sc_004",
-      "objective": "us_top3_rank3",
+      "objective": "start_check",
       "durationFrames": 239,
-      "startFrame": 765,
-      "card": "media/scr_20260517_us_etf_top3_panda_sc_004_bg.png",
-      "audio": "media/scr_20260517_us_etf_top3_panda_sc_004_audio.mp3",
+      "startFrame": 849,
+      "card": "media/scr_20260517_etf_start_here_sc_004_bg.jpg",
+      "audio": "media/scr_20260517_etf_start_here_sc_004_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_004_bg.png",
+      "backgroundImage": "media/scr_20260517_etf_start_here_sc_004_bg.jpg",
       "backgroundLoopFrames": 239,
       "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "3위 VOO",
-          "장기투자",
-          "낮은 수수료"
+          "3단계",
+          "비용",
+          "리스크"
         ],
-        "subtitle_line": "수수료 낮고 대중성이 강합니다",
-        "character_lock": "same cute young male panda presenter with glasses and navy suit",
-        "tts_provider": "ElevenLabs or Edge",
-        "voice": "trustworthy Korean male"
+        "subtitle_line": "수수료와 흔들림을 같이 보세요",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "3위는 VOO.",
+          "text": "세 번째는 비용과 리스크입니다.",
           "startFrame": 0,
-          "durationFrames": 119
+          "durationFrames": 74
         },
         {
-          "text": "뱅가드의 대표 S&P500 ETF입니다. 낮은 수수료와 장기투자 이미지가 강합니다.",
-          "startFrame": 119,
-          "durationFrames": 120
+          "text": "수수료가 낮은지,",
+          "startFrame": 74,
+          "durationFrames": 42
+        },
+        {
+          "text": "내가 버틸 수 있는 만큼만 흔들리는지 같이 봐야 합니다.",
+          "startFrame": 117,
+          "durationFrames": 122
         }
       ]
     },
     {
       "sceneId": "sc_005",
-      "objective": "us_top3_close",
+      "objective": "start_close",
       "durationFrames": 300,
-      "startFrame": 1004,
-      "card": "media/scr_20260517_us_etf_top3_panda_sc_005_bg.png",
-      "audio": "media/scr_20260517_us_etf_top3_panda_sc_005_audio.mp3",
+      "startFrame": 1088,
+      "card": "media/scr_20260517_etf_start_here_sc_005_bg.jpg",
+      "audio": "media/scr_20260517_etf_start_here_sc_005_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_005_bg.png",
+      "backgroundImage": "media/scr_20260517_etf_start_here_sc_005_bg.jpg",
       "backgroundLoopFrames": 300,
       "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "결론",
-          "순위보다 목적",
-          "S&P500"
+          "선택 순서",
+          "목적",
+          "비용"
         ],
-        "subtitle_line": "셋 다 미국 대표기업 500개입니다",
-        "character_lock": "same cute young male panda presenter with glasses and navy suit",
-        "tts_provider": "ElevenLabs or Edge",
-        "voice": "trustworthy Korean male"
+        "subtitle_line": "목적 종류 비용 이 순서입니다",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "정리하면 SPY는 거래, IVV와 VOO는 장기 코어에 가깝습니다.",
+          "text": "정리하면 순서는 간단합니다.",
           "startFrame": 0,
-          "durationFrames": 150
+          "durationFrames": 67
         },
         {
-          "text": "셋 다 미국 대표기업 500개라는 건 꼭 기억하세요.",
-          "startFrame": 150,
-          "durationFrames": 150
+          "text": "목적을 정하고,",
+          "startFrame": 67,
+          "durationFrames": 36
+        },
+        {
+          "text": "종류를 고르고,",
+          "startFrame": 103,
+          "durationFrames": 36
+        },
+        {
+          "text": "비용과 리스크를 확인하세요.",
+          "startFrame": 140,
+          "durationFrames": 67
+        },
+        {
+          "text": "ETF는 인기보다",
+          "startFrame": 207,
+          "durationFrames": 41
+        },
+        {
+          "text": "내 계획이 먼저입니다.",
+          "startFrame": 248,
+          "durationFrames": 52
         }
       ]
     }

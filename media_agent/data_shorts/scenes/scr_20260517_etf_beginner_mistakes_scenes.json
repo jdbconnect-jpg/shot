@@ -1,0 +1,87 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260517_etf_beginner_mistakes",
+    "start_sec": 0.0,
+    "end_sec": 8.0,
+    "objective": "beginner_hook",
+    "narration": "초보자가 ETF 고를 때 제일 많이 하는 실수, 딱 세 가지입니다. 수익률만 보고 사면, 거의 여기서 꼬입니다.",
+    "spoken_narration": "초보자가 ETF 고를 때 제일 많이 하는 실수, 딱 세 가지입니다. 수익률만 보고 사면, 거의 여기서 꼬입니다.",
+    "title_text": "초보 ETF 실수 TOP3",
+    "subtitle_text": "수익률보다 기준이 먼저입니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_beginner_mistakes_sc_001_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260517_etf_beginner_mistakes",
+    "start_sec": 8.0,
+    "end_sec": 16.67,
+    "objective": "beginner_yield_chase",
+    "narration": "첫 번째, 배당률만 보는 겁니다. 분배금이 높아 보여도, 원금이 흔들리거나 구조가 복잡하면 실제 수익은 다를 수 있습니다.",
+    "spoken_narration": "첫 번째, 배당률만 보는 겁니다. 분배금이 높아 보여도, 원금이 흔들리거나 구조가 복잡하면 실제 수익은 다를 수 있습니다.",
+    "title_text": "실수 1 높은 배당만 보기",
+    "subtitle_text": "높은 분배금 뒤엔 리스크가 있습니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_beginner_mistakes_sc_002_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260517_etf_beginner_mistakes",
+    "start_sec": 16.67,
+    "end_sec": 27.17,
+    "objective": "beginner_overlap",
+    "narration": "두 번째, 이름이 다르면 분산됐다고 착각하는 겁니다. ETF가 여러 개여도 안에 들어 있는 종목이 비슷하면, 사실상 같은 방향에 몰린 겁니다.",
+    "spoken_narration": "두 번째, 이름이 다르면 분산됐다고 착각하는 겁니다. ETF가 여러 개여도 안에 들어 있는 종목이 비슷하면, 사실상 같은 방향에 몰린 겁니다.",
+    "title_text": "실수 2 이름만 보고 겹치기",
+    "subtitle_text": "다른 ETF처럼 보여도 속은 비슷할 수 있습니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_beginner_mistakes_sc_003_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260517_etf_beginner_mistakes",
+    "start_sec": 27.17,
+    "end_sec": 36.33,
+    "objective": "beginner_cost",
+    "narration": "세 번째, 수수료를 작게 보는 겁니다. 단기에는 티가 덜 나지만, 장기투자에서는 비용 차이가 수익률을 계속 깎아먹습니다.",
+    "spoken_narration": "세 번째, 수수료를 작게 보는 겁니다. 단기에는 티가 덜 나지만, 장기투자에서는 비용 차이가 수익률을 계속 깎아먹습니다.",
+    "title_text": "실수 3 비용을 작게 보기",
+    "subtitle_text": "장기투자는 작은 비용이 크게 쌓입니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_beginner_mistakes_sc_004_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260517_etf_beginner_mistakes",
+    "start_sec": 36.33,
+    "end_sec": 46.0,
+    "objective": "beginner_close",
+    "narration": "그래서 ETF는 인기순위가 아니라 목적부터 고르세요. 배당이 필요한지, 성장이 필요한지, 안정이 필요한지. 이 순서가 먼저입니다.",
+    "spoken_narration": "그래서 ETF는 인기순위가 아니라 목적부터 고르세요. 배당이 필요한지, 성장이 필요한지, 안정이 필요한지. 이 순서가 먼저입니다.",
+    "title_text": "ETF는 목적부터 고르세요",
+    "subtitle_text": "배당, 성장, 안정 중 하나를 먼저 정하세요",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_beginner_mistakes_sc_005_bg.jpg"
+    ]
+  }
+]

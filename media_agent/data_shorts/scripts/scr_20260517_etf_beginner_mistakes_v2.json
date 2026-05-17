@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_etf_beginner_mistakes_v2",
+  "cluster_id": "manual_etf_beginner_mistakes_v2_20260517",
+  "title": "초보자가 ETF 고를 때 제일 많이 하는 실수",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "ETF 초보자가 흔히 하는 선택 실수 3가지를 Shorts 공식 가이드 기준에 맞춰 훅과 마무리를 강화한 버전.",
+  "target_duration_sec": 45,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 특정 ETF 매수/매도 추천이 아니라 선택 기준 설명.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "beginner_hook",
+      "narration": "ETF 처음 살 때, 이 세 가지 실수하면 계좌가 꼬입니다. 초보자일수록 수익률보다 이 기준부터 봐야 합니다.",
+      "spoken_narration": "ETF 처음 살 때, 이 세 가지 실수하면 계좌가 꼬입니다. 초보자일수록 수익률보다 이 기준부터 봐야 합니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "beginner_yield_chase",
+      "narration": "첫 번째, 배당률만 보는 겁니다. 분배금이 높아 보여도, 원금이 흔들리거나 구조가 복잡하면 실제 수익은 달라질 수 있습니다.",
+      "spoken_narration": "첫 번째, 배당률만 보는 겁니다. 분배금이 높아 보여도, 원금이 흔들리거나 구조가 복잡하면 실제 수익은 달라질 수 있습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "beginner_overlap",
+      "narration": "두 번째, 이름이 다르면 분산됐다고 착각하는 겁니다. ETF가 여러 개여도 안의 종목이 비슷하면 같은 방향에 몰린 겁니다.",
+      "spoken_narration": "두 번째, 이름이 다르면 분산됐다고 착각하는 겁니다. ETF가 여러 개여도 안의 종목이 비슷하면 같은 방향에 몰린 겁니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "beginner_cost",
+      "narration": "세 번째, 수수료를 작게 보는 겁니다. 단기에는 작아 보여도, 장기투자에서는 비용 차이가 수익률을 계속 깎아먹습니다.",
+      "spoken_narration": "세 번째, 수수료를 작게 보는 겁니다. 단기에는 작아 보여도, 장기투자에서는 비용 차이가 수익률을 계속 깎아먹습니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "beginner_close",
+      "narration": "마지막 체크리스트입니다. 배당이 필요한가, 성장이 필요한가, 안정이 필요한가. ETF는 인기순위보다 내 목적이 먼저입니다.",
+      "spoken_narration": "마지막 체크리스트입니다. 배당이 필요한가, 성장이 필요한가, 안정이 필요한가. ETF는 인기순위보다 내 목적이 먼저입니다."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}

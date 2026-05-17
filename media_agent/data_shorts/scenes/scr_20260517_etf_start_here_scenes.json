@@ -1,0 +1,87 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260517_etf_start_here",
+    "start_sec": 0.0,
+    "end_sec": 7.77,
+    "objective": "start_hook",
+    "narration": "ETF 처음이면 이것부터 보세요. 어떤 ETF가 좋냐보다, 내 돈이 어떤 역할을 해야 하는지가 먼저입니다.",
+    "spoken_narration": "ETF 처음이면 이것부터 보세요. 어떤 ETF가 좋냐보다, 내 돈이 어떤 역할을 해야 하는지가 먼저입니다.",
+    "title_text": "ETF 처음이면 이것부터",
+    "subtitle_text": "상품보다 목적이 먼저입니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_start_here_sc_001_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260517_etf_start_here",
+    "start_sec": 7.77,
+    "end_sec": 17.03,
+    "objective": "start_goal",
+    "narration": "첫 번째는 목적입니다. 매달 현금흐름이 필요한지, 장기 성장이 필요한지, 아니면 변동성을 줄이고 싶은지부터 정하세요.",
+    "spoken_narration": "첫 번째는 목적입니다. 매달 현금흐름이 필요한지, 장기 성장이 필요한지, 아니면 변동성을 줄이고 싶은지부터 정하세요.",
+    "title_text": "1단계 목적 정하기",
+    "subtitle_text": "배당 성장 안정 중 하나를 고르세요",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_start_here_sc_002_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260517_etf_start_here",
+    "start_sec": 17.03,
+    "end_sec": 28.3,
+    "objective": "start_type",
+    "narration": "두 번째는 종류입니다. 시장 전체를 사는 지수 ETF, 특정 산업에 거는 섹터 ETF, 현금흐름을 노리는 배당 ETF는 역할이 다릅니다.",
+    "spoken_narration": "두 번째는 종류입니다. 시장 전체를 사는 지수 ETF, 특정 산업에 거는 섹터 ETF, 현금흐름을 노리는 배당 ETF는 역할이 다릅니다.",
+    "title_text": "2단계 종류 구분하기",
+    "subtitle_text": "지수 섹터 배당 ETF는 역할이 다릅니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_start_here_sc_003_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260517_etf_start_here",
+    "start_sec": 28.3,
+    "end_sec": 36.27,
+    "objective": "start_check",
+    "narration": "세 번째는 비용과 리스크입니다. 수수료가 낮은지, 내가 버틸 수 있는 만큼만 흔들리는지 같이 봐야 합니다.",
+    "spoken_narration": "세 번째는 비용과 리스크입니다. 수수료가 낮은지, 내가 버틸 수 있는 만큼만 흔들리는지 같이 봐야 합니다.",
+    "title_text": "3단계 비용과 리스크",
+    "subtitle_text": "수수료와 흔들림을 같이 보세요",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_start_here_sc_004_bg.jpg"
+    ]
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260517_etf_start_here",
+    "start_sec": 36.27,
+    "end_sec": 46.27,
+    "objective": "start_close",
+    "narration": "정리하면 순서는 간단합니다. 목적을 정하고, 종류를 고르고, 비용과 리스크를 확인하세요. ETF는 인기보다 내 계획이 먼저입니다.",
+    "spoken_narration": "정리하면 순서는 간단합니다. 목적을 정하고, 종류를 고르고, 비용과 리스크를 확인하세요. ETF는 인기보다 내 계획이 먼저입니다.",
+    "title_text": "ETF 선택 순서",
+    "subtitle_text": "목적 종류 비용 이 순서입니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_etf_start_here_sc_005_bg.jpg"
+    ]
+  }
+]
