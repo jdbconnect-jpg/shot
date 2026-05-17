@@ -18,9 +18,8 @@ These rules are fixed defaults for ETF shorts production. Apply them unless the 
 
 ## Wardrobe And Gesture
 
-- Avoid the stiff “teacher at a chalkboard” look.
-- The panda should feel like a natural male narrator explaining the scene: relaxed shoulders, subtle hand gestures, seated at a desk, holding a tablet, pointing lightly to a chart, checking notes, or looking toward the viewer.
-- Wardrobe should fit a finance explainer: clean shirt, knit, blazer, cardigan, or smart-casual jacket. Avoid costume-like professor outfits unless explicitly requested.
+- Wardrobe, pose, and gesture are flexible. Change them freely to match each scene's story, emotion, and composition.
+- Only the face identity is locked. Do not treat clothing, props, posture, or gesture as fixed character requirements.
 - The generated background should match the narration and the male voice, while the panda explains or reacts to the image rather than dominating it.
 
 ## Layout

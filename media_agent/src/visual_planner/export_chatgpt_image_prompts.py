@@ -55,8 +55,7 @@ def _scene_prompt(scene: dict, visual: dict) -> dict:
         "Use the channel's consistent young male panda presenter face: round soft white fur, large black ears, "
         "clear black eye patches, round black glasses, warm brown eyes, and a small friendly smile. "
         "Keep the same face proportions, glasses shape, eye-patch layout, and age impression in every scene. "
-        "Wardrobe and gestures may change naturally for the scene: smart-casual finance narrator, relaxed shoulders, subtle hand gesture, "
-        "tablet, notes, or chart interaction when useful. Avoid a stiff teacher-at-a-chalkboard look. "
+        "Only the face identity is locked; wardrobe, pose, props, posture, and gestures are flexible and should fit the scene. "
         "No readable text, no logos, no watermark, no UI brand names, no money piles, no luxury flex imagery. "
         "The image should support this scene, not explain it with text. "
         f"Scene id: {scene_id}. "
@@ -88,8 +87,7 @@ def _combined_prompt(script_id: str, out_dir: Path, prompts: list[dict]) -> str:
         "- 하단 25%는 한국어 자막이 올라갈 수 있게 비교적 어둡고 단순하게",
         "- 팬더 얼굴은 채널 헤더 기준으로 고정: 젊은 남자 팬더, 둥근 흰 얼굴, 큰 검은 귀/눈무늬, 둥근 검은 안경, 따뜻한 눈, 작은 미소",
         "- 얼굴 비율, 안경 모양, 눈무늬 배치, 나이대 인상은 장면마다 바꾸지 않기",
-        "- 복장과 제스처는 남자 내레이션과 어울리게 자연스럽게: 스마트캐주얼, 태블릿/메모/차트 설명, 편안한 손짓",
-        "- 칠판 앞 선생님처럼 딱딱한 구도는 피하기",
+        "- 고정 대상은 얼굴뿐. 복장, 제스처, 자세, 소품, 배경은 장면에 맞게 자유롭게 바꾸기",
         "- 돈다발, 슈퍼카, 과장된 부자 이미지는 금지",
         "- 생성 후 파일명은 아래 filename 기준으로 저장할 수 있게 구분해줘",
         "",
