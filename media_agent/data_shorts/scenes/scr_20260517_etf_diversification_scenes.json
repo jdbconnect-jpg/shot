@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_diversification",
+    "scene_id": "sc_001",
+    "objective": "div_hook",
+    "narration": "ETF 하나만 사도 분산투자라는 말, 왜 나오는 걸까요? 이유는 간단합니다. ETF 하나 안에 이미 여러 종목이 들어 있기 때문입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF 하나만",
+        "사도 왜",
+        "분산투자?"
+      ],
+      "subtitle_line": "ETF 하나 안에 여러 종목이 들어 있습니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_diversification_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_diversification_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_diversification",
+    "scene_id": "sc_002",
+    "objective": "div_inside",
+    "narration": "예를 들어 시장 지수 ETF는 한 회사만 담지 않습니다. 여러 기업을 정해진 비율로 묶어서, 한 상품처럼 거래되게 만든 구조입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "한 회사가",
+        "아니라",
+        "여러 기업"
+      ],
+      "subtitle_line": "여러 기업을 한 상품처럼 묶은 구조입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_diversification_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_diversification_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_diversification",
+    "scene_id": "sc_003",
+    "objective": "div_sector",
+    "narration": "그래서 내가 ETF 한 주를 사면, 실제로는 그 안에 들어 있는 여러 회사나 자산에 나눠 투자하는 효과가 생깁니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "한 주를 사도",
+        "여러 곳에",
+        "나눠 투자"
+      ],
+      "subtitle_line": "한 주를 사도 여러 곳에 나눠 들어갑니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_diversification_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_diversification_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_diversification",
+    "scene_id": "sc_004",
+    "objective": "div_risk",
+    "narration": "물론 분산투자가 손실을 없애주진 않습니다. 다만 한 종목이 흔들릴 때, 전체가 한 번에 무너지는 위험을 줄이는 데 도움이 됩니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "손실이",
+        "사라지진 않음",
+        "위험 완화"
+      ],
+      "subtitle_line": "손실 제거가 아니라 위험 완화입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_diversification_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_diversification_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_diversification",
+    "scene_id": "sc_005",
+    "objective": "div_close",
+    "narration": "초보자라면 ETF 이름보다 먼저 안에 뭐가 들어 있는지 보세요. 분산투자는 많이 사는 게 아니라, 다르게 담는 것에서 시작합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "많이 사는 게",
+        "아니라",
+        "다르게 담기"
+      ],
+      "subtitle_line": "분산은 많이가 아니라 다르게 담기입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_diversification_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_diversification_sc_005_audio.mp3"
+  }
+]
