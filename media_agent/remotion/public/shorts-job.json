@@ -1,217 +1,227 @@
 {
-  "scriptId": "scr_20260517_etf_creator",
+  "scriptId": "scr_20260517_etf_can_close",
   "fps": 30,
   "width": 720,
   "height": 1280,
-  "durationFrames": 1300,
+  "durationFrames": 1401,
   "scenes": [
     {
       "sceneId": "sc_001",
-      "objective": "creator_hook",
-      "durationFrames": 260,
+      "objective": "close_hook",
+      "durationFrames": 225,
       "startFrame": 0,
-      "card": "media/scr_20260517_etf_creator_sc_001_bg.jpg",
-      "audio": "media/scr_20260517_etf_creator_sc_001_audio.mp3",
+      "card": "media/scr_20260517_etf_can_close_sc_001_bg.jpg",
+      "audio": "media/scr_20260517_etf_can_close_sc_001_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_creator_sc_001_bg.jpg",
-      "backgroundLoopFrames": 260,
+      "backgroundImage": "media/scr_20260517_etf_can_close_sc_001_bg.jpg",
+      "backgroundLoopFrames": 225,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "ETF는",
-          "누가 만들까?",
-          "자산운용사"
+          "ETF도",
+          "망할 수",
+          "있을까?"
         ],
-        "subtitle_line": "ETF는 자산운용사가 만드는 상품입니다",
+        "subtitle_line": "파산보다 상장폐지와 청산을 봐야 합니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "ETF는 누가 만드는 걸까요?",
+          "text": "ETF도 망할 수 있을까요?",
           "startFrame": 0,
-          "durationFrames": 66
+          "durationFrames": 55
         },
         {
-          "text": "투자자가 직접 바구니를 짜는 게 아니라,",
-          "startFrame": 66,
-          "durationFrames": 86
+          "text": "정확히 말하면,",
+          "startFrame": 55,
+          "durationFrames": 32
         },
         {
-          "text": "자산운용사가 규칙을 정해서 상품으로 만듭니다.",
-          "startFrame": 152,
-          "durationFrames": 107
+          "text": "ETF는 회사처럼 파산한다기보다",
+          "startFrame": 87,
+          "durationFrames": 69
+        },
+        {
+          "text": "상장폐지나 청산이 될 수 있습니다.",
+          "startFrame": 156,
+          "durationFrames": 68
         }
       ]
     },
     {
       "sceneId": "sc_002",
-      "objective": "creator_issuer",
-      "durationFrames": 216,
-      "startFrame": 260,
-      "card": "media/scr_20260517_etf_creator_sc_002_bg.jpg",
-      "audio": "media/scr_20260517_etf_creator_sc_002_audio.mp3",
-      "background": null,
-      "backgroundImage": "media/scr_20260517_etf_creator_sc_002_bg.jpg",
-      "backgroundLoopFrames": 216,
-      "visualPrompt": {
-        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
-        "motion_direction": "slow editorial zoom",
-        "on_screen_emphasis": [
-          "운용사가",
-          "규칙을",
-          "설계"
-        ],
-        "subtitle_line": "지수, 종목, 비율, 수수료를 설계합니다",
-        "character_lock": "same panda face only; wardrobe and gesture flexible",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
-      },
-      "subtitles": [
-        {
-          "text": "운용사는 어떤 지수를 따라갈지,",
-          "startFrame": 0,
-          "durationFrames": 74
-        },
-        {
-          "text": "어떤 종목을 얼마나 담을지,",
-          "startFrame": 74,
-          "durationFrames": 63
-        },
-        {
-          "text": "수수료는 얼마로 할지 설계합니다.",
-          "startFrame": 137,
-          "durationFrames": 79
-        }
-      ]
-    },
-    {
-      "sceneId": "sc_003",
-      "objective": "creator_rule",
-      "durationFrames": 264,
-      "startFrame": 476,
-      "card": "media/scr_20260517_etf_creator_sc_003_bg.jpg",
-      "audio": "media/scr_20260517_etf_creator_sc_003_audio.mp3",
-      "background": null,
-      "backgroundImage": "media/scr_20260517_etf_creator_sc_003_bg.jpg",
-      "backgroundLoopFrames": 264,
-      "visualPrompt": {
-        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
-        "motion_direction": "slow editorial zoom",
-        "on_screen_emphasis": [
-          "정해진",
-          "규칙대로",
-          "맞춤"
-        ],
-        "subtitle_line": "정해진 지수를 따라가도록 맞춥니다",
-        "character_lock": "same panda face only; wardrobe and gesture flexible",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
-      },
-      "subtitles": [
-        {
-          "text": "예를 들어 코스피 이백을 따라가는 ETF라면,",
-          "startFrame": 0,
-          "durationFrames": 107
-        },
-        {
-          "text": "코스피 이백에 맞춰 종목과 비중을 최대한 비슷하게 맞추는 식입니다.",
-          "startFrame": 107,
-          "durationFrames": 156
-        }
-      ]
-    },
-    {
-      "sceneId": "sc_004",
-      "objective": "creator_manage",
-      "durationFrames": 272,
-      "startFrame": 740,
-      "card": "media/scr_20260517_etf_creator_sc_004_bg.jpg",
-      "audio": "media/scr_20260517_etf_creator_sc_004_audio.mp3",
-      "background": null,
-      "backgroundImage": "media/scr_20260517_etf_creator_sc_004_bg.jpg",
-      "backgroundLoopFrames": 272,
-      "visualPrompt": {
-        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
-        "motion_direction": "slow editorial zoom",
-        "on_screen_emphasis": [
-          "운용사는",
-          "관리",
-          "투자자는 거래"
-        ],
-        "subtitle_line": "운용사는 관리하고 투자자는 거래합니다",
-        "character_lock": "same panda face only; wardrobe and gesture flexible",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
-      },
-      "subtitles": [
-        {
-          "text": "그리고 시장이 바뀌면 운용사가 안의 구성도 조정합니다.",
-          "startFrame": 0,
-          "durationFrames": 133
-        },
-        {
-          "text": "투자자는 그 완성된 바구니를 거래소에서 사고파는 겁니다.",
-          "startFrame": 133,
-          "durationFrames": 139
-        }
-      ]
-    },
-    {
-      "sceneId": "sc_005",
-      "objective": "creator_close",
+      "objective": "close_meaning",
       "durationFrames": 288,
-      "startFrame": 1012,
-      "card": "media/scr_20260517_etf_creator_sc_005_bg.jpg",
-      "audio": "media/scr_20260517_etf_creator_sc_005_audio.mp3",
+      "startFrame": 225,
+      "card": "media/scr_20260517_etf_can_close_sc_002_bg.jpg",
+      "audio": "media/scr_20260517_etf_can_close_sc_002_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_creator_sc_005_bg.jpg",
+      "backgroundImage": "media/scr_20260517_etf_can_close_sc_002_bg.jpg",
       "backgroundLoopFrames": 288,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "운용사",
-          "추종 지수",
-          "총보수"
+          "거래소에서",
+          "정리",
+          "규모와 거래량"
         ],
-        "subtitle_line": "이름보다 구조를 먼저 확인하세요",
+        "subtitle_line": "규모가 작거나 거래가 적으면 정리될 수 있습니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "그래서 ETF를 볼 때는 운용사 이름,",
+          "text": "이건 그 ETF를 더 이상 거래소에서 사고팔 수 없게 정리한다는",
           "startFrame": 0,
-          "durationFrames": 88
+          "durationFrames": 144
         },
         {
-          "text": "추종 지수,",
-          "startFrame": 88,
-          "durationFrames": 28
-        },
-        {
-          "text": "총보수,",
-          "startFrame": 116,
+          "text": "뜻입니다.",
+          "startFrame": 144,
           "durationFrames": 27
         },
         {
-          "text": "안에 든 종목을 함께 봐야 합니다.",
-          "startFrame": 143,
-          "durationFrames": 77
-        },
+          "text": "보통 규모가 너무 작거나 거래가 적을 때 생깁니다.",
+          "startFrame": 171,
+          "durationFrames": 116
+        }
+      ]
+    },
+    {
+      "sceneId": "sc_003",
+      "objective": "close_value",
+      "durationFrames": 297,
+      "startFrame": 513,
+      "card": "media/scr_20260517_etf_can_close_sc_003_bg.jpg",
+      "audio": "media/scr_20260517_etf_can_close_sc_003_audio.mp3",
+      "background": null,
+      "backgroundImage": "media/scr_20260517_etf_can_close_sc_003_bg.jpg",
+      "backgroundLoopFrames": 297,
+      "visualPrompt": {
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+        "motion_direction": "slow editorial zoom",
+        "on_screen_emphasis": [
+          "자산이",
+          "갑자기",
+          "사라지진 않음"
+        ],
+        "subtitle_line": "보유자산 가치 기준으로 정리됩니다",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
+      },
+      "subtitles": [
         {
-          "text": "이름보다",
-          "startFrame": 220,
+          "text": "중요한 건,",
+          "startFrame": 0,
           "durationFrames": 27
         },
         {
-          "text": "구조가 먼저입니다.",
-          "startFrame": 247,
-          "durationFrames": 40
+          "text": "ETF가 청산돼도 안에 있던 자산이 갑자기 사라지는 건 아닙니다.",
+          "startFrame": 27,
+          "durationFrames": 148
+        },
+        {
+          "text": "기준가에 맞춰 현금으로 돌려받는 절차가 진행됩니다.",
+          "startFrame": 175,
+          "durationFrames": 122
+        }
+      ]
+    },
+    {
+      "sceneId": "sc_004",
+      "objective": "close_check",
+      "durationFrames": 285,
+      "startFrame": 810,
+      "card": "media/scr_20260517_etf_can_close_sc_004_bg.jpg",
+      "audio": "media/scr_20260517_etf_can_close_sc_004_audio.mp3",
+      "background": null,
+      "backgroundImage": "media/scr_20260517_etf_can_close_sc_004_bg.jpg",
+      "backgroundLoopFrames": 285,
+      "visualPrompt": {
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+        "motion_direction": "slow editorial zoom",
+        "on_screen_emphasis": [
+          "순자산",
+          "거래량",
+          "구조 확인"
+        ],
+        "subtitle_line": "순자산, 거래량, 구조를 확인하세요",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
+      },
+      "subtitles": [
+        {
+          "text": "그래도 초보자는 피하는 게 좋습니다.",
+          "startFrame": 0,
+          "durationFrames": 81
+        },
+        {
+          "text": "순자산이 너무 작거나,",
+          "startFrame": 81,
+          "durationFrames": 51
+        },
+        {
+          "text": "거래량이 너무 적거나,",
+          "startFrame": 132,
+          "durationFrames": 51
+        },
+        {
+          "text": "구조를 이해하기 어려운 ETF는 조심하세요.",
+          "startFrame": 183,
+          "durationFrames": 101
+        }
+      ]
+    },
+    {
+      "sceneId": "sc_005",
+      "objective": "close_summary",
+      "durationFrames": 306,
+      "startFrame": 1095,
+      "card": "media/scr_20260517_etf_can_close_sc_005_bg.jpg",
+      "audio": "media/scr_20260517_etf_can_close_sc_005_audio.mp3",
+      "background": null,
+      "backgroundImage": "media/scr_20260517_etf_can_close_sc_005_bg.jpg",
+      "backgroundLoopFrames": 306,
+      "visualPrompt": {
+        "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+        "motion_direction": "slow editorial zoom",
+        "on_screen_emphasis": [
+          "0원이",
+          "된다는 뜻은",
+          "아님"
+        ],
+        "subtitle_line": "이름보다 규모와 내용물이 먼저입니다",
+        "character_lock": "same panda face only; wardrobe and gesture flexible",
+        "tts_provider": "ElevenLabs",
+        "voice": "Taehyung - Natural, Friendly and Clear"
+      },
+      "subtitles": [
+        {
+          "text": "정리하면 ETF도 정리될 수는 있지만,",
+          "startFrame": 0,
+          "durationFrames": 91
+        },
+        {
+          "text": "무조건 돈이 0원이 된다는 뜻은 아닙니다.",
+          "startFrame": 91,
+          "durationFrames": 96
+        },
+        {
+          "text": "그래서 이름보다",
+          "startFrame": 187,
+          "durationFrames": 38
+        },
+        {
+          "text": "규모와 내용물을 먼저 보는 겁니다.",
+          "startFrame": 225,
+          "durationFrames": 80
         }
       ]
     }
