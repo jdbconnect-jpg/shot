@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_etf_fee",
+  "cluster_id": "manual_etf_fee_20260517",
+  "title": "ETF 수수료 꼭 봐야 하는 이유",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "ETF 총보수와 장기투자 비용 차이를 초보자에게 설명하는 쇼츠.",
+  "target_duration_sec": 48,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 특정 상품 매수/매도 추천이 아니라 개념 설명.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "fee_hook",
+      "narration": "ETF 수수료, 왜 꼭 봐야 할까요? 수수료는 한 번 내고 끝나는 돈이 아니라, 투자하는 동안 계속 빠지는 비용입니다.",
+      "spoken_narration": "ETF 수수료, 왜 꼭 봐야 할까요? 수수료는 한 번 내고 끝나는 돈이 아니라, 투자하는 동안 계속 빠지는 비용입니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "fee_small",
+      "narration": "처음엔 영 점 몇 퍼센트라 작아 보입니다. 하지만 같은 ETF를 오래 들고 갈수록, 작은 차이가 누적 수익률을 갈라놓을 수 있습니다.",
+      "spoken_narration": "처음엔 영 점 몇 퍼센트라 작아 보입니다. 하지만 같은 ETF를 오래 들고 갈수록, 작은 차이가 누적 수익률을 갈라놓을 수 있습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "fee_compare",
+      "narration": "예를 들어 비슷한 지수를 따라가는데, 하나는 수수료가 낮고 하나는 높다면, 초보자는 먼저 낮은 쪽을 비교해봐야 합니다.",
+      "spoken_narration": "예를 들어 비슷한 지수를 따라가는데, 하나는 수수료가 낮고 하나는 높다면, 초보자는 먼저 낮은 쪽을 비교해봐야 합니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "fee_not_only",
+      "narration": "단, 수수료만 보고 고르면 안 됩니다. 추종 지수, 거래량, 안에 든 종목, 운용 규모도 같이 봐야 합니다.",
+      "spoken_narration": "단, 수수료만 보고 고르면 안 됩니다. 추종 지수, 거래량, 안에 든 종목, 운용 규모도 같이 봐야 합니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "fee_close",
+      "narration": "정리하면, 장기투자일수록 수수료는 조용히 큰 차이를 만듭니다. ETF 이름보다 총보수와 실제 내용물을 먼저 확인하세요.",
+      "spoken_narration": "정리하면, 장기투자일수록 수수료는 조용히 큰 차이를 만듭니다. ETF 이름보다 총보수와 실제 내용물을 먼저 확인하세요."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}

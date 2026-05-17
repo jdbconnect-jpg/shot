@@ -18,7 +18,7 @@
 3. [x] ETF 하나만 사도 분산투자인 이유
 4. [x] ETF는 누가 만드는 걸까?
 5. [x] ETF도 망할 수 있을까?
-6. [ ] ETF 수수료 꼭 봐야 하는 이유
+6. [x] ETF 수수료 꼭 봐야 하는 이유
 7. [ ] ETF 가격은 왜 계속 움직일까
 8. [ ] ETF와 펀드 차이
 9. [x] 초보자는 왜 ETF부터 시작할까
@@ -159,6 +159,11 @@
   - 영상: media_agent/data_shorts/renders/scr_20260517_etf_can_close_final_720p.mp4
   - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_can_close_thumbnail_final.jpg
   - YouTube: https://www.youtube.com/watch?v=G3STZaCWfjA
+- 완료: 6. ETF 수수료 꼭 봐야 하는 이유
+  - 관련 영상: ETF 수수료 꼭 봐야 하는 이유
+  - 영상: media_agent/data_shorts/renders/scr_20260517_etf_fee_final_720p.mp4
+  - 썸네일: media_agent/data_shorts/thumbnails/scr_20260517_etf_fee_thumbnail_final.jpg
+  - YouTube: https://www.youtube.com/watch?v=kVC8DGm9zlU
 - 완료: 9. 초보자는 왜 ETF부터 시작할까
   - 관련 영상: ETF 처음이면 이것부터 보세요
   - 영상: media_agent/data_shorts/renders/scr_20260517_etf_start_here_final_720p.mp4

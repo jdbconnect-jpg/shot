@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_fee",
+    "scene_id": "sc_001",
+    "objective": "fee_hook",
+    "narration": "ETF 수수료, 왜 꼭 봐야 할까요? 수수료는 한 번 내고 끝나는 돈이 아니라, 투자하는 동안 계속 빠지는 비용입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF 수수료",
+        "왜 꼭",
+        "봐야 할까?"
+      ],
+      "subtitle_line": "수수료는 투자 기간 내내 빠지는 비용입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_fee_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_fee_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_fee",
+    "scene_id": "sc_002",
+    "objective": "fee_small",
+    "narration": "처음엔 영 점 몇 퍼센트라 작아 보입니다. 하지만 같은 ETF를 오래 들고 갈수록, 작은 차이가 누적 수익률을 갈라놓을 수 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "작아 보여도",
+        "오래 가면",
+        "차이"
+      ],
+      "subtitle_line": "작아 보여도 오래 가면 차이가 커집니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_fee_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_fee_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_fee",
+    "scene_id": "sc_003",
+    "objective": "fee_compare",
+    "narration": "예를 들어 비슷한 지수를 따라가는데, 하나는 수수료가 낮고 하나는 높다면, 초보자는 먼저 낮은 쪽을 비교해봐야 합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "비슷한 지수",
+        "낮은 수수료",
+        "먼저 비교"
+      ],
+      "subtitle_line": "비슷한 상품이면 수수료부터 비교하세요",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_fee_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_fee_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_fee",
+    "scene_id": "sc_004",
+    "objective": "fee_not_only",
+    "narration": "단, 수수료만 보고 고르면 안 됩니다. 추종 지수, 거래량, 안에 든 종목, 운용 규모도 같이 봐야 합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "수수료만",
+        "보면 안 됨",
+        "같이 확인"
+      ],
+      "subtitle_line": "수수료만이 아니라 구조도 함께 봐야 합니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_fee_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_fee_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_fee",
+    "scene_id": "sc_005",
+    "objective": "fee_close",
+    "narration": "정리하면, 장기투자일수록 수수료는 조용히 큰 차이를 만듭니다. ETF 이름보다 총보수와 실제 내용물을 먼저 확인하세요.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "장기투자",
+        "총보수",
+        "내용물 확인"
+      ],
+      "subtitle_line": "장기투자일수록 총보수를 먼저 보세요",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_fee_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_fee_sc_005_audio.mp3"
+  }
+]
