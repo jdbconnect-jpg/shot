@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_stock_vs_etf",
+  "cluster_id": "manual_stock_vs_etf_20260517",
+  "title": "주식과 ETF 차이 쉽게 설명",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "주식과 ETF의 차이를 집중과 분산 관점으로 쉽게 설명하는 초보 입문 쇼츠.",
+  "target_duration_sec": 48,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 특정 상품 매수/매도 추천이 아니라 개념 설명.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "diff_hook",
+      "narration": "주식과 ETF 차이, 딱 하나로 이해하면 쉽습니다. 주식은 한 회사를 고르는 거고, ETF는 여러 회사를 담은 바구니를 고르는 겁니다.",
+      "spoken_narration": "주식과 ETF 차이, 딱 하나로 이해하면 쉽습니다. 주식은 한 회사를 고르는 거고, ETF는 여러 회사를 담은 바구니를 고르는 겁니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "diff_stock",
+      "narration": "개별주를 산다는 건, 특정 회사의 성장과 실적에 내 돈을 직접 맡긴다는 뜻입니다. 잘 고르면 크게 오르지만, 한 회사 리스크도 그대로 받습니다.",
+      "spoken_narration": "개별주를 산다는 건, 특정 회사의 성장과 실적에 내 돈을 직접 맡긴다는 뜻입니다. 잘 고르면 크게 오르지만, 한 회사 리스크도 그대로 받습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "diff_etf",
+      "narration": "ETF는 조금 다릅니다. 하나를 사도 그 안에 여러 종목이 들어 있어서, 돈이 여러 회사나 자산으로 나눠 들어갑니다.",
+      "spoken_narration": "ETF는 조금 다릅니다. 하나를 사도 그 안에 여러 종목이 들어 있어서, 돈이 여러 회사나 자산으로 나눠 들어갑니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "diff_risk",
+      "narration": "그래서 핵심 차이는 집중과 분산입니다. 주식은 맞히면 강하지만 흔들림도 큽니다. ETF는 한 방보다 오래 버티는 구조에 가깝습니다.",
+      "spoken_narration": "그래서 핵심 차이는 집중과 분산입니다. 주식은 맞히면 강하지만 흔들림도 큽니다. ETF는 한 방보다 오래 버티는 구조에 가깝습니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "diff_close",
+      "narration": "정리하면, 내가 분석할 회사가 명확하면 주식, 아직 어렵고 넓게 시작하고 싶다면 ETF입니다. 초보라면 먼저 바구니 안에 뭐가 들었는지부터 보세요.",
+      "spoken_narration": "정리하면, 내가 분석할 회사가 명확하면 주식, 아직 어렵고 넓게 시작하고 싶다면 ETF입니다. 초보라면 먼저 바구니 안에 뭐가 들었는지부터 보세요."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}
