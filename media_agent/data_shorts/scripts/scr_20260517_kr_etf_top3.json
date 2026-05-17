@@ -1,0 +1,64 @@
+{
+  "script_id": "scr_20260517_kr_etf_top3",
+  "cluster_id": "manual_kr_etf_top3_20260517",
+  "title": "국장 ETF 인기 TOP 3, 돈이 몰린 곳만 보세요",
+  "tone": "premium_korean_finance_shorts_male",
+  "description": "네이버 금융 ETF API 시가총액 기준 국내 상장 ETF 상위 3개를 설명하는 쇼츠 스크립트. 투자 권유가 아니라 인기와 구조를 해석합니다.",
+  "target_duration_sec": 40,
+  "source_articles": [
+    {
+      "article_id": "naver_finance_etf_market_sum_20260517",
+      "title": "네이버 금융 ETF 주요시세정보 - 시가총액 기준",
+      "source_name": "Naver Finance / KRX data",
+      "canonical_url": "https://finance.naver.com/api/sise/etfItemList.nhn?etfType=0&targetColumn=market_sum&sortOrder=desc",
+      "published_at": "2026-05-17T08:50:00+09:00"
+    }
+  ],
+  "top3": [
+    {
+      "rank": 1,
+      "code": "069500",
+      "name": "KODEX 200",
+      "market_sum_억": 249988
+    },
+    {
+      "rank": 2,
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "market_sum_억": 179445
+    },
+    {
+      "rank": 3,
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
+      "market_sum_억": 128575
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "top3_hook",
+      "narration": "국장 ETF 인기 TOP 3만 보면, 돈이 어디로 가는지 바로 보입니다. 이건 추천이 아니라 시장의 온도계입니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "top3_rank1",
+      "narration": "1위는 KODEX 200입니다. 결국 가장 큰 돈은 한국 대표 지수, 코스피 이백 전체에 몰려 있습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "top3_rank2",
+      "narration": "2위는 TIGER 미국 에스앤피 오백입니다. 국장 계좌에서도 미국 대표 기업을 사려는 수요가 크다는 뜻이죠."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "top3_rank3",
+      "narration": "3위는 TIGER 반도체 TOP10입니다. 반도체는 성장 기대가 크지만, 테마형이라 흔들림도 같이 봐야 합니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "top3_close",
+      "narration": "정리하면 TOP 3는 한국 대표 지수, 미국 대표 지수, 반도체입니다. 따라 사기보다 내 비중부터 정하세요."
+    }
+  ]
+}

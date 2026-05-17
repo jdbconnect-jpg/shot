@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-05-17T00:05:52",
+  "script_id": "scr_20260516_schd_dividend",
+  "engine": "gemini_or_fallback",
+  "reference_style": "bookvore_visual_quality_only",
+  "scenes": [
+    {
+      "scene_id": "sc_001",
+      "stock_queries": [
+        "Hands checking investment app",
+        "Abstract growth chart",
+        "Steady dividend income"
+      ],
+      "ai_video_prompt": "A sleek, minimalist animation showing a line graph steadily rising, with abstract golden coins appearing and multiplying, representing consistent dividend growth. Calm, professional finance aesthetic.",
+      "thumbnail_prompt": "A minimalist thumbnail: A subtle upward trending line graph in the background. In the foreground, a magnifying glass hovering over the word 'SCHD' with 'Quality Dividends' below it. Calm, professional, clean design, focus on financial quality.",
+      "motion_direction": "궁금증을 유발하는 성장",
+      "on_screen_emphasis": [
+        "꾸준한 배당",
+        "배당의 질"
+      ],
+      "visual_style": "calm_finance",
+      "realism_score": 0.7,
+      "media_type": "video",
+      "search_intent": "stock",
+      "source_hint": "매년 꾸준히 늘어나는 배당을 받는다면 어떨까요? 오늘은 단순히 고배당을 넘어, '배당의 질'로 주목받는 ETF, SCHD를 소개합니다."
+    },
+    {
+      "scene_id": "sc_002",
+      "stock_queries": [
+        "Close up hands reviewing financial reports",
+        "Professional checking stock market data on tablet",
+        "Steady flow of data on a computer screen"
+      ],
+      "ai_video_prompt": "A subtle animation of gears turning smoothly, interlocking to represent 'sustainability' and 'quality' in financial investments. Data streams flow calmly in the background. Professional, high-end finance visual.",
+      "thumbnail_prompt": "A clean graphic with 'Quality & Sustainability' as the main text. Subtle US flag elements or a map outline in the background. A small icon representing a stable company building. Calm, professional, data-focused.",
+      "motion_direction": "안정적인 정보 제시",
+      "on_screen_emphasis": [
+        "배당의 질",
+        "지속가능성"
+      ],
+      "visual_style": "calm_finance",
+      "realism_score": 0.8,
+      "media_type": "video",
+      "search_intent": "stock",
+      "source_hint": "SCHD는 배당의 '질'과 '지속가능성'을 중시하는 미국 대표 배당 ETF입니다. 무조건 높은 배당률만 쫓는 방식과는 다릅니다."
+    },
+    {
+      "scene_id": "sc_003",
+      "stock_queries": [
+        "Close up of calculator showing small numbers",
+        "Hands saving coins into a piggy bank",
+        "Financial chart showing minimal expense line"
+      ],
+      "ai_video_prompt": "A minimalist animated infographic showing a small, steadily decreasing cost line over a long timeline. A small amount of money (represented by abstract coins) is being saved. Clean, data-driven, professional finance aesthetic.",
+      "thumbnail_prompt": "A clear infographic showing a large '0.06%' in a prominent position. Below it, text 'Low Annual Fee' and 'Long-term Savings'. Minimalist design, clean lines, professional financial graphic.",
+      "motion_direction": "비용 절감 시각화",
+      "on_screen_emphasis": [
+        "낮은 보수",
+        "0.06%"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.6,
+      "media_type": "infographic",
+      "search_intent": "graphic",
+      "source_hint": "또 하나의 장점은 낮은 총보수입니다. 연 0.06%의 비용은 장기 보유에서 새는 돈을 줄이는 데 도움이 됩니다."
+    },
+    {
+      "scene_id": "sc_004",
+      "stock_queries": [
+        "Close up of hands analyzing financial charts on a tablet",
+        "Abstract visual of stable financial growth and cash flow",
+        "Professional selecting company reports from a stack"
+      ],
+      "ai_video_prompt": "An animation depicting a robust, stable financial structure with smooth cash flow lines. Abstract gears represent sound financial management, and a gentle upward trend indicates consistent dividend growth. Professional, calm finance aesthetic.",
+      "thumbnail_prompt": "A visually strong infographic showing a sturdy foundation with upward-pointing arrows for 'Cash Flow' and 'Dividends'. Text: 'Strong Financials, Stable Cash Flow'. Professional, data-driven, reassuring.",
+      "motion_direction": "견고한 재무 흐름 강조",
+      "on_screen_emphasis": [
+        "탄탄한 재무",
+        "안정된 현금"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.7,
+      "media_type": "video",
+      "search_intent": "ai_video",
+      "source_hint": "이 ETF는 재무구조가 탄탄하고 현금 흐름이 안정적인 기업을 선별합니다. 꾸준히 성장하는 배당을 기대할 수 있는 우량주 위주로 구성되죠."
+    },
+    {
+      "scene_id": "sc_005",
+      "stock_queries": [
+        "Hands pointing to a volatile stock chart",
+        "Financial warning sign on a desk",
+        "Red arrows indicating market downturn on a screen"
+      ],
+      "ai_video_prompt": "A subtle, tense animation showing a stock market graph with gentle but clear fluctuations, implying volatility. A small, non-alarming 'warning' icon flickers briefly. Darker, more serious tone. Professional financial caution.",
+      "thumbnail_prompt": "A professional graphic with a clear warning symbol (exclamation mark in a triangle). Text: 'Important Considerations: Volatility & Risks'. Use a muted red or orange accent to convey caution without being overly dramatic. Clean, serious, clear.",
+      "motion_direction": "긴장감 있는 경고",
+      "on_screen_emphasis": [
+        "주의사항",
+        "주가 변동성"
+      ],
+      "visual_style": "caution",
+      "realism_score": 0.8,
+      "media_type": "chart",
+      "search_intent": "stock",
+      "source_hint": "하지만 주의할 점도 있습니다. SCHD는 월배당 상품이 아니며, 주가는 시장 상황에 따라 변동합니다. 배당 외에 원금 손실 가능성도 항상 염두에 두세요."
+    },
+    {
+      "scene_id": "sc_006",
+      "stock_queries": [
+        "Hands making a thoughtful decision with a notebook",
+        "Summary document on a professional desk",
+        "Abstract representation of quality and growth converging"
+      ],
+      "ai_video_prompt": "A clean, concise animation summarizing key concepts: 'Quality' and 'Growth' icons subtly merging into a 'SCHD' logo. A subtle, positive upward trend in the background. Calm, conclusive, professional finance aesthetic.",
+      "thumbnail_prompt": "A minimalist summary card: 'SCHD: Key Takeaways' at the top. Below, two clear icons representing 'Quality' and 'Growth' with their respective labels. Clean, professional, elegant design, suitable for a financial summary.",
+      "motion_direction": "핵심 정리 및 판단 유도",
+      "on_screen_emphasis": [
+        "핵심 요약",
+        "배당의 질"
+      ],
+      "visual_style": "summary",
+      "realism_score": 0.5,
+      "media_type": "infographic",
+      "search_intent": "ai_video",
+      "source_hint": "SCHD는 단순 고배당이 아닌 '배당의 질'과 '성장'을 추구하는 투자자에게 매력적일 수 있습니다. 본인의 투자 목표에 맞춰 신중히 판단하시기 바랍니다."
+    }
+  ]
+}

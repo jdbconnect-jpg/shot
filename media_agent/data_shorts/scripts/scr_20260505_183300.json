@@ -1,0 +1,59 @@
+{
+  "script_id": "scr_20260505_183300",
+  "cluster_id": "manual_jepq_shorts",
+  "title": "JEPQ로 제2의 월급 100만 원 만들려면?",
+  "tone": "calm_finance_explainer_ko",
+  "description": "JEPQ의 최근 1년 분배금 기준으로 월 100만 원 현금흐름 가능성을 설명하는 쇼츠 스크립트입니다.",
+  "target_duration_sec": 42,
+  "source_article_ids": [
+    "manual_jepq_dividend_calc"
+  ],
+  "source_articles": [
+    {
+      "article_id": "manual_jepq_dividend_calc",
+      "title": "JEPQ 최근 1년 분배금 계산",
+      "source_name": "local_calculation",
+      "canonical_url": "local://jepq-dividend-calc",
+      "published_at": "2026-05-05T18:27:00+09:00"
+    }
+  ],
+  "ledger_id": "manual_led_jepq_20260505",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "hook",
+      "narration": "JEPQ로 매달 100만 원, 월급처럼 받으려면 얼마가 필요할까요? 숫자로 보면 꽤 현실적입니다.",
+      "claim_ids": ["1"]
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "background",
+      "narration": "최근 1년 분배금으로 계산하면 원금은 약 1억 2천만 원. 이 돈을 넣었을 때 연 분배금은 약 1천260만 원이었습니다.",
+      "claim_ids": ["2", "3"]
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "evidence",
+      "narration": "월로 나누면 약 105만 원. 그래서 은퇴 현금흐름이나 제2의 월급 얘기에서 JEPQ가 자주 등장합니다.",
+      "claim_ids": ["3", "4"]
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "etf_link",
+      "narration": "비결은 나스닥100 관련 자산에 투자하면서 콜옵션을 팔아 분배 재원을 만드는 커버드콜 전략입니다.",
+      "claim_ids": ["5"]
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "risk",
+      "narration": "하지만 여기서 착각하면 안 됩니다. 분배금은 고정 월급이 아니고, 주가 상승 일부를 포기하는 구조도 있습니다.",
+      "claim_ids": ["6"]
+    },
+    {
+      "section_id": "sec_006",
+      "objective": "close",
+      "narration": "정리하면 JEPQ는 월 현금흐름이 필요한 사람에겐 매력적이지만, 성장성과 변동성까지 같이 봐야 하는 ETF입니다.",
+      "claim_ids": ["7"]
+    }
+  ]
+}

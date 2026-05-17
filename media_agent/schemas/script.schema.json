@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "script.schema.json",
+  "type": "object",
+  "required": [
+    "script_id",
+    "cluster_id",
+    "title",
+    "tone",
+    "description",
+    "target_duration_sec",
+    "source_article_ids",
+    "ledger_id",
+    "sections"
+  ],
+  "properties": {
+    "script_id": {"type": "string"},
+    "cluster_id": {"type": "string"},
+    "title": {"type": "string"},
+    "tone": {"type": "string"},
+    "description": {"type": "string"},
+    "target_duration_sec": {"type": "integer", "minimum": 60},
+    "source_article_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"}
+    },
+    "source_articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["article_id", "title"],
+        "properties": {
+          "article_id": {"type": "string"},
+          "title": {"type": "string"},
+          "source_name": {"type": "string"},
+          "canonical_url": {"type": "string"},
+          "published_at": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "ledger_id": {"type": "string", "minLength": 1},
+    "sections": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["section_id", "objective", "narration", "claim_ids"],
+        "properties": {
+          "section_id": {"type": "string"},
+          "objective": {"type": "string"},
+          "narration": {"type": "string"},
+          "claim_ids": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

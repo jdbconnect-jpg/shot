@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scene.schema.json",
+  "type": "object",
+  "required": ["scene_id", "script_id", "start_sec", "end_sec", "objective", "narration", "subtitle_text"],
+  "properties": {
+    "scene_id": {"type": "string"},
+    "script_id": {"type": "string"},
+    "start_sec": {"type": "number"},
+    "end_sec": {"type": "number"},
+    "objective": {"type": "string"},
+    "narration": {"type": "string"},
+    "subtitle_text": {"type": "string"},
+    "claim_ids": {"type": "array", "items": {"type": "string"}},
+    "visual_modes": {"type": "array", "items": {"type": "string"}},
+    "asset_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260517_monthly_etf_choice",
+    "start_sec": 0,
+    "end_sec": 7,
+    "objective": "hook",
+    "narration": "월 100만 원 배당. JEPI나 JEPQ를 사기 전에 이 질문부터요. 나는 월급이 필요한가, 자산 성장이 필요한가?",
+    "title_text": "월 100만원 배당?",
+    "subtitle_text": "사기 전에 이 질문",
+    "claim_ids": ["1"],
+    "visual_modes": ["generated_image", "headline_card"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260517_monthly_etf_choice",
+    "start_sec": 7,
+    "end_sec": 15,
+    "objective": "mechanism",
+    "narration": "JEPI와 JEPQ의 핵심은 커버드콜입니다. 주식을 들고 콜옵션을 팔아 매달 현금흐름을 만드는 구조죠.",
+    "title_text": "높은 월분배의 구조",
+    "subtitle_text": "주식 + 커버드콜",
+    "claim_ids": ["2"],
+    "visual_modes": ["generated_image", "headline_card"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260517_monthly_etf_choice",
+    "start_sec": 15,
+    "end_sec": 25,
+    "objective": "comparison",
+    "narration": "SCHD는 결이 다릅니다. 월배당보다 배당의 질과 지속성, 낮은 보수에 가까운 ETF입니다. 총보수는 연 0.06%.",
+    "title_text": "SCHD는 결이 다르다",
+    "subtitle_text": "배당의 질과 지속성",
+    "claim_ids": ["3", "4"],
+    "visual_modes": ["generated_image", "headline_card"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260517_monthly_etf_choice",
+    "start_sec": 25,
+    "end_sec": 34,
+    "objective": "tradeoff",
+    "narration": "현금흐름이 목표면 JEPI와 JEPQ, 배당 성장의 뼈대가 목표면 SCHD. 이름보다 목적이 먼저입니다.",
+    "title_text": "현금흐름 vs 성장",
+    "subtitle_text": "목표가 먼저입니다",
+    "claim_ids": ["5"],
+    "visual_modes": ["generated_image", "headline_card"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260517_monthly_etf_choice",
+    "start_sec": 34,
+    "end_sec": 44,
+    "objective": "risk",
+    "narration": "단, 높은 분배금은 공짜가 아닙니다. 상승장을 일부 포기할 수 있고, 분배금도 원금도 흔들릴 수 있습니다.",
+    "title_text": "높은 분배금의 대가",
+    "subtitle_text": "상승 제한과 원금 변동",
+    "claim_ids": ["6"],
+    "visual_modes": ["generated_image", "headline_card"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_006",
+    "script_id": "scr_20260517_monthly_etf_choice",
+    "start_sec": 44,
+    "end_sec": 55,
+    "objective": "close",
+    "narration": "정답은 상품명이 아니라 비중입니다. 월급이 필요한 돈과 성장시킬 돈을 나눠서 보세요.",
+    "title_text": "ETF보다 목표가 먼저",
+    "subtitle_text": "월급인가, 성장인가",
+    "claim_ids": ["7"],
+    "visual_modes": ["generated_image", "headline_card"],
+    "asset_ids": []
+  }
+]

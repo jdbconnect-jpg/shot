@@ -1,0 +1,108 @@
+{
+  "script_id": "scr_20260517_kr_etf_top5",
+  "cluster_id": "manual_kr_etf_top5_20260517",
+  "title": "국장 상장 ETF 인기 TOP 5, 이름보다 구조를 보세요",
+  "tone": "premium_korean_finance_shorts_male",
+  "description": "네이버 금융 ETF API의 시가총액 기준 상위 5개 국내 상장 ETF를 남자 내레이션 톤으로 설명하는 쇼츠 스크립트입니다. 투자 권유가 아니라 인기의 이유와 분산 관점을 설명합니다.",
+  "target_duration_sec": 52,
+  "source_article_ids": [
+    "naver_finance_etf_market_sum_20260517"
+  ],
+  "source_articles": [
+    {
+      "article_id": "naver_finance_etf_market_sum_20260517",
+      "title": "네이버 금융 ETF 주요시세정보 - 시가총액 기준",
+      "source_name": "Naver Finance / KRX data",
+      "canonical_url": "https://finance.naver.com/api/sise/etfItemList.nhn?etfType=0&targetColumn=market_sum&sortOrder=desc",
+      "published_at": "2026-05-17T08:50:00+09:00"
+    }
+  ],
+  "data 기준": "시가총액 기준 상위 ETF. 조회 시점에 따라 순위와 수치는 변동될 수 있음.",
+  "top5": [
+    {
+      "rank": 1,
+      "code": "069500",
+      "name": "KODEX 200",
+      "market_sum_억": 249988,
+      "three_month_return_pct": 43.8068
+    },
+    {
+      "rank": 2,
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "market_sum_억": 179445,
+      "three_month_return_pct": 13.8882
+    },
+    {
+      "rank": 3,
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
+      "market_sum_억": 128575,
+      "three_month_return_pct": 58.1478
+    },
+    {
+      "rank": 4,
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "market_sum_억": 102746,
+      "three_month_return_pct": 23.3675
+    },
+    {
+      "rank": 5,
+      "code": "102110",
+      "name": "TIGER 200",
+      "market_sum_억": 101862,
+      "three_month_return_pct": 43.9619
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "top_hook",
+      "narration": "국장 ETF TOP 5를 보면 돈의 방향이 보입니다. 단, 추천이 아니라 시장 온도계로 보세요.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "top_rank_1_2",
+      "narration": "1위 KODEX 200, 2위 TIGER 미국 S&P500. 한국 대표 지수와 미국 대표 지수에 돈이 가장 크게 몰렸습니다.",
+      "claim_ids": [
+        "2"
+      ]
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "top_rank_3",
+      "narration": "3위는 TIGER 반도체 TOP10. 반도체를 성장 축으로 본다는 신호지만, 테마형은 흔들림도 큽니다.",
+      "claim_ids": [
+        "3"
+      ]
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "top_rank_4_5",
+      "narration": "4위 TIGER 미국 나스닥100, 5위 TIGER 200. TOP 5는 한국 지수, 미국 지수, 반도체로 갈립니다.",
+      "claim_ids": [
+        "4"
+      ]
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "top_takeaway",
+      "narration": "핵심은 상품명이 아닙니다. 코어 지수, 해외 성장, 섹터 테마 중 내 돈이 어디에 있을지입니다.",
+      "claim_ids": [
+        "5"
+      ]
+    },
+    {
+      "section_id": "sec_006",
+      "objective": "top_risk_close",
+      "narration": "따라 사기 전 질문은 하나. 시장 전체를 살 건가, 성장 테마에 걸 건가. 인기보다 비중이 먼저입니다.",
+      "claim_ids": [
+        "6"
+      ]
+    }
+  ]
+}

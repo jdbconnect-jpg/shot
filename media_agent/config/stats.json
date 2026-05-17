@@ -1,0 +1,102 @@
+{
+  "sources": {
+    "ecos": {
+      "enabled": true,
+      "api_key_env": "ECOS_API_KEY",
+      "base_url": "https://ecos.bok.or.kr/api",
+      "format": "json",
+      "language": "kr",
+      "start_row": 1,
+      "end_row": 20
+    },
+    "kosis": {
+      "enabled": true,
+      "api_key_env": "KOSIS_API_KEY",
+      "base_url": "https://kosis.kr/openapi/statisticsData.do",
+      "format": "json"
+    }
+  },
+  "policy": {
+    "request_timeout_sec": 12,
+    "max_series_per_cluster": 3
+  },
+  "indicators": [
+    {
+      "stat_id": "ecos_export_yoy",
+      "provider": "ecos",
+      "label": "한국 수출 증감률",
+      "topic_keywords": ["수출", "무역", "반도체", "해외판매"],
+      "match_entities": ["수출", "반도체"],
+      "stat_code": "901Y014",
+      "cycle": "M",
+      "start_time": "202401",
+      "end_time": "202612",
+      "item_code_1": "K00",
+      "item_code_2": "",
+      "item_code_3": "",
+      "item_code_4": "",
+      "value_field": "DATA_VALUE",
+      "time_field": "TIME",
+      "unit": "%",
+      "summary_template": "한국 수출 증감률 최근 값은 {value}{unit} (기준시점 {time})"
+    },
+    {
+      "stat_id": "ecos_cpi_yoy",
+      "provider": "ecos",
+      "label": "소비자물가 상승률",
+      "topic_keywords": ["물가", "인플레이션", "소비", "금리"],
+      "match_entities": ["물가", "금리"],
+      "stat_code": "901Y009",
+      "cycle": "M",
+      "start_time": "202401",
+      "end_time": "202612",
+      "item_code_1": "0",
+      "item_code_2": "",
+      "item_code_3": "",
+      "item_code_4": "",
+      "value_field": "DATA_VALUE",
+      "time_field": "TIME",
+      "unit": "%",
+      "summary_template": "소비자물가 상승률 최근 값은 {value}{unit} (기준시점 {time})"
+    },
+    {
+      "stat_id": "ecos_base_rate",
+      "provider": "ecos",
+      "label": "한국은행 기준금리",
+      "topic_keywords": ["금리", "통화정책", "환율", "부동산"],
+      "match_entities": ["금리", "환율"],
+      "stat_code": "722Y001",
+      "cycle": "D",
+      "start_time": "20240101",
+      "end_time": "20261231",
+      "item_code_1": "0101000",
+      "item_code_2": "",
+      "item_code_3": "",
+      "item_code_4": "",
+      "value_field": "DATA_VALUE",
+      "time_field": "TIME",
+      "unit": "%",
+      "summary_template": "한국은행 기준금리 최근 값은 {value}{unit} (기준시점 {time})"
+    },
+    {
+      "stat_id": "kosis_employment_rate",
+      "provider": "kosis",
+      "label": "고용률",
+      "topic_keywords": ["고용", "취업", "실업", "내수"],
+      "match_entities": ["고용", "실업"],
+      "org_id": "101",
+      "tbl_id": "DT_1DA7004S",
+      "items": {
+        "itmId": "T01",
+        "objL1": "ALL"
+      },
+      "period_type": "M",
+      "start_prd_de": "202401",
+      "end_prd_de": "202612",
+      "value_field": "DT",
+      "time_field": "PRD_DE",
+      "unit": "%",
+      "summary_template": "고용률 최근 값은 {value}{unit} (기준시점 {time})"
+    }
+  ]
+}

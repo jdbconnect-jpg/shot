@@ -1,0 +1,47 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+
+# Local environments
+.venv/
+.venv-*/
+${VENV_DIR}/
+node_modules/
+
+# Secrets and credentials
+.env
+.secrets/
+client_secret.json
+*.key
+*.pem
+
+# OpenClaw/private workspace state
+.openclaw/
+memory/
+SOUL.md
+IDENTITY.md
+USER.md
+TOOLS.md
+AGENTS.md
+HEARTBEAT.md
+
+# Large/generated media artifacts
+final_shorts/
+temp_assets/
+inspect_frames/
+reference_frames/
+reference_analysis/
+data_shorts/renders/
+media_agent/data/renders/
+media_agent/data/reference_audio/
+media_agent/data_shorts/renders/
+media_agent/data_shorts/renders/temp/
+media_agent/data_shorts/generated_images/
+media_agent/data_shorts/generated_media/
+media_agent/remotion/public/media/
+
+# Vendored experiments / external repos
+GPT-SoVITS/
+penda/
+

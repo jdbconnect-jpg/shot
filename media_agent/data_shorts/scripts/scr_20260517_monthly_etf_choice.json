@@ -1,0 +1,75 @@
+{
+  "script_id": "scr_20260517_monthly_etf_choice",
+  "cluster_id": "manual_monthly_etf_choice_20260517",
+  "title": "월 100만원 배당 ETF, JEPI/JEPQ 전에 이 기준부터 보세요",
+  "tone": "premium_book_review_finance_shorts_ko",
+  "description": "월분배 ETF의 매력과 대가를 SCHD, JEPI, JEPQ 비교 프레임으로 설명하는 고밀도 ETF 쇼츠 스크립트입니다. 투자 권유가 아니라 현금흐름, 성장성, 위험을 구분하는 판단 기준을 제공합니다.",
+  "target_duration_sec": 55,
+  "source_article_ids": [
+    "schwab_schd_product",
+    "jpmorgan_jepi_product",
+    "jpmorgan_jepq_product"
+  ],
+  "source_articles": [
+    {
+      "article_id": "schwab_schd_product",
+      "title": "SCHD | Schwab U.S. Dividend Equity ETF",
+      "source_name": "Schwab Asset Management",
+      "canonical_url": "https://www.schwabassetmanagement.com/products/schd",
+      "published_at": "2026-05-17T07:28:00+09:00"
+    },
+    {
+      "article_id": "jpmorgan_jepi_product",
+      "title": "JPMorgan Equity Premium Income ETF | JEPI",
+      "source_name": "J.P. Morgan Asset Management",
+      "canonical_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/jpmorgan-equity-premium-income-etf-etf-shares-46641q332",
+      "published_at": "2026-05-17T07:28:00+09:00"
+    },
+    {
+      "article_id": "jpmorgan_jepq_product",
+      "title": "JPMorgan Nasdaq Equity Premium Income ETF | JEPQ",
+      "source_name": "J.P. Morgan Asset Management",
+      "canonical_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/jpmorgan-nasdaq-equity-premium-income-etf-etf-shares-46654q203",
+      "published_at": "2026-05-17T07:28:00+09:00"
+    }
+  ],
+  "ledger_id": "manual_led_monthly_etf_choice_20260517",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "hook",
+      "narration": "월 100만 원 배당. JEPI나 JEPQ를 사기 전에 이 질문부터요. 나는 월급이 필요한가, 자산 성장이 필요한가?",
+      "claim_ids": ["1"]
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "mechanism",
+      "narration": "JEPI와 JEPQ의 핵심은 커버드콜입니다. 주식을 들고 콜옵션을 팔아 매달 현금흐름을 만드는 구조죠.",
+      "claim_ids": ["2"]
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "comparison",
+      "narration": "SCHD는 결이 다릅니다. 월배당보다 배당의 질과 지속성, 낮은 보수에 가까운 ETF입니다. 총보수는 연 0.06%.",
+      "claim_ids": ["3", "4"]
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "tradeoff",
+      "narration": "현금흐름이 목표면 JEPI와 JEPQ, 배당 성장의 뼈대가 목표면 SCHD. 이름보다 목적이 먼저입니다.",
+      "claim_ids": ["5"]
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "risk",
+      "narration": "단, 높은 분배금은 공짜가 아닙니다. 상승장을 일부 포기할 수 있고, 분배금도 원금도 흔들릴 수 있습니다.",
+      "claim_ids": ["6"]
+    },
+    {
+      "section_id": "sec_006",
+      "objective": "close",
+      "narration": "정답은 상품명이 아니라 비중입니다. 월급이 필요한 돈과 성장시킬 돈을 나눠서 보세요.",
+      "claim_ids": ["7"]
+    }
+  ]
+}

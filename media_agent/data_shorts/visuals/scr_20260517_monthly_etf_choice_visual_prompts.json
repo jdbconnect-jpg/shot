@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-05-17T07:34:00",
+  "script_id": "scr_20260517_monthly_etf_choice",
+  "engine": "openai_gpt_image_2",
+  "reference_style": "premium_book_review_finance_visual_quality_only",
+  "scenes": [
+    {
+      "scene_id": "sc_001",
+      "stock_queries": ["monthly dividend ETF", "personal finance question", "ETF income"],
+      "ai_video_prompt": "A thoughtful investor checks whether monthly ETF distributions are salary-like income or a different investment tradeoff.",
+      "thumbnail_prompt": "Premium Korean finance Shorts background: monthly dividend ETF question, desk, phone, notebook, no readable text.",
+      "motion_direction": "초반 훅에서 천천히 줌인",
+      "on_screen_emphasis": ["월 100만원 배당", "사기 전 질문", "월급 vs 성장"],
+      "visual_style": "data_driven",
+      "realism_score": 0.9,
+      "media_type": "image",
+      "search_intent": "generated_image",
+      "source_hint": "월 100만 원 배당. 이 말에 JEPI나 JEPQ를 바로 사려는 순간, 먼저 봐야 할 질문이 있습니다."
+    },
+    {
+      "scene_id": "sc_002",
+      "stock_queries": ["covered call ETF", "option premium income", "investment structure"],
+      "ai_video_prompt": "A visual explanation of covered-call ETF income structure, with abstract option-flow ribbons and unlabeled cards.",
+      "thumbnail_prompt": "Premium finance visual, covered-call ETF structure, no text or logos.",
+      "motion_direction": "구조 설명에서 좌우 비교 느낌",
+      "on_screen_emphasis": ["주식 + 커버드콜", "월분배 구조"],
+      "visual_style": "data_driven",
+      "realism_score": 0.88,
+      "media_type": "image",
+      "search_intent": "generated_image",
+      "source_hint": "JEPI와 JEPQ는 높은 월분배로 유명하지만, 핵심은 커버드콜입니다."
+    },
+    {
+      "scene_id": "sc_003",
+      "stock_queries": ["ETF comparison", "dividend growth ETF", "quality dividend"],
+      "ai_video_prompt": "Three ETF lanes compared visually: income, growth, balanced quality, no tickers or labels.",
+      "thumbnail_prompt": "Premium ETF comparison background, three unlabeled folders and mini charts.",
+      "motion_direction": "비교 프레임에서 안정적 줌",
+      "on_screen_emphasis": ["SCHD", "0.06%", "배당의 질"],
+      "visual_style": "calm_finance",
+      "realism_score": 0.9,
+      "media_type": "image",
+      "search_intent": "generated_image",
+      "source_hint": "SCHD는 월배당이 아니라 배당의 질과 지속성에 가깝습니다."
+    },
+    {
+      "scene_id": "sc_004",
+      "stock_queries": ["cash flow vs growth", "ETF portfolio decision", "investment tradeoff"],
+      "ai_video_prompt": "A serious metaphor for cashflow arriving while long-term upside may be capped.",
+      "thumbnail_prompt": "Premium finance tradeoff background: cashflow vs growth, no readable text.",
+      "motion_direction": "선택 기준을 제시하며 살짝 확대",
+      "on_screen_emphasis": ["현금흐름", "장기 성장", "목표"],
+      "visual_style": "data_driven",
+      "realism_score": 0.88,
+      "media_type": "image",
+      "search_intent": "generated_image",
+      "source_hint": "당장 현금흐름이 중요하면 JEPI나 JEPQ, 장기 성장과 배당의 질은 SCHD."
+    },
+    {
+      "scene_id": "sc_005",
+      "stock_queries": ["ETF risk", "market volatility warning", "principal loss"],
+      "ai_video_prompt": "A calm caution scene about distribution changes, volatility, and principal loss risk.",
+      "thumbnail_prompt": "Premium finance risk background, subtle red accents, no readable text.",
+      "motion_direction": "주의사항에서 긴장감 있게 줌인",
+      "on_screen_emphasis": ["높은 분배금의 대가", "고정 월급 아님", "원금 변동"],
+      "visual_style": "caution",
+      "realism_score": 0.9,
+      "media_type": "image",
+      "search_intent": "generated_image",
+      "source_hint": "높은 분배금에는 상승 제한과 원금 변동이라는 대가가 있습니다."
+    },
+    {
+      "scene_id": "sc_006",
+      "stock_queries": ["ETF portfolio goal", "financial planning decision", "balanced portfolio"],
+      "ai_video_prompt": "A refined final decision scene matching ETF choice to goal, time horizon, and cashflow need.",
+      "thumbnail_prompt": "Premium calm conclusion background: arranging portfolio blocks, no readable text.",
+      "motion_direction": "결론에서 안정적이고 밝은 마무리",
+      "on_screen_emphasis": ["월급인가", "성장인가", "목표 먼저"],
+      "visual_style": "summary",
+      "realism_score": 0.9,
+      "media_type": "image",
+      "search_intent": "generated_image",
+      "source_hint": "ETF 이름보다 먼저 내 목표가 월급인지 성장인지부터 정하세요."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260517_kr_etf_top3",
+    "start_sec": 0,
+    "end_sec": 7,
+    "objective": "top3_hook",
+    "narration": "국장 ETF 인기 TOP 3만 보면, 돈이 어디로 가는지 바로 보입니다. 이건 추천이 아니라 시장의 온도계입니다.",
+    "title_text": "국장 ETF 인기 TOP 3",
+    "subtitle_text": "추천이 아니라 시장 온도계",
+    "claim_ids": [
+      "1"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260517_kr_etf_top3",
+    "start_sec": 7,
+    "end_sec": 15,
+    "objective": "top3_rank1",
+    "narration": "1위는 KODEX 200입니다. 결국 가장 큰 돈은 한국 대표 지수, 코스피 이백 전체에 몰려 있습니다.",
+    "title_text": "1위 KODEX 200",
+    "subtitle_text": "한국 대표 지수에 몰린 돈",
+    "claim_ids": [
+      "2"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260517_kr_etf_top3",
+    "start_sec": 15,
+    "end_sec": 23,
+    "objective": "top3_rank2",
+    "narration": "2위는 TIGER 미국 에스앤피 오백입니다. 국장 계좌에서도 미국 대표 기업을 사려는 수요가 크다는 뜻이죠.",
+    "title_text": "2위 TIGER S&P500",
+    "subtitle_text": "국장 계좌 속 미국 대표 기업",
+    "claim_ids": [
+      "3"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260517_kr_etf_top3",
+    "start_sec": 23,
+    "end_sec": 31,
+    "objective": "top3_rank3",
+    "narration": "3위는 TIGER 반도체 TOP10입니다. 반도체는 성장 기대가 크지만, 테마형이라 흔들림도 같이 봐야 합니다.",
+    "title_text": "3위 반도체 TOP10",
+    "subtitle_text": "성장 기대와 변동성",
+    "claim_ids": [
+      "4"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260517_kr_etf_top3",
+    "start_sec": 31,
+    "end_sec": 39,
+    "objective": "top3_close",
+    "narration": "정리하면 TOP 3는 한국 대표 지수, 미국 대표 지수, 반도체입니다. 따라 사기보다 내 비중부터 정하세요.",
+    "title_text": "인기보다 내 비중",
+    "subtitle_text": "따라 사기 전에 목적부터",
+    "claim_ids": [
+      "5"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  }
+]

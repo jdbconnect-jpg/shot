@@ -1,0 +1,35 @@
+tts:
+  primary:
+    provider: elevenlabs
+    api_key_env: ELEVENLABS_API_KEY
+    voice_id_env: ELEVENLABS_VOICE_ID
+    model_id_env: ELEVENLABS_MODEL_ID
+  local:
+    provider: edge_tts
+    voice: ko-KR-HyunsuMultilingualNeural
+    rate: "-8%"
+    pitch: "-4Hz"
+  fallback:
+    provider: macos_say
+    voice_name: "Junwoo"
+    voice_candidates:
+      - "Junwoo"
+      - "Jiho"
+      - "Minho"
+      - "Thomas"
+      - "Daniel"
+    final_fallback_voice: "Yuna"
+    note: "GPT-SoVITS 사용 불가 시 마지막 로컬 fallback. 한국어는 Yuna 우선."
+assets:
+  pexels:
+    api_key_env: PEXELS_API_KEY
+    base_url: https://api.pexels.com/videos/search
+render:
+  engine: remotion
+  subtitle_box_ratio: 0.90
+  shotstack:
+    api_key_env: SHOTSTACK_API_KEY
+publish:
+  youtube:
+    privacy_status: private
+    contains_synthetic_media: true

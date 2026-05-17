@@ -1,0 +1,104 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260517_kr_etf_top5",
+    "start_sec": 0,
+    "end_sec": 8,
+    "objective": "top_hook",
+    "narration": "국장 ETF TOP 5를 보면 돈의 방향이 보입니다. 단, 추천이 아니라 시장 온도계로 보세요.",
+    "title_text": "국장 ETF 인기 TOP 5",
+    "subtitle_text": "추천이 아니라 시장의 온도계",
+    "claim_ids": [
+      "1"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260517_kr_etf_top5",
+    "start_sec": 8,
+    "end_sec": 18,
+    "objective": "top_rank_1_2",
+    "narration": "1위 KODEX 200, 2위 TIGER 미국 S&P500. 한국 대표 지수와 미국 대표 지수에 돈이 가장 크게 몰렸습니다.",
+    "title_text": "1위 KODEX 200 / 2위 S&P500",
+    "subtitle_text": "시장 전체를 사는 돈",
+    "claim_ids": [
+      "2"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260517_kr_etf_top5",
+    "start_sec": 18,
+    "end_sec": 27,
+    "objective": "top_rank_3",
+    "narration": "3위는 TIGER 반도체 TOP10. 반도체를 성장 축으로 본다는 신호지만, 테마형은 흔들림도 큽니다.",
+    "title_text": "3위 반도체 TOP10",
+    "subtitle_text": "성장 테마와 변동성",
+    "claim_ids": [
+      "3"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260517_kr_etf_top5",
+    "start_sec": 27,
+    "end_sec": 36,
+    "objective": "top_rank_4_5",
+    "narration": "4위 TIGER 미국 나스닥100, 5위 TIGER 200. TOP 5는 한국 지수, 미국 지수, 반도체로 갈립니다.",
+    "title_text": "4위 나스닥100 / 5위 TIGER 200",
+    "subtitle_text": "한국·미국·반도체",
+    "claim_ids": [
+      "4"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260517_kr_etf_top5",
+    "start_sec": 36,
+    "end_sec": 45,
+    "objective": "top_takeaway",
+    "narration": "핵심은 상품명이 아닙니다. 코어 지수, 해외 성장, 섹터 테마 중 내 돈이 어디에 있을지입니다.",
+    "title_text": "인기 ETF의 세 갈래",
+    "subtitle_text": "한국 지수, 미국 지수, 성장 테마",
+    "claim_ids": [
+      "5"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_006",
+    "script_id": "scr_20260517_kr_etf_top5",
+    "start_sec": 45,
+    "end_sec": 53,
+    "objective": "top_risk_close",
+    "narration": "따라 사기 전 질문은 하나. 시장 전체를 살 건가, 성장 테마에 걸 건가. 인기보다 비중이 먼저입니다.",
+    "title_text": "인기보다 비중",
+    "subtitle_text": "따라 사기 전에 목적부터",
+    "claim_ids": [
+      "6"
+    ],
+    "visual_modes": [
+      "openai_generated_image"
+    ],
+    "asset_ids": []
+  }
+]

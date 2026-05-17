@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "article.schema.json",
+  "type": "object",
+  "required": ["article_id", "source_id", "canonical_url", "published_at", "title", "lang", "content_hash"],
+  "properties": {
+    "article_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "canonical_url": {"type": "string"},
+    "published_at": {"type": "string", "format": "date-time"},
+    "title": {"type": "string"},
+    "summary": {"type": "string"},
+    "body": {"type": "string"},
+    "lang": {"type": "string"},
+    "content_hash": {"type": "string"},
+    "simhash64": {"type": "string"},
+    "entities": {"type": "array", "items": {"type": "string"}},
+    "relevance_score": {"type": "number"},
+    "impact_score": {"type": "number"},
+    "trust_tier": {"type": "string", "enum": ["A", "B", "C"]}
+  },
+  "additionalProperties": true
+}

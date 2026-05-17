@@ -1,0 +1,81 @@
+{
+  "script_id": "scr_20260516_schd_dividend",
+  "cluster_id": "manual_schd_dividend_shorts",
+  "title": "매년 꾸준히 성장하는 배당? SCHD를 먼저 보는 이유",
+  "tone": "premium_gemini_finance_shorts_ko",
+  "description": "단순 고배당을 넘어, 배당의 질과 지속가능성을 바탕으로 꾸준한 성장을 추구하는 SCHD ETF의 특징과 투자 포인트를 정보 제공 관점에서 설명하는 쇼츠 스크립트입니다.",
+  "target_duration_sec": 47,
+  "source_article_ids": [
+    "schwab_schd_product",
+    "stooq_schd_quote_20260515"
+  ],
+  "source_articles": [
+    {
+      "article_id": "schwab_schd_product",
+      "title": "SCHD | Schwab U.S. Dividend Equity ETF",
+      "source_name": "Schwab Asset Management",
+      "canonical_url": "https://www.schwabassetmanagement.com/products/schd",
+      "published_at": "2026-05-16T20:05:00+09:00"
+    },
+    {
+      "article_id": "stooq_schd_quote_20260515",
+      "title": "SCHD.US quote",
+      "source_name": "Stooq",
+      "canonical_url": "https://stooq.com/q/l/?s=schd.us&f=sd2t2ohlcv&h&e=csv",
+      "published_at": "2026-05-15T22:00:20+09:00"
+    }
+  ],
+  "ledger_id": "manual_led_schd_20260516",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "hook",
+      "narration": "매년 꾸준히 성장하는 배당을 받을 수 있다면 어떨까요? 오늘은 단순히 고배당이 아닌, '버티는 힘'으로 주목받는 ETF, SCHD를 살펴보겠습니다.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "background",
+      "narration": "SCHD는 미국 대표 기업 중, '배당의 질'과 '지속가능성'이 뛰어난 100개 종목에 투자합니다. 무조건 높은 배당률만 쫓는 ETF와는 접근 방식이 다릅니다.",
+      "claim_ids": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "evidence",
+      "narration": "낮은 총보수도 큰 장점입니다. 연 0.06%의 낮은 비용은 장기 투자 시 복리 효과를 더욱 극대화하여 실제 수익률을 높이는 요소가 됩니다.",
+      "claim_ids": [
+        "3"
+      ]
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "etf_link",
+      "narration": "SCHD는 재무구조가 탄탄하고 현금 흐름이 안정적인 기업을 선별합니다. 꾸준히 성장하는 배당을 기대할 수 있는 우량주 위주로 구성되는 것이 핵심입니다.",
+      "claim_ids": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "risk",
+      "narration": "하지만 주의할 점도 있습니다. SCHD는 월배당 상품이 아니며, 주가는 시장 상황에 따라 변동성을 보입니다. 배당 외에 원금 손실 가능성도 항상 염두에 두세요.",
+      "claim_ids": [
+        "5"
+      ]
+    },
+    {
+      "section_id": "sec_006",
+      "objective": "close",
+      "narration": "SCHD는 단순 고배당이 아닌 '배당의 질'과 '성장'을 추구하는 투자자에게 매력적일 수 있습니다. 본인의 투자 목표와 기준에 맞춰 신중하게 판단하시기 바랍니다.",
+      "claim_ids": [
+        "6"
+      ]
+    }
+  ]
+}

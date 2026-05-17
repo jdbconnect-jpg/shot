@@ -1,0 +1,25 @@
+feeds:
+  - feed_id: mk-economy
+    name: 매일경제 경제
+    url: https://www.mk.co.kr/rss/30100041/
+    lang: ko-KR
+    trust_tier: A
+  - feed_id: hankyung-economy
+    name: 한국경제 경제
+    url: https://www.hankyung.com/feed/economy
+    lang: ko-KR
+    trust_tier: A
+  - feed_id: hankyung-market
+    name: 한국경제 증권
+    url: https://www.hankyung.com/feed/finance
+    lang: ko-KR
+    trust_tier: A
+policy:
+  fetch_timeout_sec: 15
+  user_agent: longform-economic-agent/0.1
+  dedupe:
+    exact_url: true
+    simhash_hamming_max: 3
+    embedding_model: bge-m3
+    embedding_cosine_min: 0.97
+    publish_window_hours: 24
