@@ -15,6 +15,8 @@ OUT_DIR = ROOT / "data_shorts" / "renders"
 TMP_DIR = OUT_DIR / "reference_layout_parts"
 W, H, FPS = 720, 1280, 30
 YELLOW = (255, 212, 59)
+TITLE_YELLOW = (255, 205, 0)
+TITLE_RED = (255, 0, 0)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
@@ -67,17 +69,25 @@ HIGHLIGHTS = [
 ]
 
 
-def font(size: int) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype("/System/Library/Fonts/AppleSDGothicNeo.ttc", size=size, index=6)
+def font(size: int, index: int = 6) -> ImageFont.FreeTypeFont:
+    return ImageFont.truetype("/System/Library/Fonts/AppleSDGothicNeo.ttc", size=size, index=index)
 
 
 TITLE_FONT = font(68)
 TITLE_FONT_SMALL = font(60)
-SUB_FONT = font(44)
+SUB_FONT = font(42, index=16)
 TITLE_SCALE = 3
-TITLE_STROKE = 12
-TITLE_FAKE_BOLD = 4
-TITLE_LINE_STEP = 78
+TITLE_STROKE = 1
+TITLE_LINE_STEP = 88
+SUBTITLE_SCALE = 3
+SUBTITLE_STROKE = 1
+TITLE_BOX_FONT_SIZES = (50, 46, 42, 38, 34)
+FAUX_BOLD_OFFSETS = (
+    (-1, 0),
+    (1, 0),
+    (0, -1),
+    (0, 1),
+)
 
 
 def cover_image(path: Path, size: tuple[int, int], zoom: float) -> Image.Image:
@@ -119,6 +129,25 @@ def text_width(draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont
     return box[2] - box[0]
 
 
+def draw_heavy_text(
+    draw: ImageDraw.ImageDraw,
+    xy: tuple[int, int],
+    text: str,
+    fnt: ImageFont.FreeTypeFont,
+    fill,
+    stroke_width: int = 0,
+    stroke_fill=None,
+    faux_radius: int = 1,
+) -> None:
+    x, y = xy
+    if stroke_width:
+        draw.text((x, y), text, font=fnt, fill=fill, stroke_width=stroke_width, stroke_fill=stroke_fill or fill)
+    for ox, oy in FAUX_BOLD_OFFSETS:
+        if abs(ox) <= faux_radius and abs(oy) <= faux_radius:
+            draw.text((x + ox, y + oy), text, font=fnt, fill=fill)
+    draw.text((x, y), text, font=fnt, fill=fill)
+
+
 def highlight_parts(line: str) -> list[tuple[str, tuple[int, int, int]]]:
     parts: list[tuple[str, tuple[int, int, int]]] = []
     i = 0
@@ -143,42 +172,73 @@ def draw_centered_highlight(draw: ImageDraw.ImageDraw, y: int, line: str, fnt: I
     total = sum(text_width(draw, text, fnt) for text, _ in parts)
     x = max(24, (W - total) // 2)
     for text, color in parts:
-        draw.text((x, y), text, font=fnt, fill=color, stroke_width=TITLE_STROKE, stroke_fill=BLACK)
+        draw_heavy_text(draw, (x, y), text, fnt, color, stroke_width=TITLE_STROKE, stroke_fill=BLACK, faux_radius=1)
         x += text_width(draw, text, fnt)
 
 
 def title_font_for_line(line: str) -> ImageFont.FreeTypeFont:
     draw = ImageDraw.Draw(Image.new("RGB", (1, 1)))
-    for size in (68, 62, 56, 50):
+    for size in (74, 68, 62, 56, 50):
         fnt = font(size)
         width = text_width(draw, line, fnt, TITLE_STROKE)
-        if width + TITLE_FAKE_BOLD * 2 <= W - 72:
+        if width <= W - 80:
             return fnt
-    return font(48)
+    return font(46)
 
 
-def title_line_color(line_no: int, line_count: int) -> tuple[int, int, int]:
-    if line_count >= 3 and line_no < 2:
-        return YELLOW
-    if line_count == 2 and line_no == 0:
-        return YELLOW
-    return WHITE
+def title_line_parts(line: str, line_no: int, line_count: int) -> list[tuple[str, tuple[int, int, int]]]:
+    if line_count == 2 and line_no == 1:
+        return [(line, TITLE_YELLOW)]
+    if line_count >= 3 and line_no >= 1:
+        return [(line, TITLE_YELLOW)]
+
+    parts: list[tuple[str, tuple[int, int, int]]] = []
+    i = 0
+    while i < len(line):
+        if line.startswith("TOP", i):
+            j = i + 3
+            while j < len(line) and (line[j].isdigit() or line[j].isspace()):
+                j += 1
+            parts.append((line[i:j], TITLE_RED))
+            i = j
+            continue
+        parts.append((line[i], WHITE))
+        i += 1
+    return parts
 
 
-def make_title_layer(line: str, fnt: ImageFont.FreeTypeFont, color: tuple[int, int, int]) -> Image.Image:
-    # Render title text at higher resolution, then downsample for cleaner Korean glyph edges.
+def make_title_layer(line: str, line_no: int, line_count: int, fnt: ImageFont.FreeTypeFont) -> Image.Image:
+    # Render title text at higher resolution, then downsample for clean Korean glyph edges.
     scale = TITLE_SCALE
     layer = Image.new("RGBA", (W * scale, 150 * scale), (0, 0, 0, 0))
     hi_draw = ImageDraw.Draw(layer)
     hi_font = font(fnt.size * scale)
     stroke = TITLE_STROKE * scale
-    box = hi_draw.textbbox((0, 0), line, font=hi_font, stroke_width=stroke)
-    total = box[2] - box[0]
-    x = max(36 * scale, (W * scale - total) // 2) - box[0]
-    y_hi = 18 * scale - box[1]
-    offsets = [(0, 0), (TITLE_FAKE_BOLD * scale, 0), (-TITLE_FAKE_BOLD * scale, 0), (0, TITLE_FAKE_BOLD * scale)]
-    for dx, dy in offsets:
-        hi_draw.text((x + dx, y_hi + dy), line, font=hi_font, fill=color + (255,), stroke_width=stroke, stroke_fill=BLACK + (255,))
+    parts = title_line_parts(line, line_no, line_count)
+    boxes = [hi_draw.textbbox((0, 0), text, font=hi_font, stroke_width=stroke) for text, _ in parts]
+    total = sum(box[2] - box[0] for box in boxes)
+    x = max(28 * scale, (W * scale - total) // 2)
+    min_top = min((box[1] for box in boxes), default=0)
+    y_hi = 18 * scale - min_top
+    cur_x = x
+    for (text, color), box in zip(parts, boxes):
+        part_x = cur_x - box[0]
+        hi_draw.text(
+            (part_x, y_hi),
+            text,
+            font=hi_font,
+            fill=color + (255,),
+            stroke_width=stroke,
+            stroke_fill=BLACK + (255,),
+        )
+        for ox, oy in FAUX_BOLD_OFFSETS:
+            hi_draw.text(
+                (part_x + ox * scale, y_hi + oy * scale),
+                text,
+                font=hi_font,
+                fill=color + (255,),
+            )
+        cur_x += box[2] - box[0]
     return layer.resize((W, 150), Image.Resampling.LANCZOS)
 
 
@@ -218,6 +278,110 @@ def wrap_text(draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont,
 
 def rounded_rect(draw: ImageDraw.ImageDraw, xy: tuple[int, int, int, int], radius: int, fill, outline, width: int) -> None:
     draw.rounded_rectangle(xy, radius=radius, fill=fill, outline=outline, width=width)
+
+
+def draw_reference_title_box(draw: ImageDraw.ImageDraw, headline: list[str]) -> None:
+    title = " ".join(headline[:2]).strip() or (headline[0] if headline else "")
+    box_x, box_y, box_w = 52, 64, 616
+    pad_l, pad_r, pad_y = 48, 28, 22
+    bar_x, bar_w = box_x + 16, 8
+    max_text_w = box_w - pad_l - pad_r
+
+    title_font = font(46)
+    lines = [title]
+    for size in TITLE_BOX_FONT_SIZES:
+        candidate_font = font(size)
+        candidate_lines = wrap_text(draw, title, candidate_font, max_text_w)
+        if len(candidate_lines) <= 2 and all(text_width(draw, line, candidate_font) <= max_text_w for line in candidate_lines):
+            title_font = candidate_font
+            lines = candidate_lines
+            break
+
+    line_h = title_font.size + 12
+    box_h = pad_y * 2 + line_h * len(lines)
+    draw.rounded_rectangle(
+        (box_x, box_y, box_x + box_w, box_y + box_h),
+        radius=10,
+        fill=(5, 5, 5),
+        outline=(18, 18, 18),
+        width=2,
+    )
+    draw.rounded_rectangle((bar_x, box_y + 18, bar_x + bar_w, box_y + box_h - 18), radius=6, fill=TITLE_YELLOW)
+
+    text_y = box_y + pad_y - 4
+    for line in lines:
+        draw_heavy_text(
+            draw,
+            (box_x + pad_l, text_y),
+            line,
+            title_font,
+            TITLE_YELLOW,
+            stroke_width=1,
+            stroke_fill=(18, 18, 18),
+            faux_radius=1,
+        )
+        text_y += line_h
+
+
+def draw_reference_subtitle_box(draw: ImageDraw.ImageDraw, text: str) -> None:
+    band_top, band_bottom = 904, 1168
+    band_h = band_bottom - band_top
+    draw.rectangle((0, band_top, W, band_bottom), fill=BLACK)
+    draw.rectangle((0, band_top, W, band_top + 2), fill=(18, 18, 18))
+    draw.rectangle((0, band_bottom - 2, W, band_bottom), fill=(18, 18, 18))
+
+    max_w = W - 96
+    # Keep subtitles readable on phones. Heavy Korean fonts plus thick strokes
+    # close up glyph counters and turn the line into a white block.
+    subtitle_font = font(38, index=6)
+    stroke_width = 1
+    lines = wrap_text(draw, text, subtitle_font, max_w)
+    for size in (38, 36, 34, 32, 30):
+        candidate = font(size, index=6)
+        candidate_lines = wrap_text(draw, text, candidate, max_w)
+        if (
+            len(candidate_lines) <= 2
+            and all(text_width(draw, line, candidate, stroke_width) <= max_w for line in candidate_lines)
+        ):
+            subtitle_font = candidate
+            lines = candidate_lines
+            break
+
+    scale = SUBTITLE_SCALE
+    layer = Image.new("RGBA", (W * scale, band_h * scale), (0, 0, 0, 0))
+    hi_draw = ImageDraw.Draw(layer)
+    hi_font = font(subtitle_font.size * scale, index=6)
+    stroke = stroke_width * scale
+    line_step = int(subtitle_font.size * 1.42 * scale)
+    boxes = [hi_draw.textbbox((0, 0), line, font=hi_font, stroke_width=stroke) for line in lines]
+    text_h = line_step * (len(lines) - 1) + max((box[3] - box[1] for box in boxes), default=0)
+    y = 32 * scale
+
+    for line, box in zip(lines, boxes):
+        tw = box[2] - box[0]
+        x = (W * scale - tw) // 2 - box[0]
+        baseline_y = y - box[1]
+        # Soft shadow preserves contrast without swallowing the Korean shapes.
+        for dx, dy in ((0, 3), (3, 3)):
+            hi_draw.text(
+                (x + dx * scale, baseline_y + dy * scale),
+                line,
+                font=hi_font,
+                fill=(0, 0, 0, 180),
+            )
+        hi_draw.text(
+            (x, baseline_y),
+            line,
+            font=hi_font,
+            fill=WHITE + (255,),
+            stroke_width=stroke,
+            stroke_fill=(0, 0, 0, 255),
+        )
+        hi_draw.text((x, baseline_y), line, font=hi_font, fill=WHITE + (255,))
+        y += line_step
+
+    subtitle = layer.resize((W, band_h), Image.Resampling.LANCZOS)
+    draw._image.paste(subtitle, (0, band_top), subtitle)
 
 
 def active_subtitle(scene: dict, frame: int) -> str:
@@ -278,18 +442,11 @@ def render_scene(scene: dict, idx: int) -> Path:
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     assert proc.stdin is not None
 
-    image_y, image_h = 403, 492
+    image_y, image_h = 360, 535
     prepared_bg = prepare_smooth_background(bg_path, (W, image_h), 1.04)
     headline = HEADLINES.get(scene["objective"]) or (scene.get("visualPrompt", {}).get("on_screen_emphasis") or [])[:3]
     if not headline:
         headline = [scene["subtitles"][0]["text"] if scene["subtitles"] else ""]
-    title_start = 54 if len(headline) == 3 else 112
-    title_layers = []
-    for line_no, line in enumerate(headline):
-        fnt = title_font_for_line(line)
-        color = title_line_color(line_no, len(headline))
-        title_layers.append((title_start + line_no * TITLE_LINE_STEP, make_title_layer(line, fnt, color)))
-
     for frame_idx in range(frames):
         progress = frame_idx / max(1, frames - 1)
         canvas = Image.new("RGB", (W, H), BLACK)
@@ -300,23 +457,10 @@ def render_scene(scene: dict, idx: int) -> Path:
         draw.rectangle((0, image_y, W, image_y + 4), fill=(18, 18, 18))
         draw.rectangle((0, image_y + image_h - 4, W, image_y + image_h), fill=(18, 18, 18))
 
-        for title_y, title_layer in title_layers:
-            draw_centered_highlight_smooth(canvas, title_y, title_layer)
+        draw_reference_title_box(draw, headline)
 
         sub = active_subtitle(scene, frame_idx)
-        lines = wrap_text(draw, sub, SUB_FONT, 620)
-        text_y = 914
-        for line in lines:
-            tw = text_width(draw, line, SUB_FONT)
-            draw.text(
-                ((W - tw) // 2, text_y),
-                line,
-                font=SUB_FONT,
-                fill=WHITE,
-                stroke_width=5,
-                stroke_fill=BLACK,
-            )
-            text_y += 52
+        draw_reference_subtitle_box(draw, sub)
 
         bar_w = int((W - 96) * max(0.04, progress))
         draw.rounded_rectangle((48, H - 34, W - 48, H - 28), radius=99, fill=(48, 48, 48))
@@ -336,7 +480,7 @@ def main() -> None:
     parts = [render_scene(scene, idx) for idx, scene in enumerate(job["scenes"], start=1)]
     concat_file = TMP_DIR / "concat.txt"
     concat_file.write_text("".join(f"file '{part.resolve()}'\n" for part in parts), encoding="utf-8")
-    out = OUT_DIR / f"{job['scriptId']}_youtube_short_reference_720p.mp4"
+    out = OUT_DIR / f"{job['scriptId']}_black_band_subtitle_css_720p.mp4"
     subprocess.run(
         [
             "ffmpeg",

@@ -1,0 +1,56 @@
+{
+  "fetched_at": "2026-05-05T06:58:42.281777+00:00",
+  "items": [
+    {
+      "stat_id": "ecos_export_yoy",
+      "provider": "ecos",
+      "label": "한국 수출 증감률",
+      "source_type": "official_stat",
+      "source_ref": "901Y014",
+      "source_title": "한국 수출 증감률",
+      "canonical_url": null,
+      "time": null,
+      "value": null,
+      "numeric_value": null,
+      "unit": "%",
+      "excerpt_or_value": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+      "checked_at": "2026-05-05T06:58:42.281381+00:00",
+      "confidence": 0.0,
+      "notes": "missing_api_key"
+    },
+    {
+      "stat_id": "ecos_cpi_yoy",
+      "provider": "ecos",
+      "label": "소비자물가 상승률",
+      "source_type": "official_stat",
+      "source_ref": "901Y009",
+      "source_title": "소비자물가 상승률",
+      "canonical_url": null,
+      "time": null,
+      "value": null,
+      "numeric_value": null,
+      "unit": "%",
+      "excerpt_or_value": "소비자물가 상승률 연동 대기: ECOS_API_KEY 설정 필요",
+      "checked_at": "2026-05-05T06:58:38.493271+00:00",
+      "confidence": 0.0,
+      "notes": "missing_api_key"
+    },
+    {
+      "stat_id": "ecos_base_rate",
+      "provider": "ecos",
+      "label": "한국은행 기준금리",
+      "source_type": "official_stat",
+      "source_ref": "722Y001",
+      "source_title": "한국은행 기준금리",
+      "canonical_url": null,
+      "time": null,
+      "value": null,
+      "numeric_value": null,
+      "unit": "%",
+      "excerpt_or_value": "한국은행 기준금리 연동 대기: ECOS_API_KEY 설정 필요",
+      "checked_at": "2026-05-05T06:58:38.493290+00:00",
+      "confidence": 0.0,
+      "notes": "missing_api_key"
+    }
+  ]
+}

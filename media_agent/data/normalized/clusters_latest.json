@@ -1,0 +1,75 @@
+[
+  {
+    "cluster_id": "evt_001",
+    "title": "수출 관련 뉴스 묶음",
+    "topic": "수출",
+    "article_ids": [
+      "art_284adf27fa2e057b",
+      "art_45a19d9ffed3e2cf"
+    ],
+    "dominant_entities": [
+      "반도체",
+      "수출"
+    ],
+    "coherence": 0.66,
+    "impact_score": 58
+  },
+  {
+    "cluster_id": "evt_002",
+    "title": "환율 관련 뉴스 묶음",
+    "topic": "환율",
+    "article_ids": [
+      "art_f87729853f1180b5",
+      "art_760e91d89a4cdf6d"
+    ],
+    "dominant_entities": [
+      "금리",
+      "수출",
+      "환율"
+    ],
+    "coherence": 0.66,
+    "impact_score": 58
+  },
+  {
+    "cluster_id": "evt_003",
+    "title": "반도체 관련 뉴스 묶음",
+    "topic": "반도체",
+    "article_ids": [
+      "art_3207d5614180af18",
+      "art_ab8b3aed9de7e675"
+    ],
+    "dominant_entities": [
+      "ETF",
+      "반도체",
+      "코스피"
+    ],
+    "coherence": 0.66,
+    "impact_score": 58
+  },
+  {
+    "cluster_id": "evt_004",
+    "title": "misc 관련 뉴스 묶음",
+    "topic": "misc",
+    "article_ids": [
+      "art_f99309522bbff34c"
+    ],
+    "dominant_entities": [],
+    "coherence": 0.63,
+    "impact_score": 54
+  },
+  {
+    "cluster_id": "evt_005",
+    "title": "코스피 관련 뉴스 묶음",
+    "topic": "코스피",
+    "article_ids": [
+      "art_66813b6c0df23193",
+      "art_ed6cd0a2943356ca"
+    ],
+    "dominant_entities": [
+      "코스닥",
+      "코스피"
+    ],
+    "coherence": 0.66,
+    "impact_score": 58
+  }
+]

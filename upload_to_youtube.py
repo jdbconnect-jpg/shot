@@ -30,6 +30,7 @@ def load_credentials(client_secrets_file: Path, token_file: Path):
 def upload_video(metadata_path: Path):
     metadata = json.loads(metadata_path.read_text())
     video_path = Path(metadata["video_path"])
+    thumbnail_path = Path(metadata["thumbnail_path"]) if metadata.get("thumbnail_path") else None
     client_secrets_file = Path(os.environ["YOUTUBE_CLIENT_SECRETS_FILE"])
     token_file = Path(os.environ.get("YOUTUBE_TOKEN_FILE", ".secrets/youtube-token.json"))
 
@@ -37,6 +38,8 @@ def upload_video(metadata_path: Path):
         raise FileNotFoundError(f"client secrets 파일이 없습니다: {client_secrets_file}")
     if not video_path.exists():
         raise FileNotFoundError(f"업로드할 영상이 없습니다: {video_path}")
+    if thumbnail_path and not thumbnail_path.exists():
+        raise FileNotFoundError(f"업로드할 썸네일이 없습니다: {thumbnail_path}")
 
     creds = load_credentials(client_secrets_file, token_file)
     youtube = build("youtube", "v3", credentials=creds)
@@ -46,7 +49,7 @@ def upload_video(metadata_path: Path):
             "title": metadata.get("title", video_path.stem),
             "description": metadata.get("description", ""),
             "tags": metadata.get("tags", []),
-            "categoryId": "25",
+            "categoryId": metadata.get("category_id", "27"),
         },
         "status": {
             "privacyStatus": metadata.get("privacy_status", os.environ.get("YOUTUBE_PRIVACY_STATUS", "private")),
@@ -67,6 +70,11 @@ def upload_video(metadata_path: Path):
         "video_id": response["id"],
         "url": f"https://www.youtube.com/watch?v={response['id']}",
     }
+    if thumbnail_path:
+        thumb_media = MediaFileUpload(str(thumbnail_path), mimetype="image/jpeg")
+        youtube.thumbnails().set(videoId=response["id"], media_body=thumb_media).execute()
+        uploaded["thumbnail_path"] = str(thumbnail_path)
+
     output_path = metadata_path.with_suffix(".uploaded.json")
     output_path.write_text(json.dumps(uploaded, ensure_ascii=False, indent=2))
     print(json.dumps(uploaded, ensure_ascii=False, indent=2))

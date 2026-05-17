@@ -1,0 +1,77 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260503_182954",
+    "start_sec": 0,
+    "end_sec": 48,
+    "objective": "hook",
+    "narration": "오늘 시장은 숫자 하나보다 그 숫자가 바뀌는 속도에 더 민감하게 반응하고 있습니다.",
+    "subtitle_text": "오늘 시장은 숫자 하나보다 그 숫자가 바뀌는 속도에 더 민…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260503_182954",
+    "start_sec": 48,
+    "end_sec": 96,
+    "objective": "today_core",
+    "narration": "핵심은 금리, 환율, 그리고 수출과 내수의 속도 차이를 함께 봐야 한다는 점입니다.",
+    "subtitle_text": "핵심은 금리, 환율, 그리고 수출과 내수의 속도 차이를 함…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260503_182954",
+    "start_sec": 96,
+    "end_sec": 144,
+    "objective": "evidence",
+    "narration": "오늘 모은 기사들을 보면 정책과 시장 반응이 한 방향으로만 움직이지 않는다는 점이 반복해서 확인됩니다.",
+    "subtitle_text": "오늘 모은 기사들을 보면 정책과 시장 반응이 한 방향으로만…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260503_182954",
+    "start_sec": 144,
+    "end_sec": 192,
+    "objective": "etf_link",
+    "narration": "ETF 관점에서는 개별 종목보다 금리 민감도와 달러, 수출 업종 비중을 같이 해석하는 쪽이 더 안전합니다.",
+    "subtitle_text": "ETF 관점에서는 개별 종목보다 금리 민감도와 달러, 수출…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260503_182954",
+    "start_sec": 192,
+    "end_sec": 240,
+    "objective": "close",
+    "narration": "결론적으로 오늘은 상승이나 하락 자체보다 어떤 변수에 시장이 먼저 반응하는지를 보는 날에 가깝습니다.",
+    "subtitle_text": "결론적으로 오늘은 상승이나 하락 자체보다 어떤 변수에 시장…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  }
+]

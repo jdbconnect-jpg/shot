@@ -1,0 +1,320 @@
+[
+  {
+    "scene_id": "sc_001",
+    "query": "passive income investing",
+    "visual_prompt": {
+      "scene_id": "sc_001",
+      "stock_queries": [
+        "passive income investing",
+        "monthly dividend income",
+        "personal finance question"
+      ],
+      "ai_video_prompt": "Vertical 9:16 realistic finance explainer shot, calm cinematic lighting, visual metaphor for: JEPQ로 제2의 월급 100만 원?. No readable brand logos, no fake text.",
+      "thumbnail_prompt": "Vertical YouTube Shorts thumbnail, premium Korean finance channel style, clear focal point about JEPQ로 제2의 월급 100만 원?, bold readable Korean headline space, trustworthy tone.",
+      "motion_direction": "천천히 줌인, 핵심 숫자 등장 시 살짝 강조",
+      "on_screen_emphasis": [
+        "JEPQ로 제2의 월급 100만",
+        "숫자로 확인",
+        "주의점"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.85,
+      "search_intent": "stock",
+      "source_hint": "JEPQ로 매달 100만 원, 월급처럼 받으려면 얼마가 필요할까요? 숫자로 보면 꽤 현실적입니다.",
+      "background_source": "panda_teacher_generated"
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_001_panda_teacher_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image-reference",
+        "provider_ref": "sc_001_panda_teacher.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_media/scr_20260505_183300_panda3/sc_001_panda_teacher.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "asset_id": "sc_001_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 0,
+      "coverr": 0
+    }
+  },
+  {
+    "scene_id": "sc_002",
+    "query": "dividend income calculator",
+    "visual_prompt": {
+      "scene_id": "sc_002",
+      "stock_queries": [
+        "dividend income calculator",
+        "financial planning spreadsheet",
+        "investment portfolio review"
+      ],
+      "ai_video_prompt": "Vertical 9:16 realistic finance explainer shot, calm cinematic lighting, visual metaphor for: 필요 원금 약 1.2억. No readable brand logos, no fake text.",
+      "thumbnail_prompt": "Vertical YouTube Shorts thumbnail, premium Korean finance channel style, clear focal point about 필요 원금 약 1.2억, bold readable Korean headline space, trustworthy tone.",
+      "motion_direction": "천천히 줌인, 핵심 숫자 등장 시 살짝 강조",
+      "on_screen_emphasis": [
+        "필요 원금 약 1.2억",
+        "숫자로 확인",
+        "주의점"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.85,
+      "search_intent": "stock",
+      "source_hint": "최근 1년 분배금으로 계산하면 원금은 약 1억 2천만 원. 이 돈을 넣었을 때 연 분배금은 약 1천260만 원이었습니다.",
+      "background_source": "existing_asset_api"
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_002_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 5466764,
+        "url": "https://videos.pexels.com/video-files/5466764/5466764-hd_1920_1080_25fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/5466764/accounting-money-tax-taxes-5466764.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 1920,
+        "height": 1080,
+        "duration": 17
+      },
+      {
+        "asset_id": "sc_002_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 0,
+      "coverr": 0
+    }
+  },
+  {
+    "scene_id": "sc_003",
+    "query": "investment analytics dashboard",
+    "visual_prompt": {
+      "scene_id": "sc_003",
+      "stock_queries": [
+        "investment analytics dashboard",
+        "dividend chart analysis",
+        "portfolio performance data"
+      ],
+      "ai_video_prompt": "Vertical 9:16 realistic finance explainer shot, calm cinematic lighting, visual metaphor for: 월평균 약 105만 원. No readable brand logos, no fake text.",
+      "thumbnail_prompt": "Vertical YouTube Shorts thumbnail, premium Korean finance channel style, clear focal point about 월평균 약 105만 원, bold readable Korean headline space, trustworthy tone.",
+      "motion_direction": "천천히 줌인, 핵심 숫자 등장 시 살짝 강조",
+      "on_screen_emphasis": [
+        "월평균 약 105만 원",
+        "숫자로 확인",
+        "주의점"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.85,
+      "search_intent": "stock",
+      "source_hint": "월로 나누면 약 105만 원. 그래서 은퇴 현금흐름이나 제2의 월급 얘기에서 JEPQ가 자주 등장합니다.",
+      "background_source": "existing_asset_api"
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_003_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 35124442,
+        "url": "https://videos.pexels.com/video-files/35124442/14879994_1280_720_25fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/35124442/analysis-analytics-bearish-blockchain-35124442.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 1280,
+        "height": 720,
+        "duration": 10
+      },
+      {
+        "asset_id": "sc_003_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 0,
+      "coverr": 0
+    }
+  },
+  {
+    "scene_id": "sc_004",
+    "query": "nasdaq technology stocks",
+    "visual_prompt": {
+      "scene_id": "sc_004",
+      "stock_queries": [
+        "nasdaq technology stocks",
+        "ETF portfolio trading screen",
+        "stock market data monitor"
+      ],
+      "ai_video_prompt": "Vertical 9:16 realistic finance explainer shot, calm cinematic lighting, visual metaphor for: 높은 분배금의 비결. No readable brand logos, no fake text.",
+      "thumbnail_prompt": "Vertical YouTube Shorts thumbnail, premium Korean finance channel style, clear focal point about 높은 분배금의 비결, bold readable Korean headline space, trustworthy tone.",
+      "motion_direction": "천천히 줌인, 핵심 숫자 등장 시 살짝 강조",
+      "on_screen_emphasis": [
+        "높은 분배금의 비결",
+        "숫자로 확인",
+        "주의점"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.85,
+      "search_intent": "stock",
+      "source_hint": "비결은 나스닥100 관련 자산에 투자하면서 콜옵션을 팔아 분배 재원을 만드는 커버드콜 전략입니다.",
+      "background_source": "panda_teacher_generated"
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_004_panda_teacher_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image-reference",
+        "provider_ref": "sc_004_panda_teacher.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_media/scr_20260505_183300_panda3/sc_004_panda_teacher.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "asset_id": "sc_004_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 0,
+      "coverr": 0
+    }
+  },
+  {
+    "scene_id": "sc_005",
+    "query": "stock market volatility warning",
+    "visual_prompt": {
+      "scene_id": "sc_005",
+      "stock_queries": [
+        "stock market volatility warning",
+        "investment risk chart",
+        "red market dashboard"
+      ],
+      "ai_video_prompt": "Vertical 9:16 realistic finance explainer shot, calm cinematic lighting, visual metaphor for: 착각하면 안 되는 점. No readable brand logos, no fake text.",
+      "thumbnail_prompt": "Vertical YouTube Shorts thumbnail, premium Korean finance channel style, clear focal point about 착각하면 안 되는 점, bold readable Korean headline space, trustworthy tone.",
+      "motion_direction": "천천히 줌인, 핵심 숫자 등장 시 살짝 강조",
+      "on_screen_emphasis": [
+        "착각하면 안 되는 점",
+        "숫자로 확인",
+        "주의점"
+      ],
+      "visual_style": "caution",
+      "realism_score": 0.85,
+      "search_intent": "stock",
+      "source_hint": "하지만 여기서 착각하면 안 됩니다. 분배금은 고정 월급이 아니고, 주가 상승 일부를 포기하는 구조도 있습니다.",
+      "background_source": "existing_asset_api"
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_005_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 3945008,
+        "url": "https://videos.pexels.com/video-files/3945008/3945008-hd_1280_720_60fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/3945008/4k-after-effects-analysis-animation-3945008.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 1280,
+        "height": 720,
+        "duration": 61
+      },
+      {
+        "asset_id": "sc_005_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 0,
+      "coverr": 0
+    }
+  },
+  {
+    "scene_id": "sc_006",
+    "query": "financial independence summary",
+    "visual_prompt": {
+      "scene_id": "sc_006",
+      "stock_queries": [
+        "financial independence summary",
+        "portfolio checklist",
+        "calm finance recap"
+      ],
+      "ai_video_prompt": "Vertical 9:16 realistic finance explainer shot, calm cinematic lighting, visual metaphor for: JEPQ 핵심정리. No readable brand logos, no fake text.",
+      "thumbnail_prompt": "Vertical YouTube Shorts thumbnail, premium Korean finance channel style, clear focal point about JEPQ 핵심정리, bold readable Korean headline space, trustworthy tone.",
+      "motion_direction": "천천히 줌인, 핵심 숫자 등장 시 살짝 강조",
+      "on_screen_emphasis": [
+        "JEPQ 핵심정리",
+        "숫자로 확인",
+        "주의점"
+      ],
+      "visual_style": "summary",
+      "realism_score": 0.85,
+      "search_intent": "stock",
+      "source_hint": "정리하면 JEPQ는 월 현금흐름이 필요한 사람에겐 매력적이지만, 성장성과 변동성까지 같이 봐야 하는 ETF입니다.",
+      "background_source": "panda_teacher_generated"
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_006_panda_teacher_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image-reference",
+        "provider_ref": "sc_006_panda_teacher.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_media/scr_20260505_183300_panda3/sc_006_panda_teacher.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "asset_id": "sc_006_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 0,
+      "coverr": 0
+    }
+  }
+]

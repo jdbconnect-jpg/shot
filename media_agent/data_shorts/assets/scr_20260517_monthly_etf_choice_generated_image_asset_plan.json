@@ -1,0 +1,164 @@
+[
+  {
+    "scene_id": "sc_001",
+    "query": "monthly dividend ETF decision",
+    "media_type": "image",
+    "visual_prompt": {
+      "visual_style": "data_driven",
+      "motion_direction": "초반 훅에서 천천히 줌인",
+      "on_screen_emphasis": ["월 100만원 배당", "사기 전 질문", "월급 vs 성장"]
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_001_openai_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image",
+        "provider_ref": "sc_001.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_001.jpg",
+        "preview_image": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_001.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {"asset_id": "sc_001_card_1", "asset_type": "title_card", "provider": "local", "license_class": "owned", "usage_rights_ok": true, "score": 0.65}
+    ],
+    "provider_hits": {"openai": 1}
+  },
+  {
+    "scene_id": "sc_002",
+    "query": "covered call ETF income structure",
+    "media_type": "image",
+    "visual_prompt": {
+      "visual_style": "data_driven",
+      "motion_direction": "구조 설명에서 좌우 비교 느낌",
+      "on_screen_emphasis": ["주식 + 커버드콜", "월분배 구조"]
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_002_openai_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image",
+        "provider_ref": "sc_002.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_002.jpg",
+        "preview_image": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_002.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {"asset_id": "sc_002_card_1", "asset_type": "title_card", "provider": "local", "license_class": "owned", "usage_rights_ok": true, "score": 0.65}
+    ],
+    "provider_hits": {"openai": 1}
+  },
+  {
+    "scene_id": "sc_003",
+    "query": "ETF comparison dividend quality",
+    "media_type": "image",
+    "visual_prompt": {
+      "visual_style": "calm_finance",
+      "motion_direction": "비교 프레임에서 안정적 줌",
+      "on_screen_emphasis": ["SCHD", "0.06%", "배당의 질"]
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_003_openai_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image",
+        "provider_ref": "sc_003.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_003.jpg",
+        "preview_image": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_003.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {"asset_id": "sc_003_card_1", "asset_type": "title_card", "provider": "local", "license_class": "owned", "usage_rights_ok": true, "score": 0.65}
+    ],
+    "provider_hits": {"openai": 1}
+  },
+  {
+    "scene_id": "sc_004",
+    "query": "cashflow vs growth ETF tradeoff",
+    "media_type": "image",
+    "visual_prompt": {
+      "visual_style": "data_driven",
+      "motion_direction": "선택 기준을 제시하며 살짝 확대",
+      "on_screen_emphasis": ["현금흐름", "장기 성장", "목표"]
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_004_openai_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image",
+        "provider_ref": "sc_004.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_004.jpg",
+        "preview_image": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_004.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {"asset_id": "sc_004_card_1", "asset_type": "title_card", "provider": "local", "license_class": "owned", "usage_rights_ok": true, "score": 0.65}
+    ],
+    "provider_hits": {"openai": 1}
+  },
+  {
+    "scene_id": "sc_005",
+    "query": "ETF risk volatility principal loss",
+    "media_type": "image",
+    "visual_prompt": {
+      "visual_style": "caution",
+      "motion_direction": "주의사항에서 긴장감 있게 줌인",
+      "on_screen_emphasis": ["높은 분배금의 대가", "고정 월급 아님", "원금 변동"]
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_005_openai_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image",
+        "provider_ref": "sc_005.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_005.jpg",
+        "preview_image": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_005.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {"asset_id": "sc_005_card_1", "asset_type": "title_card", "provider": "local", "license_class": "owned", "usage_rights_ok": true, "score": 0.65}
+    ],
+    "provider_hits": {"openai": 1}
+  },
+  {
+    "scene_id": "sc_006",
+    "query": "ETF portfolio goal planning",
+    "media_type": "image",
+    "visual_prompt": {
+      "visual_style": "summary",
+      "motion_direction": "결론에서 안정적이고 밝은 마무리",
+      "on_screen_emphasis": ["월급인가", "성장인가", "목표 먼저"]
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_006_openai_generated",
+        "asset_type": "stock_photo",
+        "provider": "openai-image",
+        "provider_ref": "sc_006.jpg",
+        "url": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_006.jpg",
+        "preview_image": "file:///Users/ahramlee/.openclaw/workspace/media_agent/data_shorts/generated_images/scr_20260517_monthly_etf_choice/sc_006.jpg",
+        "license_class": "generated-owned",
+        "usage_rights_ok": true,
+        "score": 0.99,
+        "width": 1024,
+        "height": 1536
+      },
+      {"asset_id": "sc_006_card_1", "asset_type": "title_card", "provider": "local", "license_class": "owned", "usage_rights_ok": true, "score": 0.65}
+    ],
+    "provider_hits": {"openai": 1}
+  }
+]

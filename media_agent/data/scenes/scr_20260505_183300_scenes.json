@@ -1,0 +1,80 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260505_183300",
+    "start_sec": 0,
+    "end_sec": 4,
+    "objective": "hook",
+    "narration": "JEPQ로 월 100만 원 받으려면 얼마가 필요할까요?",
+    "title_text": "JEPQ로 월 100만 원 받으려면?",
+    "subtitle_text": "JEPQ로 월 100만 원 받으려면?",
+    "claim_ids": ["1"],
+    "visual_modes": ["headline_card"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260505_183300",
+    "start_sec": 4,
+    "end_sec": 12,
+    "objective": "background",
+    "narration": "최근 1년 기준으로 보면 JEPQ에 1억 2천만 원 정도를 넣었을 때 실제 분배금은 연간 약 1천260만 원 수준이었습니다.",
+    "title_text": "최근 1년 실제 분배금 기준",
+    "subtitle_text": "최근 1년 기준 · 1억 2천만 원 투자 시 연간 약 1,260만 원",
+    "claim_ids": ["2", "3"],
+    "visual_modes": ["stock_video", "headline_card"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260505_183300",
+    "start_sec": 12,
+    "end_sec": 19,
+    "objective": "evidence",
+    "narration": "월평균으로 나누면 약 105만 원 정도라서 월 100만 원 현금흐름 목표를 말할 때 JEPQ가 자주 언급됩니다.",
+    "title_text": "월평균 약 105만 원",
+    "subtitle_text": "월평균 약 105만 원 · 그래서 JEPQ가 자주 언급됩니다",
+    "claim_ids": ["3", "4"],
+    "visual_modes": ["stock_video", "chart"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260505_183300",
+    "start_sec": 19,
+    "end_sec": 28,
+    "objective": "etf_link",
+    "narration": "JEPQ는 나스닥100 관련 자산에 투자하면서 커버드콜 전략을 함께 써서 상대적으로 높은 분배금을 기대하는 ETF로 알려져 있습니다.",
+    "title_text": "나스닥100 관련 + 커버드콜",
+    "subtitle_text": "나스닥100 관련 자산 · 커버드콜 전략 · 높은 분배금 기대",
+    "claim_ids": ["5"],
+    "visual_modes": ["stock_video", "chart"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260505_183300",
+    "start_sec": 28,
+    "end_sec": 35,
+    "objective": "risk",
+    "narration": "다만 중요한 건 매달 분배금이 똑같진 않다는 점입니다. 최근 1년만 봐도 월별 분배금 차이가 꽤 있었습니다.",
+    "title_text": "매달 분배금은 다릅니다",
+    "subtitle_text": "고정 월급처럼 같지는 않음 · 월별 분배금 변동 존재",
+    "claim_ids": ["6"],
+    "visual_modes": ["stock_video", "chart"],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_006",
+    "script_id": "scr_20260505_183300",
+    "start_sec": 35,
+    "end_sec": 42,
+    "objective": "close",
+    "narration": "한 줄로 정리하면 JEPQ는 월 현금흐름 목표에 자주 나오는 ETF지만 고정 월급처럼 보면 안 됩니다.",
+    "title_text": "현금흐름용으로 인기 · 고정 월급은 아님",
+    "subtitle_text": "JEPQ 핵심정리 · 현금흐름용으로 인기 · 고정 월급은 아님",
+    "claim_ids": ["7"],
+    "visual_modes": ["headline_card"],
+    "asset_ids": []
+  }
+]

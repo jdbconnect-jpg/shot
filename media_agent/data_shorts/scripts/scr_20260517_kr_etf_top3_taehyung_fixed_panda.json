@@ -1,0 +1,76 @@
+{
+  "script_id": "scr_20260517_kr_etf_top3_taehyung_fixed_panda",
+  "cluster_id": "manual_kr_etf_top3_20260517_taehyung_fixed_panda",
+  "title": "국장 ETF 인기 TOP 3, 따라 사기 전에 이 구조만 보세요",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "네이버 금융/KRX 시가총액 기준 국내 상장 ETF 인기 TOP3를 40초 안팎 쇼츠로 압축한 스크립트. 투자 권유가 아니라 돈의 방향과 상품 역할을 설명합니다. ElevenLabs Taehyung voice 재합성 버전.",
+  "target_duration_sec": 38,
+  "source_articles": [
+    {
+      "article_id": "naver_finance_etf_market_sum_20260517",
+      "title": "네이버 금융 ETF 주요시세정보 - 시가총액 기준",
+      "source_name": "Naver Finance / KRX data",
+      "canonical_url": "https://finance.naver.com/api/sise/etfItemList.nhn?etfType=0&targetColumn=market_sum&sortOrder=desc",
+      "published_at": "2026-05-17T08:50:00+09:00"
+    }
+  ],
+  "data_note": "시가총액 기준 상위 ETF. 조회 시점에 따라 순위와 수치는 변동될 수 있음.",
+  "top3": [
+    {
+      "rank": 1,
+      "code": "069500",
+      "name": "KODEX 200",
+      "market_sum_억": 249988
+    },
+    {
+      "rank": 2,
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "market_sum_억": 179445
+    },
+    {
+      "rank": 3,
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
+      "market_sum_억": 128575
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "top3_hook",
+      "narration": "국장 ETF는 TOP 5보다 TOP 3만 봐도 충분합니다. 돈이 어디로 몰리는지, 훨씬 선명하게 보이거든요.",
+      "spoken_narration": "국장 이티에프는 탑 쓰리만 봐도 충분합니다. 돈이 어디로 몰리는지, 훨씬 선명하게 보이거든요."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "top3_rank1",
+      "narration": "1위는 KODEX 200. 핵심은 개별 종목이 아니라 한국 시장 전체를 사는 돈이 가장 크다는 겁니다.",
+      "spoken_narration": "일 위는 코덱스 이백. 핵심은 개별 종목이 아니라 한국 시장 전체를 사는 돈이 가장 크다는 겁니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "top3_rank2",
+      "narration": "2위는 TIGER 미국 S&P500. 국장 계좌에서도 미국 대표 기업을 코어로 담으려는 수요가 큽니다.",
+      "spoken_narration": "이 위는 타이거 미국 에스앤피 오백. 국장 계좌에서도 미국 대표 기업을 코어로 담으려는 수요가 큽니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "top3_rank3",
+      "narration": "3위는 TIGER 반도체 TOP10. 성장 기대는 강하지만, 테마 ETF라서 변동성도 같이 봐야 합니다.",
+      "spoken_narration": "삼 위는 타이거 반도체 탑 텐. 성장 기대는 강하지만, 테마 이티에프라서 변동성도 같이 봐야 합니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "top3_close",
+      "narration": "정리하면 한국 대표지수, 미국 대표지수, 반도체입니다. 따라 사기 전에 내 포트폴리오에서 맡길 역할부터 정하세요.",
+      "spoken_narration": "정리하면 한국 대표 지수, 미국 대표 지수, 반도체입니다. 따라 사기 전에 내 포트폴리오에서 맡길 역할부터 정하세요."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}

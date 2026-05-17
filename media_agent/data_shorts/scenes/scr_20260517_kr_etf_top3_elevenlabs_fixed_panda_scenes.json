@@ -1,0 +1,87 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda",
+    "start_sec": 0.0,
+    "end_sec": 6.57,
+    "objective": "top3_hook",
+    "narration": "국장 ETF는 TOP 5보다 TOP 3만 봐도 충분합니다. 돈이 어디로 몰리는지, 훨씬 선명하게 보이거든요.",
+    "spoken_narration": "국장 이티에프는 탑 쓰리만 봐도 충분합니다. 돈이 어디로 몰리는지, 훨씬 선명하게 보이거든요.",
+    "title_text": "국장 ETF 인기 TOP3 이것만 보세요",
+    "subtitle_text": "TOP5보다 TOP3가 더 중요합니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_001_bg.png"
+    ]
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda",
+    "start_sec": 6.57,
+    "end_sec": 14.13,
+    "objective": "top3_rank1",
+    "narration": "1위는 KODEX 200. 핵심은 개별 종목이 아니라 한국 시장 전체를 사는 돈이 가장 크다는 겁니다.",
+    "spoken_narration": "일 위는 코덱스 이백. 핵심은 개별 종목이 아니라 한국 시장 전체를 사는 돈이 가장 크다는 겁니다.",
+    "title_text": "1위 KODEX 200 한국 대표지수",
+    "subtitle_text": "가장 큰 돈은 시장 전체로 갑니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_002_bg.png"
+    ]
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda",
+    "start_sec": 14.13,
+    "end_sec": 21.43,
+    "objective": "top3_rank2",
+    "narration": "2위는 TIGER 미국 S&P500. 국장 계좌에서도 미국 대표 기업을 코어로 담으려는 수요가 큽니다.",
+    "spoken_narration": "이 위는 타이거 미국 에스앤피 오백. 국장 계좌에서도 미국 대표 기업을 코어로 담으려는 수요가 큽니다.",
+    "title_text": "2위 TIGER S&P500 미국 대표지수",
+    "subtitle_text": "국장 계좌 안의 미국 코어",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_003_bg.png"
+    ]
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda",
+    "start_sec": 21.43,
+    "end_sec": 29.0,
+    "objective": "top3_rank3",
+    "narration": "3위는 TIGER 반도체 TOP10. 성장 기대는 강하지만, 테마 ETF라서 변동성도 같이 봐야 합니다.",
+    "spoken_narration": "삼 위는 타이거 반도체 탑 텐. 성장 기대는 강하지만, 테마 이티에프라서 변동성도 같이 봐야 합니다.",
+    "title_text": "3위 반도체 TOP10 성장과 변동성",
+    "subtitle_text": "성장 테마는 흔들림도 같이 봐야 합니다",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_004_bg.png"
+    ]
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda",
+    "start_sec": 29.0,
+    "end_sec": 37.33,
+    "objective": "top3_close",
+    "narration": "정리하면 한국 대표지수, 미국 대표지수, 반도체입니다. 따라 사기 전에 내 포트폴리오에서 맡길 역할부터 정하세요.",
+    "spoken_narration": "정리하면 한국 대표 지수, 미국 대표 지수, 반도체입니다. 따라 사기 전에 내 포트폴리오에서 맡길 역할부터 정하세요.",
+    "title_text": "결론 인기보다 내 비중",
+    "subtitle_text": "따라 사기 전에 역할부터 정하세요",
+    "visual_modes": [
+      "openai_generated_image_character_reference"
+    ],
+    "asset_ids": [
+      "scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_005_bg.png"
+    ]
+  }
+]

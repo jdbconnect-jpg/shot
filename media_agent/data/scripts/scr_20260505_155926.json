@@ -1,0 +1,96 @@
+{
+  "script_id": "scr_20260505_155926",
+  "cluster_id": "evt_001",
+  "title": "반도체 질주에…4월 수출도 800억弗 넘었다",
+  "tone": "calm_economic_explainer_ko",
+  "description": "경제 뉴스 흐름을 바탕으로 ETF 관점에서 핵심만 차분하게 정리한 롱폼 초안입니다.",
+  "target_duration_sec": 240,
+  "source_article_ids": [
+    "art_284adf27fa2e057b",
+    "art_45a19d9ffed3e2cf"
+  ],
+  "source_articles": [
+    {
+      "article_id": "art_284adf27fa2e057b",
+      "title": "반도체 질주에…4월 수출도 800억弗 넘었다",
+      "source_name": "한국경제 경제",
+      "canonical_url": "https://www.hankyung.com/article/2026050110701",
+      "published_at": "2026-05-01T17:52:59+09:00"
+    },
+    {
+      "article_id": "art_45a19d9ffed3e2cf",
+      "title": "AI 반도체 수요 지속에 수출 859억弗 역대 2위",
+      "source_name": "매일경제 경제",
+      "canonical_url": "https://www.mk.co.kr/news/economy/12033603",
+      "published_at": "2026-05-01T17:33:34+09:00"
+    }
+  ],
+  "ledger_id": "led_evt_001_20260505_155827",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "hook",
+      "narration": "오늘 시장은 같은 숫자라도 어떤 배경에서 나왔는지에 따라 해석이 완전히 달라집니다.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "today_core",
+      "narration": "이번 뉴스 묶음에서는 정책과 수급, 그리고 경기 민감 업종 반응이 동시에 보였습니다.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "background",
+      "narration": "기사들을 함께 보면 단일 호재보다 여러 변수의 방향이 엇갈리는 구간이라는 점이 반복됩니다.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "evidence",
+      "narration": "실제 기사 근거를 기준으로 보면 수출과 환율, 금리 민감도가 함께 언급되며 시장 해석의 기준점이 만들어지고 있습니다.",
+      "claim_ids": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "etf_link",
+      "narration": "ETF 관점에서는 개별 종목보다 어떤 변수에 민감한 섹터인지 먼저 묶어서 보는 편이 더 보수적입니다.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_006",
+      "objective": "implication",
+      "narration": "즉 오늘은 방향성을 단정하기보다 어떤 지표가 다음 움직임의 조건이 되는지 정리하는 날에 가깝습니다.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_007",
+      "objective": "risk",
+      "narration": "숫자 하나만 강조하면 과장 해석으로 이어질 수 있기 때문에, 출처와 시점을 함께 보는 습관이 중요합니다.",
+      "claim_ids": [
+        "1"
+      ]
+    },
+    {
+      "section_id": "sec_008",
+      "objective": "close",
+      "narration": "정리하면 오늘 뉴스는 단일 추천보다 근거가 쌓이는 방향을 확인하는 데 더 의미가 있습니다.",
+      "claim_ids": [
+        "1"
+      ]
+    }
+  ]
+}

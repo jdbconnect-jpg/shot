@@ -1,0 +1,380 @@
+[
+  {
+    "scene_id": "sc_001",
+    "query": "Hands checking investment app",
+    "media_type": "video",
+    "visual_prompt": {
+      "scene_id": "sc_001",
+      "stock_queries": [
+        "Hands checking investment app",
+        "Abstract growth chart",
+        "Steady dividend income"
+      ],
+      "ai_video_prompt": "A sleek, minimalist animation showing a line graph steadily rising, with abstract golden coins appearing and multiplying, representing consistent dividend growth. Calm, professional finance aesthetic.",
+      "thumbnail_prompt": "A minimalist thumbnail: A subtle upward trending line graph in the background. In the foreground, a magnifying glass hovering over the word 'SCHD' with 'Quality Dividends' below it. Calm, professional, clean design, focus on financial quality.",
+      "motion_direction": "궁금증을 유발하는 성장",
+      "on_screen_emphasis": [
+        "꾸준한 배당",
+        "배당의 질"
+      ],
+      "visual_style": "calm_finance",
+      "realism_score": 0.7,
+      "media_type": "video",
+      "search_intent": "stock",
+      "source_hint": "매년 꾸준히 늘어나는 배당을 받는다면 어떨까요? 오늘은 단순히 고배당을 넘어, '배당의 질'로 주목받는 ETF, SCHD를 소개합니다."
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_001_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 8480681,
+        "url": "https://videos.pexels.com/video-files/8480681/8480681-hd_720_1280_25fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/8480681/pexels-photo-8480681.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 720,
+        "height": 1280,
+        "duration": 61
+      },
+      {
+        "asset_id": "sc_001_pixabay_2",
+        "asset_type": "stock_video",
+        "provider": "pixabay",
+        "provider_ref": 73847,
+        "url": "https://cdn.pixabay.com/video/2021/05/11/73847-549547533_large.mp4",
+        "preview_image": "https://cdn.pixabay.com/video/2021/05/11/73847-549547533_large.jpg",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.76,
+        "width": 3840,
+        "height": 2160,
+        "duration": 14
+      },
+      {
+        "asset_id": "sc_001_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 3,
+      "coverr": 0,
+      "pexels_photo": 0,
+      "pixabay_photo": 0
+    }
+  },
+  {
+    "scene_id": "sc_002",
+    "query": "Close up hands reviewing financial reports",
+    "media_type": "video",
+    "visual_prompt": {
+      "scene_id": "sc_002",
+      "stock_queries": [
+        "Close up hands reviewing financial reports",
+        "Professional checking stock market data on tablet",
+        "Steady flow of data on a computer screen"
+      ],
+      "ai_video_prompt": "A subtle animation of gears turning smoothly, interlocking to represent 'sustainability' and 'quality' in financial investments. Data streams flow calmly in the background. Professional, high-end finance visual.",
+      "thumbnail_prompt": "A clean graphic with 'Quality & Sustainability' as the main text. Subtle US flag elements or a map outline in the background. A small icon representing a stable company building. Calm, professional, data-focused.",
+      "motion_direction": "안정적인 정보 제시",
+      "on_screen_emphasis": [
+        "배당의 질",
+        "지속가능성"
+      ],
+      "visual_style": "calm_finance",
+      "realism_score": 0.8,
+      "media_type": "video",
+      "search_intent": "stock",
+      "source_hint": "SCHD는 배당의 '질'과 '지속가능성'을 중시하는 미국 대표 배당 ETF입니다. 무조건 높은 배당률만 쫓는 방식과는 다릅니다."
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_002_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 6782251,
+        "url": "https://videos.pexels.com/video-files/6782251/6782251-hd_1080_1920_30fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/6782251/pexels-photo-6782251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 1080,
+        "height": 1920,
+        "duration": 10
+      },
+      {
+        "asset_id": "sc_002_pixabay_2",
+        "asset_type": "stock_video",
+        "provider": "pixabay",
+        "provider_ref": 189018,
+        "url": "https://cdn.pixabay.com/video/2023/11/13/189018-884234917_large.mp4",
+        "preview_image": "https://cdn.pixabay.com/video/2023/11/13/189018-884234917_large.jpg",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.76,
+        "width": 1920,
+        "height": 1080,
+        "duration": 14
+      },
+      {
+        "asset_id": "sc_002_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 3,
+      "coverr": 0,
+      "pexels_photo": 0,
+      "pixabay_photo": 0
+    }
+  },
+  {
+    "scene_id": "sc_003",
+    "query": "Close up of calculator showing small numbers",
+    "media_type": "infographic",
+    "visual_prompt": {
+      "scene_id": "sc_003",
+      "stock_queries": [
+        "Close up of calculator showing small numbers",
+        "Hands saving coins into a piggy bank",
+        "Financial chart showing minimal expense line"
+      ],
+      "ai_video_prompt": "A minimalist animated infographic showing a small, steadily decreasing cost line over a long timeline. A small amount of money (represented by abstract coins) is being saved. Clean, data-driven, professional finance aesthetic.",
+      "thumbnail_prompt": "A clear infographic showing a large '0.06%' in a prominent position. Below it, text 'Low Annual Fee' and 'Long-term Savings'. Minimalist design, clean lines, professional financial graphic.",
+      "motion_direction": "비용 절감 시각화",
+      "on_screen_emphasis": [
+        "낮은 보수",
+        "0.06%"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.6,
+      "media_type": "infographic",
+      "search_intent": "graphic",
+      "source_hint": "또 하나의 장점은 낮은 총보수입니다. 연 0.06%의 비용은 장기 보유에서 새는 돈을 줄이는 데 도움이 됩니다."
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_003_pexels_photo_1",
+        "asset_type": "stock_photo",
+        "provider": "pexels_photo",
+        "provider_ref": 8962444,
+        "url": "https://images.pexels.com/photos/8962444/pexels-photo-8962444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "preview_image": "https://images.pexels.com/photos/8962444/pexels-photo-8962444.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 2736,
+        "height": 4098,
+        "duration": null
+      },
+      {
+        "asset_id": "sc_003_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 0,
+      "pixabay": 0,
+      "coverr": 0,
+      "pexels_photo": 2,
+      "pixabay_photo": 0
+    }
+  },
+  {
+    "scene_id": "sc_004",
+    "query": "Close up of hands analyzing financial charts on a tablet",
+    "media_type": "video",
+    "visual_prompt": {
+      "scene_id": "sc_004",
+      "stock_queries": [
+        "Close up of hands analyzing financial charts on a tablet",
+        "Abstract visual of stable financial growth and cash flow",
+        "Professional selecting company reports from a stack"
+      ],
+      "ai_video_prompt": "An animation depicting a robust, stable financial structure with smooth cash flow lines. Abstract gears represent sound financial management, and a gentle upward trend indicates consistent dividend growth. Professional, calm finance aesthetic.",
+      "thumbnail_prompt": "A visually strong infographic showing a sturdy foundation with upward-pointing arrows for 'Cash Flow' and 'Dividends'. Text: 'Strong Financials, Stable Cash Flow'. Professional, data-driven, reassuring.",
+      "motion_direction": "견고한 재무 흐름 강조",
+      "on_screen_emphasis": [
+        "탄탄한 재무",
+        "안정된 현금"
+      ],
+      "visual_style": "data_driven",
+      "realism_score": 0.7,
+      "media_type": "video",
+      "search_intent": "ai_video",
+      "source_hint": "이 ETF는 재무구조가 탄탄하고 현금 흐름이 안정적인 기업을 선별합니다. 꾸준히 성장하는 배당을 기대할 수 있는 우량주 위주로 구성되죠."
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_004_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 6931255,
+        "url": "https://videos.pexels.com/video-files/6931255/6931255-hd_720_1280_50fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/6931255/accounting-afro-angry-architect-6931255.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 720,
+        "height": 1280,
+        "duration": 23
+      },
+      {
+        "asset_id": "sc_004_pixabay_2",
+        "asset_type": "stock_video",
+        "provider": "pixabay",
+        "provider_ref": 189018,
+        "url": "https://cdn.pixabay.com/video/2023/11/13/189018-884234917_large.mp4",
+        "preview_image": "https://cdn.pixabay.com/video/2023/11/13/189018-884234917_large.jpg",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.76,
+        "width": 1920,
+        "height": 1080,
+        "duration": 14
+      },
+      {
+        "asset_id": "sc_004_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 2,
+      "pixabay": 3,
+      "coverr": 0,
+      "pexels_photo": 0,
+      "pixabay_photo": 0
+    }
+  },
+  {
+    "scene_id": "sc_005",
+    "query": "Hands pointing to a volatile stock chart",
+    "media_type": "chart",
+    "visual_prompt": {
+      "scene_id": "sc_005",
+      "stock_queries": [
+        "Hands pointing to a volatile stock chart",
+        "Financial warning sign on a desk",
+        "Red arrows indicating market downturn on a screen"
+      ],
+      "ai_video_prompt": "A subtle, tense animation showing a stock market graph with gentle but clear fluctuations, implying volatility. A small, non-alarming 'warning' icon flickers briefly. Darker, more serious tone. Professional financial caution.",
+      "thumbnail_prompt": "A professional graphic with a clear warning symbol (exclamation mark in a triangle). Text: 'Important Considerations: Volatility & Risks'. Use a muted red or orange accent to convey caution without being overly dramatic. Clean, serious, clear.",
+      "motion_direction": "긴장감 있는 경고",
+      "on_screen_emphasis": [
+        "주의사항",
+        "주가 변동성"
+      ],
+      "visual_style": "caution",
+      "realism_score": 0.8,
+      "media_type": "chart",
+      "search_intent": "stock",
+      "source_hint": "하지만 주의할 점도 있습니다. SCHD는 월배당 상품이 아니며, 주가는 시장 상황에 따라 변동합니다. 배당 외에 원금 손실 가능성도 항상 염두에 두세요."
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_005_pexels_photo_1",
+        "asset_type": "stock_photo",
+        "provider": "pexels_photo",
+        "provider_ref": 7876501,
+        "url": "https://images.pexels.com/photos/7876501/pexels-photo-7876501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "preview_image": "https://images.pexels.com/photos/7876501/pexels-photo-7876501.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 4480,
+        "height": 6720,
+        "duration": null
+      },
+      {
+        "asset_id": "sc_005_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 0,
+      "pixabay": 0,
+      "coverr": 0,
+      "pexels_photo": 2,
+      "pixabay_photo": 0
+    }
+  },
+  {
+    "scene_id": "sc_006",
+    "query": "Hands making a thoughtful decision with a notebook",
+    "media_type": "infographic",
+    "visual_prompt": {
+      "scene_id": "sc_006",
+      "stock_queries": [
+        "Hands making a thoughtful decision with a notebook",
+        "Summary document on a professional desk",
+        "Abstract representation of quality and growth converging"
+      ],
+      "ai_video_prompt": "A clean, concise animation summarizing key concepts: 'Quality' and 'Growth' icons subtly merging into a 'SCHD' logo. A subtle, positive upward trend in the background. Calm, conclusive, professional finance aesthetic.",
+      "thumbnail_prompt": "A minimalist summary card: 'SCHD: Key Takeaways' at the top. Below, two clear icons representing 'Quality' and 'Growth' with their respective labels. Clean, professional, elegant design, suitable for a financial summary.",
+      "motion_direction": "핵심 정리 및 판단 유도",
+      "on_screen_emphasis": [
+        "핵심 요약",
+        "배당의 질"
+      ],
+      "visual_style": "summary",
+      "realism_score": 0.5,
+      "media_type": "infographic",
+      "search_intent": "ai_video",
+      "source_hint": "SCHD는 단순 고배당이 아닌 '배당의 질'과 '성장'을 추구하는 투자자에게 매력적일 수 있습니다. 본인의 투자 목표에 맞춰 신중히 판단하시기 바랍니다."
+    },
+    "selected_assets": [
+      {
+        "asset_id": "sc_006_pexels_photo_1",
+        "asset_type": "stock_photo",
+        "provider": "pexels_photo",
+        "provider_ref": 5428825,
+        "url": "https://images.pexels.com/photos/5428825/pexels-photo-5428825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "preview_image": "https://images.pexels.com/photos/5428825/pexels-photo-5428825.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78,
+        "width": 3820,
+        "height": 5722,
+        "duration": null
+      },
+      {
+        "asset_id": "sc_006_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ],
+    "provider_hits": {
+      "pexels": 0,
+      "pixabay": 0,
+      "coverr": 0,
+      "pexels_photo": 2,
+      "pixabay_photo": 0
+    }
+  }
+]

@@ -1,0 +1,1056 @@
+[
+  {
+    "ledger_id": "led_evt_001_20260505_155827",
+    "cluster_id": "evt_001",
+    "created_at": "2026-05-05T06:58:27.650070+00:00",
+    "checked_at": "2026-05-05T06:58:27.650076+00:00",
+    "source_article_ids": [
+      "art_284adf27fa2e057b",
+      "art_45a19d9ffed3e2cf"
+    ],
+    "source_articles": [
+      {
+        "article_id": "art_284adf27fa2e057b",
+        "source_id": "hankyung-economy",
+        "source_name": "한국경제 경제",
+        "title": "반도체 질주에…4월 수출도 800억弗 넘었다",
+        "canonical_url": "https://www.hankyung.com/article/2026050110701",
+        "published_at": "2026-05-01T17:52:59+09:00",
+        "summary": "",
+        "trust_tier": "A"
+      },
+      {
+        "article_id": "art_45a19d9ffed3e2cf",
+        "source_id": "mk-economy",
+        "source_name": "매일경제 경제",
+        "title": "AI 반도체 수요 지속에 수출 859억弗 역대 2위",
+        "canonical_url": "https://www.mk.co.kr/news/economy/12033603",
+        "published_at": "2026-05-01T17:33:34+09:00",
+        "summary": "지난 4월 수출액이 전년 동월 대비 48% 증가하며 역대 두 번째로 많은 수치를 기록했다. 반도체 수출액이 1년 새 3배 가까이 넘게 늘며 전체 수출을 이끌었다. 1일 산업통상부는..",
+        "trust_tier": "A"
+      }
+    ],
+    "official_stats": [
+      {
+        "stat_id": "ecos_export_yoy",
+        "provider": "ecos",
+        "label": "한국 수출 증감률",
+        "source_type": "official_stat",
+        "source_ref": "901Y014",
+        "source_title": "한국 수출 증감률",
+        "canonical_url": null,
+        "time": null,
+        "value": null,
+        "numeric_value": null,
+        "unit": "%",
+        "excerpt_or_value": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "checked_at": "2026-05-05T06:58:27.648716+00:00",
+        "confidence": 0.0,
+        "notes": "missing_api_key"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "1",
+        "claim_text": "4월 수출액이 ... 859억弗",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_284adf27fa2e057b",
+        "evidence_text": "4월 수출액이 ... 859억弗",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 85900000000,
+        "unit": "억 달러",
+        "direction": "none",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "4월 수출액이 ... 859억弗",
+          "4월 수출도 800억弗 넘었다"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_284adf27fa2e057b",
+            "source_type": "article",
+            "source_ref": "art_284adf27fa2e057b",
+            "article_id": "art_284adf27fa2e057b",
+            "canonical_url": "https://www.hankyung.com/article/2026050110701",
+            "source_title": "반도체 질주에…4월 수출도 800억弗 넘었다",
+            "publisher": "한국경제 경제",
+            "published_at": "2026-05-01T17:52:59+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-05-01T17:52:59+09:00",
+            "checked_at": "2026-05-05T06:58:27.647779+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:27.647802+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "2",
+        "claim_text": "전년 동월 대비 48% 증가",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_45a19d9ffed3e2cf",
+        "evidence_text": "전년 동월 대비 48% 증가",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 0.48,
+        "unit": "%",
+        "direction": "increase",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "전년 동월 대비 48% 증가"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_45a19d9ffed3e2cf",
+            "source_type": "article",
+            "source_ref": "art_45a19d9ffed3e2cf",
+            "article_id": "art_45a19d9ffed3e2cf",
+            "canonical_url": "https://www.mk.co.kr/news/economy/12033603",
+            "source_title": "AI 반도체 수요 지속에 수출 859억弗 역대 2위",
+            "publisher": "매일경제 경제",
+            "published_at": "2026-05-01T17:33:34+09:00",
+            "excerpt_or_value": "지난 4월 수출액이 전년 동월 대비 48% 증가하며 역대 두 번째로 많은 수치를 기록했다. 반도체 수출액이 1년 새 3배 가까이 넘게 늘며 전체 수출을 이끌었다. 1일 산업통상부는..",
+            "observed_at": "2026-05-01T17:33:34+09:00",
+            "checked_at": "2026-05-05T06:58:27.647828+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:27.647837+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "3",
+        "claim_text": "역대 2위",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_45a19d9ffed3e2cf",
+        "evidence_text": "역대 2위",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 2,
+        "unit": "위",
+        "direction": "none",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "역대 2위",
+          "역대 두 번째로 많은 수치"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_45a19d9ffed3e2cf",
+            "source_type": "article",
+            "source_ref": "art_45a19d9ffed3e2cf",
+            "article_id": "art_45a19d9ffed3e2cf",
+            "canonical_url": "https://www.mk.co.kr/news/economy/12033603",
+            "source_title": "AI 반도체 수요 지속에 수출 859억弗 역대 2위",
+            "publisher": "매일경제 경제",
+            "published_at": "2026-05-01T17:33:34+09:00",
+            "excerpt_or_value": "지난 4월 수출액이 전년 동월 대비 48% 증가하며 역대 두 번째로 많은 수치를 기록했다. 반도체 수출액이 1년 새 3배 가까이 넘게 늘며 전체 수출을 이끌었다. 1일 산업통상부는..",
+            "observed_at": "2026-05-01T17:33:34+09:00",
+            "checked_at": "2026-05-05T06:58:27.647854+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:27.647862+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "4",
+        "claim_text": "반도체 수출액이 1년 새 3배 가까이 넘게 늘며",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_45a19d9ffed3e2cf",
+        "evidence_text": "반도체 수출액이 1년 새 3배 가까이 넘게 늘며",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 0.85,
+        "uncertainty_reason": "3배 '가까이 넘게'라는 수식어의 수치적 모호성",
+        "normalized_value": 3.0,
+        "unit": "배",
+        "direction": "increase",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "반도체 수출액이 1년 새 3배 가까이 넘게 늘며"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_45a19d9ffed3e2cf",
+            "source_type": "article",
+            "source_ref": "art_45a19d9ffed3e2cf",
+            "article_id": "art_45a19d9ffed3e2cf",
+            "canonical_url": "https://www.mk.co.kr/news/economy/12033603",
+            "source_title": "AI 반도체 수요 지속에 수출 859억弗 역대 2위",
+            "publisher": "매일경제 경제",
+            "published_at": "2026-05-01T17:33:34+09:00",
+            "excerpt_or_value": "지난 4월 수출액이 전년 동월 대비 48% 증가하며 역대 두 번째로 많은 수치를 기록했다. 반도체 수출액이 1년 새 3배 가까이 넘게 늘며 전체 수출을 이끌었다. 1일 산업통상부는..",
+            "observed_at": "2026-05-01T17:33:34+09:00",
+            "checked_at": "2026-05-05T06:58:27.647876+00:00",
+            "confidence": 0.85,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:27.647884+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_001_st_01",
+        "claim_text": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "claim_type": "official_stat",
+        "source_type": "official_stat",
+        "source_ref": "901Y014",
+        "evidence_text": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "calc_formula": null,
+        "support_level": "strong",
+        "primary_source_required": false,
+        "conflict_flag": false,
+        "rewrite_policy": "state_with_source",
+        "confidence": 0.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": "%",
+        "direction": null,
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [],
+        "evidence_items": [
+          {
+            "stat_id": "ecos_export_yoy",
+            "provider": "ecos",
+            "label": "한국 수출 증감률",
+            "source_type": "official_stat",
+            "source_ref": "901Y014",
+            "source_title": "한국 수출 증감률",
+            "canonical_url": null,
+            "time": null,
+            "value": null,
+            "numeric_value": null,
+            "unit": "%",
+            "excerpt_or_value": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+            "checked_at": "2026-05-05T06:58:27.648716+00:00",
+            "confidence": 0.0,
+            "notes": "missing_api_key"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:27.649981+00:00",
+        "notes": "missing_api_key"
+      }
+    ]
+  },
+  {
+    "ledger_id": "led_evt_002_20260505_155838",
+    "cluster_id": "evt_002",
+    "created_at": "2026-05-05T06:58:38.494861+00:00",
+    "checked_at": "2026-05-05T06:58:38.494868+00:00",
+    "source_article_ids": [
+      "art_f87729853f1180b5",
+      "art_760e91d89a4cdf6d"
+    ],
+    "source_articles": [
+      {
+        "article_id": "art_f87729853f1180b5",
+        "source_id": "mk-economy",
+        "source_name": "매일경제 경제",
+        "title": "“중동전쟁에도” 4월 무역수지 238억달러 흑자…15개월 연속 흑자 행진",
+        "canonical_url": "https://www.mk.co.kr/news/economy/12033376",
+        "published_at": "2026-05-01T09:03:15+09:00",
+        "summary": "중동 전쟁 영향으로 산업 전반에 충격파가 확산하는 상황에서도 한국 수출이 3월 사상 처음으로 월 800억달러 고지를 넘어선 데 이어 4월에도 그 기세를 이어갔다. 수출 주력인 반도..",
+        "trust_tier": "A"
+      },
+      {
+        "article_id": "art_760e91d89a4cdf6d",
+        "source_id": "mk-economy",
+        "source_name": "매일경제 경제",
+        "title": "2025 머니쇼+/금리 환율 격변기, 돈 버는 제테크 포트폴리오",
+        "canonical_url": "https://www.mk.co.kr/news/economy/12032607",
+        "published_at": "2026-04-30T18:00:53+09:00",
+        "summary": "◆ 행사명 : 2025 서울머니쇼 플러스 ◆ 유의사항 : 본 영상은 25.11.29(토)에 녹화되었으며, 영상 용량으로 인해 약간의 버퍼링이 있을 수 있습니다.",
+        "trust_tier": "A"
+      }
+    ],
+    "official_stats": [
+      {
+        "stat_id": "ecos_export_yoy",
+        "provider": "ecos",
+        "label": "한국 수출 증감률",
+        "source_type": "official_stat",
+        "source_ref": "901Y014",
+        "source_title": "한국 수출 증감률",
+        "canonical_url": null,
+        "time": null,
+        "value": null,
+        "numeric_value": null,
+        "unit": "%",
+        "excerpt_or_value": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "checked_at": "2026-05-05T06:58:38.493242+00:00",
+        "confidence": 0.0,
+        "notes": "missing_api_key"
+      },
+      {
+        "stat_id": "ecos_cpi_yoy",
+        "provider": "ecos",
+        "label": "소비자물가 상승률",
+        "source_type": "official_stat",
+        "source_ref": "901Y009",
+        "source_title": "소비자물가 상승률",
+        "canonical_url": null,
+        "time": null,
+        "value": null,
+        "numeric_value": null,
+        "unit": "%",
+        "excerpt_or_value": "소비자물가 상승률 연동 대기: ECOS_API_KEY 설정 필요",
+        "checked_at": "2026-05-05T06:58:38.493271+00:00",
+        "confidence": 0.0,
+        "notes": "missing_api_key"
+      },
+      {
+        "stat_id": "ecos_base_rate",
+        "provider": "ecos",
+        "label": "한국은행 기준금리",
+        "source_type": "official_stat",
+        "source_ref": "722Y001",
+        "source_title": "한국은행 기준금리",
+        "canonical_url": null,
+        "time": null,
+        "value": null,
+        "numeric_value": null,
+        "unit": "%",
+        "excerpt_or_value": "한국은행 기준금리 연동 대기: ECOS_API_KEY 설정 필요",
+        "checked_at": "2026-05-05T06:58:38.493290+00:00",
+        "confidence": 0.0,
+        "notes": "missing_api_key"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "evt_002_cl_01",
+        "claim_text": "4월 무역수지 238억달러 흑자",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_f87729853f1180b5",
+        "evidence_text": "4월 무역수지 238억달러 흑자",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 23800000000,
+        "unit": "억달러",
+        "direction": "흑자",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "4월 무역수지 238억달러 흑자"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_f87729853f1180b5",
+            "source_type": "article",
+            "source_ref": "art_f87729853f1180b5",
+            "article_id": "art_f87729853f1180b5",
+            "canonical_url": "https://www.mk.co.kr/news/economy/12033376",
+            "source_title": "“중동전쟁에도” 4월 무역수지 238억달러 흑자…15개월 연속 흑자 행진",
+            "publisher": "매일경제 경제",
+            "published_at": "2026-05-01T09:03:15+09:00",
+            "excerpt_or_value": "중동 전쟁 영향으로 산업 전반에 충격파가 확산하는 상황에서도 한국 수출이 3월 사상 처음으로 월 800억달러 고지를 넘어선 데 이어 4월에도 그 기세를 이어갔다. 수출 주력인 반도..",
+            "observed_at": "2026-05-01T09:03:15+09:00",
+            "checked_at": "2026-05-05T06:58:38.492268+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:38.492283+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_002_cl_02",
+        "claim_text": "15개월 연속 흑자 행진",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_760e91d89a4cdf6d",
+        "evidence_text": "15개월 연속 흑자 행진",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 15,
+        "unit": "개월",
+        "direction": "연속 흑자",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "15개월 연속 흑자 행진"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_760e91d89a4cdf6d",
+            "source_type": "article",
+            "source_ref": "art_760e91d89a4cdf6d",
+            "article_id": "art_760e91d89a4cdf6d",
+            "canonical_url": "https://www.mk.co.kr/news/economy/12032607",
+            "source_title": "2025 머니쇼+/금리 환율 격변기, 돈 버는 제테크 포트폴리오",
+            "publisher": "매일경제 경제",
+            "published_at": "2026-04-30T18:00:53+09:00",
+            "excerpt_or_value": "◆ 행사명 : 2025 서울머니쇼 플러스 ◆ 유의사항 : 본 영상은 25.11.29(토)에 녹화되었으며, 영상 용량으로 인해 약간의 버퍼링이 있을 수 있습니다.",
+            "observed_at": "2026-04-30T18:00:53+09:00",
+            "checked_at": "2026-05-05T06:58:38.492307+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:38.492317+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_002_cl_03",
+        "claim_text": "3월 사상 처음으로 월 800억달러 고지를 넘어선",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_760e91d89a4cdf6d",
+        "evidence_text": "3월 사상 처음으로 월 800억달러 고지를 넘어선",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 80000000000,
+        "unit": "억달러",
+        "direction": "이상",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "3월 사상 처음으로 월 800억달러 고지를 넘어선"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_760e91d89a4cdf6d",
+            "source_type": "article",
+            "source_ref": "art_760e91d89a4cdf6d",
+            "article_id": "art_760e91d89a4cdf6d",
+            "canonical_url": "https://www.mk.co.kr/news/economy/12032607",
+            "source_title": "2025 머니쇼+/금리 환율 격변기, 돈 버는 제테크 포트폴리오",
+            "publisher": "매일경제 경제",
+            "published_at": "2026-04-30T18:00:53+09:00",
+            "excerpt_or_value": "◆ 행사명 : 2025 서울머니쇼 플러스 ◆ 유의사항 : 본 영상은 25.11.29(토)에 녹화되었으며, 영상 용량으로 인해 약간의 버퍼링이 있을 수 있습니다.",
+            "observed_at": "2026-04-30T18:00:53+09:00",
+            "checked_at": "2026-05-05T06:58:38.492348+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:38.492359+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_002_st_01",
+        "claim_text": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "claim_type": "official_stat",
+        "source_type": "official_stat",
+        "source_ref": "901Y014",
+        "evidence_text": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "calc_formula": null,
+        "support_level": "strong",
+        "primary_source_required": false,
+        "conflict_flag": false,
+        "rewrite_policy": "state_with_source",
+        "confidence": 0.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": "%",
+        "direction": null,
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [],
+        "evidence_items": [
+          {
+            "stat_id": "ecos_export_yoy",
+            "provider": "ecos",
+            "label": "한국 수출 증감률",
+            "source_type": "official_stat",
+            "source_ref": "901Y014",
+            "source_title": "한국 수출 증감률",
+            "canonical_url": null,
+            "time": null,
+            "value": null,
+            "numeric_value": null,
+            "unit": "%",
+            "excerpt_or_value": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+            "checked_at": "2026-05-05T06:58:38.493242+00:00",
+            "confidence": 0.0,
+            "notes": "missing_api_key"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:38.494714+00:00",
+        "notes": "missing_api_key"
+      },
+      {
+        "claim_id": "evt_002_st_02",
+        "claim_text": "소비자물가 상승률 연동 대기: ECOS_API_KEY 설정 필요",
+        "claim_type": "official_stat",
+        "source_type": "official_stat",
+        "source_ref": "901Y009",
+        "evidence_text": "소비자물가 상승률 연동 대기: ECOS_API_KEY 설정 필요",
+        "calc_formula": null,
+        "support_level": "strong",
+        "primary_source_required": false,
+        "conflict_flag": false,
+        "rewrite_policy": "state_with_source",
+        "confidence": 0.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": "%",
+        "direction": null,
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [],
+        "evidence_items": [
+          {
+            "stat_id": "ecos_cpi_yoy",
+            "provider": "ecos",
+            "label": "소비자물가 상승률",
+            "source_type": "official_stat",
+            "source_ref": "901Y009",
+            "source_title": "소비자물가 상승률",
+            "canonical_url": null,
+            "time": null,
+            "value": null,
+            "numeric_value": null,
+            "unit": "%",
+            "excerpt_or_value": "소비자물가 상승률 연동 대기: ECOS_API_KEY 설정 필요",
+            "checked_at": "2026-05-05T06:58:38.493271+00:00",
+            "confidence": 0.0,
+            "notes": "missing_api_key"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:38.494749+00:00",
+        "notes": "missing_api_key"
+      },
+      {
+        "claim_id": "evt_002_st_03",
+        "claim_text": "한국은행 기준금리 연동 대기: ECOS_API_KEY 설정 필요",
+        "claim_type": "official_stat",
+        "source_type": "official_stat",
+        "source_ref": "722Y001",
+        "evidence_text": "한국은행 기준금리 연동 대기: ECOS_API_KEY 설정 필요",
+        "calc_formula": null,
+        "support_level": "strong",
+        "primary_source_required": false,
+        "conflict_flag": false,
+        "rewrite_policy": "state_with_source",
+        "confidence": 0.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": "%",
+        "direction": null,
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [],
+        "evidence_items": [
+          {
+            "stat_id": "ecos_base_rate",
+            "provider": "ecos",
+            "label": "한국은행 기준금리",
+            "source_type": "official_stat",
+            "source_ref": "722Y001",
+            "source_title": "한국은행 기준금리",
+            "canonical_url": null,
+            "time": null,
+            "value": null,
+            "numeric_value": null,
+            "unit": "%",
+            "excerpt_or_value": "한국은행 기준금리 연동 대기: ECOS_API_KEY 설정 필요",
+            "checked_at": "2026-05-05T06:58:38.493290+00:00",
+            "confidence": 0.0,
+            "notes": "missing_api_key"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:38.494775+00:00",
+        "notes": "missing_api_key"
+      }
+    ]
+  },
+  {
+    "ledger_id": "led_evt_003_20260505_155842",
+    "cluster_id": "evt_003",
+    "created_at": "2026-05-05T06:58:42.282817+00:00",
+    "checked_at": "2026-05-05T06:58:42.282825+00:00",
+    "source_article_ids": [
+      "art_3207d5614180af18",
+      "art_ab8b3aed9de7e675"
+    ],
+    "source_articles": [
+      {
+        "article_id": "art_3207d5614180af18",
+        "source_id": "hankyung-market",
+        "source_name": "한국경제 증권",
+        "title": "\"코스피 200 ETF로 절반 채우고…반도체·美 담아라\"",
+        "canonical_url": "https://www.hankyung.com/article/202604309180i",
+        "published_at": "2026-05-03T17:00:04+09:00",
+        "summary": "",
+        "trust_tier": "A"
+      },
+      {
+        "article_id": "art_ab8b3aed9de7e675",
+        "source_id": "hankyung-economy",
+        "source_name": "한국경제 경제",
+        "title": "현대경제연구원, 韓 성장률 2.7%로 상향…반도체·추경 효과",
+        "canonical_url": "https://www.hankyung.com/article/2026050326617",
+        "published_at": "2026-05-03T14:51:41+09:00",
+        "summary": "",
+        "trust_tier": "A"
+      }
+    ],
+    "official_stats": [
+      {
+        "stat_id": "ecos_export_yoy",
+        "provider": "ecos",
+        "label": "한국 수출 증감률",
+        "source_type": "official_stat",
+        "source_ref": "901Y014",
+        "source_title": "한국 수출 증감률",
+        "canonical_url": null,
+        "time": null,
+        "value": null,
+        "numeric_value": null,
+        "unit": "%",
+        "excerpt_or_value": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "checked_at": "2026-05-05T06:58:42.281381+00:00",
+        "confidence": 0.0,
+        "notes": "missing_api_key"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "evt_003_cl_01",
+        "claim_text": "현대경제연구원, 韓 성장률 2.7%로 상향",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_3207d5614180af18",
+        "evidence_text": "현대경제연구원, 韓 성장률 2.7%로 상향",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 2.7,
+        "unit": "퍼센트(%)",
+        "direction": "상향",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "현대경제연구원, 韓 성장률 2.7%로 상향"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_3207d5614180af18",
+            "source_type": "article",
+            "source_ref": "art_3207d5614180af18",
+            "article_id": "art_3207d5614180af18",
+            "canonical_url": "https://www.hankyung.com/article/202604309180i",
+            "source_title": "\"코스피 200 ETF로 절반 채우고…반도체·美 담아라\"",
+            "publisher": "한국경제 증권",
+            "published_at": "2026-05-03T17:00:04+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-05-03T17:00:04+09:00",
+            "checked_at": "2026-05-05T06:58:42.280560+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:42.280575+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_003_st_01",
+        "claim_text": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "claim_type": "official_stat",
+        "source_type": "official_stat",
+        "source_ref": "901Y014",
+        "evidence_text": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+        "calc_formula": null,
+        "support_level": "strong",
+        "primary_source_required": false,
+        "conflict_flag": false,
+        "rewrite_policy": "state_with_source",
+        "confidence": 0.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": "%",
+        "direction": null,
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [],
+        "evidence_items": [
+          {
+            "stat_id": "ecos_export_yoy",
+            "provider": "ecos",
+            "label": "한국 수출 증감률",
+            "source_type": "official_stat",
+            "source_ref": "901Y014",
+            "source_title": "한국 수출 증감률",
+            "canonical_url": null,
+            "time": null,
+            "value": null,
+            "numeric_value": null,
+            "unit": "%",
+            "excerpt_or_value": "한국 수출 증감률 연동 대기: ECOS_API_KEY 설정 필요",
+            "checked_at": "2026-05-05T06:58:42.281381+00:00",
+            "confidence": 0.0,
+            "notes": "missing_api_key"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:42.282717+00:00",
+        "notes": "missing_api_key"
+      }
+    ]
+  },
+  {
+    "ledger_id": "led_evt_004_20260505_155844",
+    "cluster_id": "evt_004",
+    "created_at": "2026-05-05T06:58:44.227251+00:00",
+    "checked_at": "2026-05-05T06:58:44.227263+00:00",
+    "source_article_ids": [
+      "art_f99309522bbff34c"
+    ],
+    "source_articles": [
+      {
+        "article_id": "art_f99309522bbff34c",
+        "source_id": "hankyung-economy",
+        "source_name": "한국경제 경제",
+        "title": "월가, 美 4월 고용 지표 주목…中 서비스업 온기 부나 [뉴욕·상하이 주간증시 전망]",
+        "canonical_url": "https://www.hankyung.com/article/202605032337i",
+        "published_at": "2026-05-03T09:46:51+09:00",
+        "summary": "",
+        "trust_tier": "A"
+      }
+    ],
+    "official_stats": [],
+    "claims": [
+      {
+        "claim_id": "evt_004_cl_01",
+        "claim_text": "美 4월 고용 지표 주목",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_f99309522bbff34c",
+        "evidence_text": "美 4월 고용 지표 주목",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": null,
+        "direction": "발표 예정",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "美 4월 고용 지표 주목"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_f99309522bbff34c",
+            "source_type": "article",
+            "source_ref": "art_f99309522bbff34c",
+            "article_id": "art_f99309522bbff34c",
+            "canonical_url": "https://www.hankyung.com/article/202605032337i",
+            "source_title": "월가, 美 4월 고용 지표 주목…中 서비스업 온기 부나 [뉴욕·상하이 주간증시 전망]",
+            "publisher": "한국경제 경제",
+            "published_at": "2026-05-03T09:46:51+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-05-03T09:46:51+09:00",
+            "checked_at": "2026-05-05T06:58:44.226083+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:44.226100+00:00",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "ledger_id": "led_evt_005_20260505_155854",
+    "cluster_id": "evt_005",
+    "created_at": "2026-05-05T06:58:54.167025+00:00",
+    "checked_at": "2026-05-05T06:58:54.167034+00:00",
+    "source_article_ids": [
+      "art_66813b6c0df23193",
+      "art_ed6cd0a2943356ca"
+    ],
+    "source_articles": [
+      {
+        "article_id": "art_66813b6c0df23193",
+        "source_id": "hankyung-market",
+        "source_name": "한국경제 증권",
+        "title": "[포토] 코스피-코스닥 하락마감",
+        "canonical_url": "https://www.hankyung.com/article/202604309147i",
+        "published_at": "2026-04-30T16:05:57+09:00",
+        "summary": "",
+        "trust_tier": "A"
+      },
+      {
+        "article_id": "art_ed6cd0a2943356ca",
+        "source_id": "hankyung-market",
+        "source_name": "한국경제 증권",
+        "title": "코스피, 국제유가 급등에 6600선 아래로…코스닥 2%대 급락",
+        "canonical_url": "https://www.hankyung.com/article/2026043089646",
+        "published_at": "2026-04-30T16:01:33+09:00",
+        "summary": "",
+        "trust_tier": "A"
+      }
+    ],
+    "official_stats": [],
+    "claims": [
+      {
+        "claim_id": "evt_005_cl_01",
+        "claim_text": "코스피-코스닥 하락마감",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_66813b6c0df23193",
+        "evidence_text": "코스피-코스닥 하락마감",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": null,
+        "direction": "하락",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "코스피-코스닥 하락마감",
+          "코스피, 국제유가 급등에 6600선 아래로"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_66813b6c0df23193",
+            "source_type": "article",
+            "source_ref": "art_66813b6c0df23193",
+            "article_id": "art_66813b6c0df23193",
+            "canonical_url": "https://www.hankyung.com/article/202604309147i",
+            "source_title": "[포토] 코스피-코스닥 하락마감",
+            "publisher": "한국경제 증권",
+            "published_at": "2026-04-30T16:05:57+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-04-30T16:05:57+09:00",
+            "checked_at": "2026-05-05T06:58:54.165976+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:54.165996+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_005_cl_02",
+        "claim_text": "코스피-코스닥 하락마감",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_ed6cd0a2943356ca",
+        "evidence_text": "코스피-코스닥 하락마감",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": null,
+        "unit": null,
+        "direction": "하락",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "코스피-코스닥 하락마감",
+          "코스닥 2%대 급락"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_ed6cd0a2943356ca",
+            "source_type": "article",
+            "source_ref": "art_ed6cd0a2943356ca",
+            "article_id": "art_ed6cd0a2943356ca",
+            "canonical_url": "https://www.hankyung.com/article/2026043089646",
+            "source_title": "코스피, 국제유가 급등에 6600선 아래로…코스닥 2%대 급락",
+            "publisher": "한국경제 증권",
+            "published_at": "2026-04-30T16:01:33+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-04-30T16:01:33+09:00",
+            "checked_at": "2026-05-05T06:58:54.166007+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:54.166016+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_005_cl_03",
+        "claim_text": "6600선 아래로",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_ed6cd0a2943356ca",
+        "evidence_text": "6600선 아래로",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 6600.0,
+        "unit": "포인트",
+        "direction": "하회",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "6600선 아래로"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_ed6cd0a2943356ca",
+            "source_type": "article",
+            "source_ref": "art_ed6cd0a2943356ca",
+            "article_id": "art_ed6cd0a2943356ca",
+            "canonical_url": "https://www.hankyung.com/article/2026043089646",
+            "source_title": "코스피, 국제유가 급등에 6600선 아래로…코스닥 2%대 급락",
+            "publisher": "한국경제 증권",
+            "published_at": "2026-04-30T16:01:33+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-04-30T16:01:33+09:00",
+            "checked_at": "2026-05-05T06:58:54.166025+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:54.166034+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_005_cl_04",
+        "claim_text": "코스닥 2%대 급락",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_ed6cd0a2943356ca",
+        "evidence_text": "코스닥 2%대 급락",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 1.0,
+        "uncertainty_reason": null,
+        "normalized_value": 2.0,
+        "unit": "퍼센트",
+        "direction": "급락",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "코스닥 2%대 급락"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_ed6cd0a2943356ca",
+            "source_type": "article",
+            "source_ref": "art_ed6cd0a2943356ca",
+            "article_id": "art_ed6cd0a2943356ca",
+            "canonical_url": "https://www.hankyung.com/article/2026043089646",
+            "source_title": "코스피, 국제유가 급등에 6600선 아래로…코스닥 2%대 급락",
+            "publisher": "한국경제 증권",
+            "published_at": "2026-04-30T16:01:33+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-04-30T16:01:33+09:00",
+            "checked_at": "2026-05-05T06:58:54.166042+00:00",
+            "confidence": 1.0,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:54.166050+00:00",
+        "notes": null
+      },
+      {
+        "claim_id": "evt_005_cl_05",
+        "claim_text": "국제유가 급등",
+        "claim_type": "event",
+        "source_type": "article",
+        "source_ref": "art_ed6cd0a2943356ca",
+        "evidence_text": "국제유가 급등",
+        "calc_formula": null,
+        "support_level": "weak",
+        "primary_source_required": true,
+        "conflict_flag": false,
+        "rewrite_policy": "attribute",
+        "confidence": 0.9,
+        "uncertainty_reason": "구체적인 수치가 제시되지 않음",
+        "normalized_value": null,
+        "unit": null,
+        "direction": "급등",
+        "time_scope": null,
+        "subject_entity_ids": [],
+        "evidence_spans": [
+          "국제유가 급등"
+        ],
+        "evidence_items": [
+          {
+            "evidence_id": "ev_art_ed6cd0a2943356ca",
+            "source_type": "article",
+            "source_ref": "art_ed6cd0a2943356ca",
+            "article_id": "art_ed6cd0a2943356ca",
+            "canonical_url": "https://www.hankyung.com/article/2026043089646",
+            "source_title": "코스피, 국제유가 급등에 6600선 아래로…코스닥 2%대 급락",
+            "publisher": "한국경제 증권",
+            "published_at": "2026-04-30T16:01:33+09:00",
+            "excerpt_or_value": "",
+            "observed_at": "2026-04-30T16:01:33+09:00",
+            "checked_at": "2026-05-05T06:58:54.166070+00:00",
+            "confidence": 0.9,
+            "notes": "auto_linked_primary_evidence"
+          }
+        ],
+        "checked_at": "2026-05-05T06:58:54.166079+00:00",
+        "notes": null
+      }
+    ]
+  }
+]

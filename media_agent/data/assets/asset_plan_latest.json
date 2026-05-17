@@ -1,0 +1,152 @@
+[
+  {
+    "scene_id": "sc_001",
+    "query": "seoul city business skyline",
+    "selected_assets": [
+      {
+        "asset_id": "sc_001_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 31727050,
+        "url": "https://videos.pexels.com/video-files/31727050/13518120_1280_720_30fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/31727050/1930s-korea-mitsukoshi-keijo-modern-era-31727050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78
+      },
+      {
+        "asset_id": "sc_001_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ]
+  },
+  {
+    "scene_id": "sc_002",
+    "query": "office meeting economy",
+    "selected_assets": [
+      {
+        "asset_id": "sc_002_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 8425700,
+        "url": "https://videos.pexels.com/video-files/8425700/8425700-hd_1920_1080_25fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/8425700/pexels-photo-8425700.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78
+      },
+      {
+        "asset_id": "sc_002_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ]
+  },
+  {
+    "scene_id": "sc_003",
+    "query": "data chart analyst office",
+    "selected_assets": [
+      {
+        "asset_id": "sc_003_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 36418660,
+        "url": "https://videos.pexels.com/video-files/36418660/15442086_1280_720_25fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/36418660/analysis-analyst-analytics-banking-36418660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78
+      },
+      {
+        "asset_id": "sc_003_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ]
+  },
+  {
+    "scene_id": "sc_004",
+    "query": "investment chart computer",
+    "selected_assets": [
+      {
+        "asset_id": "sc_004_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 8480474,
+        "url": "https://videos.pexels.com/video-files/8480474/8480474-hd_1920_1080_25fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/8480474/pexels-photo-8480474.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78
+      },
+      {
+        "asset_id": "sc_004_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ]
+  },
+  {
+    "scene_id": "sc_005",
+    "query": "market volatility night city",
+    "selected_assets": [
+      {
+        "asset_id": "sc_005_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 35124442,
+        "url": "https://videos.pexels.com/video-files/35124442/14879994_1280_720_25fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/35124442/analysis-analytics-bearish-blockchain-35124442.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78
+      },
+      {
+        "asset_id": "sc_005_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ]
+  },
+  {
+    "scene_id": "sc_006",
+    "query": "city skyline night office",
+    "selected_assets": [
+      {
+        "asset_id": "sc_006_pexels_1",
+        "asset_type": "stock_video",
+        "provider": "pexels",
+        "provider_ref": 10216513,
+        "url": "https://videos.pexels.com/video-files/10216513/10216513-uhd_3840_2160_30fps.mp4",
+        "preview_image": "https://images.pexels.com/videos/10216513/cityscape-downtown-downtown-memphis-memphis-10216513.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+        "license_class": "stock-free",
+        "usage_rights_ok": true,
+        "score": 0.78
+      },
+      {
+        "asset_id": "sc_006_card_1",
+        "asset_type": "title_card",
+        "provider": "local",
+        "license_class": "owned",
+        "usage_rights_ok": true,
+        "score": 0.65
+      }
+    ]
+  }
+]

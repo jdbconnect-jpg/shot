@@ -58,6 +58,8 @@ if os.getenv("MEDIA_AGENT_TTS_RATE"):
     TTS_LOCAL["rate"] = os.getenv("MEDIA_AGENT_TTS_RATE")
 if os.getenv("MEDIA_AGENT_TTS_PITCH"):
     TTS_LOCAL["pitch"] = os.getenv("MEDIA_AGENT_TTS_PITCH")
+if os.getenv("MEDIA_AGENT_TTS_VOICE"):
+    TTS_LOCAL["voice"] = os.getenv("MEDIA_AGENT_TTS_VOICE")
 TTS_FALLBACK = TTS_CONFIG.get("fallback", {})
 RENDER_CONFIG = PROVIDERS.get("render", {})
 DEFAULT_MALE_VOICE_CANDIDATES = TTS_FALLBACK.get("voice_candidates") or ["Junwoo", "Jiho", "Minho", "Thomas", "Daniel"]

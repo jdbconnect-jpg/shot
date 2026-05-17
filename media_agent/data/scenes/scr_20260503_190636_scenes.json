@@ -1,0 +1,194 @@
+[
+  {
+    "scene_id": "sc_001",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 0,
+    "end_sec": 50,
+    "objective": "hook",
+    "narration": "최근 우리 경제의 핵심인 수출 시장에서 놀라운 숫자가 발표되었습니다. 대한민국 수출 실적이 역대급 기록을 세우며 투자자들의 시선을 끌고 있습니다. 이번 성과가 단순한 반등인지 아니면 장기적인 성장 가도인지 핵심 내용을 살펴보겠습니다.",
+    "subtitle_text": "최근 우리 경제의 핵심인 수출 시장에서 놀라운 숫자가 발표…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_002",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 50,
+    "end_sec": 100,
+    "objective": "today_core",
+    "narration": "산업통상자원부 보도에 따르면 지난 4월 수출액은 전년 동월 대비 48% 증가했습니다. 이는 월간 수출 실적으로는 역대 두 번째에 해당하는 기록입니다. 이번 성장은 반도체 부문의 폭발적인 수요가 전체 실적을 견인한 결과로 분석됩니다.",
+    "subtitle_text": "산업통상자원부 보도에 따르면 지난 4월 수출액은 전년 동월…",
+    "claim_ids": [
+      "evt_001_cl_01",
+      "evt_001_cl_02",
+      "evt_001_cl_03"
+    ],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_003",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 100,
+    "end_sec": 150,
+    "objective": "background",
+    "narration": "수출은 한국 경제의 펀더멘탈을 결정짓는 가장 중요한 지표 중 하나입니다. 기업들의 실적은 물론이고 원화 가치와 증시 방향성에도 직접적인 영향을 미칩니다. 따라서 수출 지표의 질적 성장을 확인하는 것은 투자 전략 수립의 기본이 됩니다.",
+    "subtitle_text": "수출은 한국 경제의 펀더멘탈을 결정짓는 가장 중요한 지표…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_004",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 150,
+    "end_sec": 200,
+    "objective": "evidence",
+    "narration": "구체적인 수치를 보면 지난 4월 수출액은 총 859억 달러를 달성했습니다. 이는 작년 같은 기간과 비교했을 때 48%라는 높은 성장률을 기록한 수치입니다. 역대 2위라는 기록은 우리 수출 기업들이 글로벌 시장에서 선전하고 있음을 보여줍니다.",
+    "subtitle_text": "구체적인 수치를 보면 지난 4월 수출액은 총 859억 달러…",
+    "claim_ids": [
+      "evt_001_cl_01",
+      "evt_001_cl_02",
+      "evt_001_cl_03"
+    ],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_005",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 200,
+    "end_sec": 250,
+    "objective": "mechanism",
+    "narration": "이번 수출 호조의 일등 공신은 단연 반도체 업종이라고 할 수 있습니다. 인공지능 산업의 급격한 팽창으로 인해 고성능 메모리 반도체 수요가 전 세계적으로 급증했습니다. 이러한 외부 환경의 변화가 국내 반도체 기업들의 공급 확대로 이어지며 수출액을 끌어올렸습니다.",
+    "subtitle_text": "이번 수출 호조의 일등 공신은 단연 반도체 업종이라고 할…",
+    "claim_ids": [
+      "evt_001_cl_04"
+    ],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_006",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 250,
+    "end_sec": 300,
+    "objective": "evidence",
+    "narration": "보도에 따르면 반도체 수출액은 1년 사이 3배 가까이 넘게 늘어났습니다. 이러한 비약적인 성장이 전체 수출 실적 비중에서 압도적인 영향력을 발휘했습니다. 반도체라는 단일 품목의 경쟁력이 국가 전체 수출의 성패를 가르고 있는 형국입니다.",
+    "subtitle_text": "보도에 따르면 반도체 수출액은 1년 사이 3배 가까이 넘게…",
+    "claim_ids": [
+      "evt_001_cl_04"
+    ],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_007",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 300,
+    "end_sec": 350,
+    "objective": "implication",
+    "narration": "이 지표가 중요한 이유는 우리 기업들의 이익 전망치가 상향 조정될 근거가 되기 때문입니다. 수출 증가는 기업의 매출 확대로 이어지고 결국 주주 가치 제고를 위한 재원이 됩니다. 특히 AI 반도체 수요의 지속성은 향후 실적의 지속 가능성을 가늠하는 척도가 될 것입니다.",
+    "subtitle_text": "이 지표가 중요한 이유는 우리 기업들의 이익 전망치가 상향…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_008",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 350,
+    "end_sec": 400,
+    "objective": "etf_link",
+    "narration": "이러한 수출 성장세에 주목하는 투자자들은 국내 반도체 대형주 중심의 ETF를 검토하기도 합니다. 반도체 수출 비중이 높은 만큼 관련 지수를 추종하는 상품들이 시장의 흐름을 반영할 수 있습니다. 정보 제공 차원에서 시가총액 상위 반도체 기업을 포함한 상품들을 살펴보는 것이 도움될 수 있습니다.",
+    "subtitle_text": "이러한 수출 성장세에 주목하는 투자자들은 국내 반도체 대형…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_009",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 400,
+    "end_sec": 450,
+    "objective": "risk",
+    "narration": "다만 특정 품목에 대한 수출 의존도가 지나치게 높다는 점은 주의 깊게 봐야 할 리스크입니다. 글로벌 경기 변동이나 공급망 이슈가 발생할 경우 반도체 업황에 따라 수출 전체가 흔들릴 수 있기 때문입니다. 향후 반도체 외의 다른 주력 산업들도 고르게 성장하는지 지켜볼 필요가 있습니다.",
+    "subtitle_text": "다만 특정 품목에 대한 수출 의존도가 지나치게 높다는 점은…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_010",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 450,
+    "end_sec": 500,
+    "objective": "what_to_watch",
+    "narration": "앞으로 우리가 확인해야 할 포인트는 글로벌 AI 투자 사이클의 지속 여부입니다. 빅테크 기업들의 인프라 투자 규모가 유지되는 한 반도체 수출의 긍정적인 흐름은 이어질 가능성이 큽니다. 또한 환율 변동이 수출 기업들의 채산성에 미치는 영향도 함께 체크해야 합니다.",
+    "subtitle_text": "앞으로 우리가 확인해야 할 포인트는 글로벌 AI 투자 사이…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_011",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 500,
+    "end_sec": 550,
+    "objective": "implication",
+    "narration": "종합해 보면 4월의 수출 실적은 한국 경제가 강한 회복 탄력성을 가지고 있음을 증명했습니다. 역대 2위라는 기록은 단순한 숫자를 넘어 제조 강국으로서의 입지를 다시 확인시켜 주었습니다. 이는 국내 증시 전반에 긍정적인 기초 체력을 제공하는 요소가 될 것입니다.",
+    "subtitle_text": "종합해 보면 4월의 수출 실적은 한국 경제가 강한 회복 탄…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  },
+  {
+    "scene_id": "sc_012",
+    "script_id": "scr_20260503_190636",
+    "start_sec": 550,
+    "end_sec": 600,
+    "objective": "close",
+    "narration": "오늘은 859억 달러라는 기록적인 수출 성과와 반도체의 역할을 정리해 보았습니다. 다음 달에도 이 기세가 이어질지 그리고 수출 품목의 다변화가 일어날지 확인하는 것이 중요합니다. 오늘 내용이 여러분의 투자 판단에 유익한 근거가 되었기를 바랍니다.",
+    "subtitle_text": "오늘은 859억 달러라는 기록적인 수출 성과와 반도체의 역…",
+    "claim_ids": [],
+    "visual_modes": [
+      "stock_video",
+      "title_card"
+    ],
+    "asset_ids": []
+  }
+]

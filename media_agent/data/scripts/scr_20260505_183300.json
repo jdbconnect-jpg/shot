@@ -1,0 +1,59 @@
+{
+  "script_id": "scr_20260505_183300",
+  "cluster_id": "manual_jepq_shorts",
+  "title": "JEPQ로 월 100만 원 받으려면 얼마가 필요할까?",
+  "tone": "calm_finance_explainer_ko",
+  "description": "JEPQ의 최근 1년 분배금 기준으로 월 100만 원 현금흐름 가능성을 설명하는 쇼츠 스크립트입니다.",
+  "target_duration_sec": 42,
+  "source_article_ids": [
+    "manual_jepq_dividend_calc"
+  ],
+  "source_articles": [
+    {
+      "article_id": "manual_jepq_dividend_calc",
+      "title": "JEPQ 최근 1년 분배금 계산",
+      "source_name": "local_calculation",
+      "canonical_url": "local://jepq-dividend-calc",
+      "published_at": "2026-05-05T18:27:00+09:00"
+    }
+  ],
+  "ledger_id": "manual_led_jepq_20260505",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "hook",
+      "narration": "JEPQ로 월 100만 원 받으려면 얼마가 필요할까요?",
+      "claim_ids": ["1"]
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "background",
+      "narration": "최근 1년 기준으로 보면 JEPQ에 1억 2천만 원 정도를 넣었을 때 실제 분배금은 연간 약 1천260만 원 수준이었습니다.",
+      "claim_ids": ["2", "3"]
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "evidence",
+      "narration": "월평균으로 나누면 약 105만 원 정도라서 월 100만 원 현금흐름 목표를 말할 때 JEPQ가 자주 언급됩니다.",
+      "claim_ids": ["3", "4"]
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "etf_link",
+      "narration": "JEPQ는 나스닥100 관련 자산에 투자하면서 커버드콜 전략을 함께 써서 상대적으로 높은 분배금을 기대하는 ETF로 알려져 있습니다.",
+      "claim_ids": ["5"]
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "risk",
+      "narration": "다만 중요한 건 매달 분배금이 똑같진 않다는 점입니다. 최근 1년만 봐도 월별 분배금 차이가 꽤 있었습니다.",
+      "claim_ids": ["6"]
+    },
+    {
+      "section_id": "sec_006",
+      "objective": "close",
+      "narration": "한 줄로 정리하면 JEPQ는 월 현금흐름 목표에 자주 나오는 ETF지만 고정 월급처럼 보면 안 됩니다.",
+      "claim_ids": ["7"]
+    }
+  ]
+}
