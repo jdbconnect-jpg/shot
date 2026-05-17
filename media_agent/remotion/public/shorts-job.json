@@ -1,187 +1,187 @@
 {
-  "scriptId": "scr_20260517_kr_etf_top3_taehyung_fixed_panda",
+  "scriptId": "scr_20260517_us_etf_top3_panda",
   "fps": 30,
   "width": 720,
   "height": 1280,
-  "subtitleCenterRatio": 0.75,
-  "durationFrames": 1172,
+  "durationFrames": 1304,
   "scenes": [
     {
       "sceneId": "sc_001",
-      "objective": "top3_hook",
-      "durationFrames": 205,
+      "objective": "us_top3_hook",
+      "durationFrames": 242,
       "startFrame": 0,
-      "card": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_001_bg.png",
-      "audio": "media/scr_20260517_kr_etf_top3_taehyung_fixed_panda_sc_001_audio.mp3",
+      "card": "media/scr_20260517_us_etf_top3_panda_sc_001_bg.png",
+      "audio": "media/scr_20260517_us_etf_top3_panda_sc_001_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_001_bg.png",
-      "backgroundLoopFrames": 205,
+      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_001_bg.png",
+      "backgroundLoopFrames": 242,
       "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_teacher_explaining_etf_visuals",
+        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "국장 ETF",
-          "인기 TOP3",
-          "이것만 보세요"
+          "미장 ETF",
+          "TOP3",
+          "셋 다 S&P500"
         ],
-        "subtitle_line": "TOP5보다 TOP3가 더 중요합니다",
-        "character_lock": "same cute young male panda teacher with glasses and navy cardigan",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
+        "subtitle_line": "순위보다 차이를 봐야 합니다",
+        "character_lock": "same cute young male panda presenter with glasses and navy suit",
+        "tts_provider": "ElevenLabs or Edge",
+        "voice": "trustworthy Korean male"
       },
       "subtitles": [
         {
-          "text": "국장 ETF는 TOP 3만 봐도 충분합니다.",
+          "text": "미장 ETF TOP 3는 의외로 전부 S&P500입니다.",
           "startFrame": 0,
-          "durationFrames": 100
+          "durationFrames": 121
         },
         {
-          "text": "돈이 어디로 몰리는지 훨씬 선명하게 보입니다.",
-          "startFrame": 100,
-          "durationFrames": 105
-        }
-      ]
-    },
-    {
-      "sceneId": "sc_002",
-      "objective": "top3_rank1",
-      "durationFrames": 241,
-      "startFrame": 205,
-      "card": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_002_bg.png",
-      "audio": "media/scr_20260517_kr_etf_top3_taehyung_fixed_panda_sc_002_audio.mp3",
-      "background": null,
-      "backgroundImage": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_002_bg.png",
-      "backgroundLoopFrames": 241,
-      "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_teacher_explaining_etf_visuals",
-        "motion_direction": "slow editorial zoom",
-        "on_screen_emphasis": [
-          "1위",
-          "KODEX 200",
-          "한국 대표지수"
-        ],
-        "subtitle_line": "가장 큰 돈은 시장 전체로 갑니다",
-        "character_lock": "same cute young male panda teacher with glasses and navy cardigan",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
-      },
-      "subtitles": [
-        {
-          "text": "1위는 KODEX 200.",
-          "startFrame": 0,
-          "durationFrames": 91
-        },
-        {
-          "text": "한국 시장 전체를 사는 돈이 가장 큽니다.",
-          "startFrame": 91,
-          "durationFrames": 150
-        }
-      ]
-    },
-    {
-      "sceneId": "sc_003",
-      "objective": "top3_rank2",
-      "durationFrames": 233,
-      "startFrame": 446,
-      "card": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_003_bg.png",
-      "audio": "media/scr_20260517_kr_etf_top3_taehyung_fixed_panda_sc_003_audio.mp3",
-      "background": null,
-      "backgroundImage": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_003_bg.png",
-      "backgroundLoopFrames": 233,
-      "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_teacher_explaining_etf_visuals",
-        "motion_direction": "slow editorial zoom",
-        "on_screen_emphasis": [
-          "2위",
-          "TIGER S&P500",
-          "미국 대표지수"
-        ],
-        "subtitle_line": "국장 계좌 안의 미국 코어",
-        "character_lock": "same cute young male panda teacher with glasses and navy cardigan",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
-      },
-      "subtitles": [
-        {
-          "text": "2위는 TIGER 미국 S&P500.",
-          "startFrame": 0,
-          "durationFrames": 109
-        },
-        {
-          "text": "국장 계좌에서도 미국 코어 수요가 큽니다.",
-          "startFrame": 109,
-          "durationFrames": 124
-        }
-      ]
-    },
-    {
-      "sceneId": "sc_004",
-      "objective": "top3_rank3",
-      "durationFrames": 231,
-      "startFrame": 679,
-      "card": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_004_bg.png",
-      "audio": "media/scr_20260517_kr_etf_top3_taehyung_fixed_panda_sc_004_audio.mp3",
-      "background": null,
-      "backgroundImage": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_004_bg.png",
-      "backgroundLoopFrames": 231,
-      "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_teacher_explaining_etf_visuals",
-        "motion_direction": "slow editorial zoom",
-        "on_screen_emphasis": [
-          "3위",
-          "반도체 TOP10",
-          "성장과 변동성"
-        ],
-        "subtitle_line": "성장 테마는 흔들림도 같이 봐야 합니다",
-        "character_lock": "same cute young male panda teacher with glasses and navy cardigan",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
-      },
-      "subtitles": [
-        {
-          "text": "3위는 TIGER 반도체 TOP10.",
-          "startFrame": 0,
-          "durationFrames": 110
-        },
-        {
-          "text": "성장 기대와 변동성을 같이 봐야 합니다.",
-          "startFrame": 110,
+          "text": "그래서 순위보다, 왜 고르는지가 더 중요합니다.",
+          "startFrame": 121,
           "durationFrames": 121
         }
       ]
     },
     {
-      "sceneId": "sc_005",
-      "objective": "top3_close",
-      "durationFrames": 262,
-      "startFrame": 910,
-      "card": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_005_bg.png",
-      "audio": "media/scr_20260517_kr_etf_top3_taehyung_fixed_panda_sc_005_audio.mp3",
+      "sceneId": "sc_002",
+      "objective": "us_top3_rank1",
+      "durationFrames": 279,
+      "startFrame": 242,
+      "card": "media/scr_20260517_us_etf_top3_panda_sc_002_bg.png",
+      "audio": "media/scr_20260517_us_etf_top3_panda_sc_002_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_kr_etf_top3_elevenlabs_fixed_panda_sc_005_bg.png",
-      "backgroundLoopFrames": 262,
+      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_002_bg.png",
+      "backgroundLoopFrames": 279,
       "visualPrompt": {
-        "visual_style": "fixed_cute_young_male_panda_teacher_explaining_etf_visuals",
+        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "인기보다",
-          "비중이 먼저입니다"
+          "1위 SPY",
+          "거래량",
+          "유동성"
         ],
-        "subtitle_line": "따라 사기 전에 역할부터 정하세요",
-        "character_lock": "same cute young male panda teacher with glasses and navy cardigan",
-        "tts_provider": "ElevenLabs",
-        "voice": "Taehyung - Natural, Friendly and Clear"
+        "subtitle_line": "짧게 사고팔 땐 유동성이 강점",
+        "character_lock": "same cute young male panda presenter with glasses and navy suit",
+        "tts_provider": "ElevenLabs or Edge",
+        "voice": "trustworthy Korean male"
       },
       "subtitles": [
         {
-          "text": "정리하면 한국, 미국, 반도체입니다.",
+          "text": "1위는 SPY.",
           "startFrame": 0,
-          "durationFrames": 134
+          "durationFrames": 139
         },
         {
-          "text": "따라 사기 전에 역할부터 정하세요.",
-          "startFrame": 134,
-          "durationFrames": 128
+          "text": "가장 오래됐고 거래량이 압도적입니다. 단기 매매나 옵션까지 보는 사람에게 익숙한 이름입니다.",
+          "startFrame": 139,
+          "durationFrames": 140
+        }
+      ]
+    },
+    {
+      "sceneId": "sc_003",
+      "objective": "us_top3_rank2",
+      "durationFrames": 244,
+      "startFrame": 521,
+      "card": "media/scr_20260517_us_etf_top3_panda_sc_003_bg.png",
+      "audio": "media/scr_20260517_us_etf_top3_panda_sc_003_audio.mp3",
+      "background": null,
+      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_003_bg.png",
+      "backgroundLoopFrames": 244,
+      "visualPrompt": {
+        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "motion_direction": "slow editorial zoom",
+        "on_screen_emphasis": [
+          "2위 IVV",
+          "저비용",
+          "코어"
+        ],
+        "subtitle_line": "장기 계좌에 담기 쉬운 저비용 ETF",
+        "character_lock": "same cute young male panda presenter with glasses and navy suit",
+        "tts_provider": "ElevenLabs or Edge",
+        "voice": "trustworthy Korean male"
+      },
+      "subtitles": [
+        {
+          "text": "2위는 IVV.",
+          "startFrame": 0,
+          "durationFrames": 122
+        },
+        {
+          "text": "같은 S&P500을 따라가지만 비용이 낮고 구조가 단순해서, 장기 코어로 많이 봅니다.",
+          "startFrame": 122,
+          "durationFrames": 122
+        }
+      ]
+    },
+    {
+      "sceneId": "sc_004",
+      "objective": "us_top3_rank3",
+      "durationFrames": 239,
+      "startFrame": 765,
+      "card": "media/scr_20260517_us_etf_top3_panda_sc_004_bg.png",
+      "audio": "media/scr_20260517_us_etf_top3_panda_sc_004_audio.mp3",
+      "background": null,
+      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_004_bg.png",
+      "backgroundLoopFrames": 239,
+      "visualPrompt": {
+        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "motion_direction": "slow editorial zoom",
+        "on_screen_emphasis": [
+          "3위 VOO",
+          "장기투자",
+          "낮은 수수료"
+        ],
+        "subtitle_line": "수수료 낮고 대중성이 강합니다",
+        "character_lock": "same cute young male panda presenter with glasses and navy suit",
+        "tts_provider": "ElevenLabs or Edge",
+        "voice": "trustworthy Korean male"
+      },
+      "subtitles": [
+        {
+          "text": "3위는 VOO.",
+          "startFrame": 0,
+          "durationFrames": 119
+        },
+        {
+          "text": "뱅가드의 대표 S&P500 ETF입니다. 낮은 수수료와 장기투자 이미지가 강합니다.",
+          "startFrame": 119,
+          "durationFrames": 120
+        }
+      ]
+    },
+    {
+      "sceneId": "sc_005",
+      "objective": "us_top3_close",
+      "durationFrames": 300,
+      "startFrame": 1004,
+      "card": "media/scr_20260517_us_etf_top3_panda_sc_005_bg.png",
+      "audio": "media/scr_20260517_us_etf_top3_panda_sc_005_audio.mp3",
+      "background": null,
+      "backgroundImage": "media/scr_20260517_us_etf_top3_panda_sc_005_bg.png",
+      "backgroundLoopFrames": 300,
+      "visualPrompt": {
+        "visual_style": "fixed_cute_young_male_panda_us_etf_explainer",
+        "motion_direction": "slow editorial zoom",
+        "on_screen_emphasis": [
+          "결론",
+          "순위보다 목적",
+          "S&P500"
+        ],
+        "subtitle_line": "셋 다 미국 대표기업 500개입니다",
+        "character_lock": "same cute young male panda presenter with glasses and navy suit",
+        "tts_provider": "ElevenLabs or Edge",
+        "voice": "trustworthy Korean male"
+      },
+      "subtitles": [
+        {
+          "text": "정리하면 SPY는 거래, IVV와 VOO는 장기 코어에 가깝습니다.",
+          "startFrame": 0,
+          "durationFrames": 150
+        },
+        {
+          "text": "셋 다 미국 대표기업 500개라는 건 꼭 기억하세요.",
+          "startFrame": 150,
+          "durationFrames": 150
         }
       ]
     }

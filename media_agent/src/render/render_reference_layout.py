@@ -19,6 +19,7 @@ TITLE_YELLOW = (255, 205, 0)
 TITLE_RED = (255, 0, 0)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
+TITLE_BOX_Y = 122
 
 
 HEADLINES = {
@@ -282,7 +283,7 @@ def rounded_rect(draw: ImageDraw.ImageDraw, xy: tuple[int, int, int, int], radiu
 
 def draw_reference_title_box(draw: ImageDraw.ImageDraw, headline: list[str]) -> None:
     title = " ".join(headline[:2]).strip() or (headline[0] if headline else "")
-    box_x, box_y, box_w = 52, 64, 616
+    box_x, box_y, box_w = 52, TITLE_BOX_Y, 616
     pad_l, pad_r, pad_y = 48, 28, 22
     bar_x, bar_w = box_x + 16, 8
     max_text_w = box_w - pad_l - pad_r
@@ -461,10 +462,6 @@ def render_scene(scene: dict, idx: int) -> Path:
 
         sub = active_subtitle(scene, frame_idx)
         draw_reference_subtitle_box(draw, sub)
-
-        bar_w = int((W - 96) * max(0.04, progress))
-        draw.rounded_rectangle((48, H - 34, W - 48, H - 28), radius=99, fill=(48, 48, 48))
-        draw.rounded_rectangle((48, H - 34, 48 + bar_w, H - 28), radius=99, fill=YELLOW)
 
         proc.stdin.write(canvas.tobytes())
 

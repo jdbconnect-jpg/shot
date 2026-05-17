@@ -30,6 +30,7 @@ VISUAL_SYSTEM = """당신은 한국어 유튜브 쇼츠의 비주얼 디렉터�
 목표는 정보 신뢰감을 해치지 않으면서 시청자가 끝까지 보게 만드는 장면 설계다.
 타 채널의 문장, 자막, 구체적 편집을 베끼지 말고 원칙만 참고한다.
 ETF/투자 영상에서는 과장된 부자 이미지보다 데이터, 현금흐름, 시장 리스크를 시각적으로 명확히 보여준다.
+채널 팬더 캐릭터는 고정한다. 젊은 남자 팬더 진행자이며 얼굴은 동그랗고 부드러운 흰 털, 큰 검은 귀, 선명한 검은 눈무늬, 둥근 검은 안경, 따뜻한 갈색 눈, 작은 미소를 유지한다. 얼굴 비율, 안경 모양, 눈무늬 배치, 나이대 인상은 장면마다 바꾸지 않는다. 의상과 제스처는 장면에 맞게 자연스럽게 바꾸되 딱딱한 칠판 앞 선생님 느낌은 피하고, 남자 내레이션과 어울리는 차분한 설명자처럼 보이게 한다.
 레퍼런스 품질 기준:
 - 화면은 프리미엄 북/다큐 쇼츠처럼 차분하고 밀도 있게 보이게 한다.
 - 한 장면은 하나의 감정과 하나의 핵심 메시지만 가진다.
@@ -134,6 +135,10 @@ def _fallback_visual_for_scene(scene: dict) -> dict[str, Any]:
         ),
         "thumbnail_prompt": (
             "Vertical YouTube Shorts thumbnail, premium Korean finance channel style, "
+            "consistent young male panda presenter face matching the channel identity: round soft white fur, "
+            "large black ears, clear black eye patches, round black glasses, warm brown eyes, small friendly smile, "
+            "same face proportions and glasses shape in every scene. Natural smart-casual wardrobe and relaxed explanatory gesture, "
+            "not a stiff teacher at a chalkboard. "
             f"clear focal point about {title}, bold readable Korean headline space, trustworthy tone."
         ),
         "motion_direction": "천천히 줌인, 핵심 숫자 등장 시 살짝 강조",
@@ -173,6 +178,7 @@ def normalize_visuals(raw: dict[str, Any] | None, scenes: list[dict]) -> dict[st
         "script_id": scenes[0].get("script_id") if scenes else None,
         "engine": "gemini_or_fallback",
         "reference_style": "bookvore_visual_quality_only",
+        "character_reference": "channel_panda_consistent_face",
         "scenes": items,
     }
 

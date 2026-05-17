@@ -1,9 +1,13 @@
 tts:
+  required_primary: elevenlabs
   primary:
     provider: elevenlabs
     api_key_env: ELEVENLABS_API_KEY
     voice_id_env: ELEVENLABS_VOICE_ID
     model_id_env: ELEVENLABS_MODEL_ID
+    default_voice_id: m3gJBS8OofDJfycyA2Ip
+    default_voice_name: "Taehyung - Natural, Friendly and Clear"
+    default_model_id: eleven_multilingual_v2
   local:
     provider: edge_tts
     voice: ko-KR-HyunsuMultilingualNeural

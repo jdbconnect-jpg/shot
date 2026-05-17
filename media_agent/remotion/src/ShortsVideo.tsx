@@ -229,27 +229,6 @@ const SceneView: React.FC<{scene: Scene; subtitleCenterRatio: number}> = ({scene
 
       <Audio src={staticFile(scene.audio)} />
 
-      <div
-        style={{
-          position: "absolute",
-          bottom: 42,
-          left: 72,
-          right: 72,
-          height: 7,
-          borderRadius: 99,
-          overflow: "hidden",
-          background: "rgba(255,255,255,0.18)",
-        }}
-      >
-        <div
-          style={{
-            width: `${Math.max(8, progress * 100)}%`,
-            height: "100%",
-            background: highlightColor,
-          }}
-        />
-      </div>
-
       {scene.subtitles.map((subtitle, idx) => (
         <Sequence
           key={scene.sceneId + "-" + idx}

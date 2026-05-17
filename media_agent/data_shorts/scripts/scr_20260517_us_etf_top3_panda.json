@@ -1,0 +1,76 @@
+{
+  "script_id": "scr_20260517_us_etf_top3_panda",
+  "cluster_id": "manual_us_etf_top3_20260517",
+  "title": "미장 ETF TOP3, 셋 다 S&P500인데 뭐가 다를까?",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "미국 상장 ETF AUM 최상위권 SPY, IVV, VOO를 기존 팬더 남자 진행자 reference layout 패턴으로 설명하는 쇼츠 스크립트.",
+  "target_duration_sec": 42,
+  "source_articles": [
+    {
+      "article_id": "us_etf_aum_top3_general_20260517",
+      "title": "Largest U.S.-listed ETFs by assets under management",
+      "source_name": "ETF issuer/market data summary",
+      "canonical_url": "https://www.slickcharts.com/etf/assets",
+      "published_at": "2026-05-17T15:45:00+09:00"
+    }
+  ],
+  "data_note": "AUM 기준 미국 상장 ETF 최상위권은 조회 시점에 따라 소폭 변동 가능. 일반적으로 SPY, IVV, VOO가 최상위권을 형성.",
+  "top3": [
+    {
+      "rank": 1,
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "role": "거래량/유동성"
+    },
+    {
+      "rank": 2,
+      "ticker": "IVV",
+      "name": "iShares Core S&P 500 ETF",
+      "role": "저비용 장기 코어"
+    },
+    {
+      "rank": 3,
+      "ticker": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "role": "낮은 수수료와 장기투자 대중성"
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "us_top3_hook",
+      "narration": "미장 ETF TOP 3는 의외로 전부 S&P500입니다. 그래서 순위보다, 왜 고르는지가 더 중요합니다.",
+      "spoken_narration": "미장 이티에프 탑 쓰리는 의외로 전부 에스앤피 오백입니다. 그래서 순위보다, 왜 고르는지가 더 중요합니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "us_top3_rank1",
+      "narration": "1위는 SPY. 가장 오래됐고 거래량이 압도적입니다. 단기 매매나 옵션까지 보는 사람에게 익숙한 이름입니다.",
+      "spoken_narration": "일 위는 에스피와이. 가장 오래됐고 거래량이 압도적입니다. 단기 매매나 옵션까지 보는 사람에게 익숙한 이름입니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "us_top3_rank2",
+      "narration": "2위는 IVV. 같은 S&P500을 따라가지만 비용이 낮고 구조가 단순해서, 장기 코어로 많이 봅니다.",
+      "spoken_narration": "이 위는 아이브이브이. 같은 에스앤피 오백을 따라가지만 비용이 낮고 구조가 단순해서, 장기 코어로 많이 봅니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "us_top3_rank3",
+      "narration": "3위는 VOO. 뱅가드의 대표 S&P500 ETF입니다. 낮은 수수료와 장기투자 이미지가 강합니다.",
+      "spoken_narration": "삼 위는 부오오. 뱅가드의 대표 에스앤피 오백 이티에프입니다. 낮은 수수료와 장기투자 이미지가 강합니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "us_top3_close",
+      "narration": "정리하면 SPY는 거래, IVV와 VOO는 장기 코어에 가깝습니다. 셋 다 미국 대표기업 500개라는 건 꼭 기억하세요.",
+      "spoken_narration": "정리하면 에스피와이는 거래, 아이브이브이와 부오오는 장기 코어에 가깝습니다. 셋 다 미국 대표기업 오백 개라는 건 꼭 기억하세요."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}

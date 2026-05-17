@@ -10,13 +10,21 @@ WORKSPACE_ROOT = Path(__file__).resolve().parents[3]
 load_dotenv(WORKSPACE_ROOT / ".env")
 
 API_KEY = os.getenv("ELEVENLABS_API_KEY", "").strip()
-VOICE_ID = os.getenv("ELEVENLABS_VOICE_ID", "").strip()
-MODEL_ID = os.getenv("ELEVENLABS_MODEL_ID", "eleven_multilingual_v2").strip()
+DEFAULT_VOICE_ID = "m3gJBS8OofDJfycyA2Ip"
+DEFAULT_VOICE_NAME = "Taehyung - Natural, Friendly and Clear"
+DEFAULT_MODEL_ID = "eleven_multilingual_v2"
+ALLOW_CUSTOM_VOICE = os.getenv("MEDIA_AGENT_ALLOW_CUSTOM_ELEVENLABS_VOICE", "0").strip().lower() in {"1", "true", "yes"}
+VOICE_ID = (
+    os.getenv("ELEVENLABS_VOICE_ID", DEFAULT_VOICE_ID).strip() or DEFAULT_VOICE_ID
+    if ALLOW_CUSTOM_VOICE
+    else DEFAULT_VOICE_ID
+)
+MODEL_ID = os.getenv("ELEVENLABS_MODEL_ID", DEFAULT_MODEL_ID).strip() or DEFAULT_MODEL_ID
 
 
 def synthesize(text: str, output_path: Path) -> Path:
-    if not API_KEY or not VOICE_ID:
-        raise RuntimeError("ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID missing")
+    if not API_KEY:
+        raise RuntimeError("ELEVENLABS_API_KEY missing")
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}"
     payload = {
         "text": text,

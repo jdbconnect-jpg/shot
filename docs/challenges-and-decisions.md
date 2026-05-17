@@ -61,5 +61,35 @@
 
 결정:
 - GitHub에는 재사용 가능한 코드, 설정 예시, 스크립트/장면 JSON, 업로드 메타데이터, 문서만 올린다.
-- `.env`, `.secrets/`, `client_secret.json`, 가상환경, 대용량 렌더, OpenClaw 개인 메모리는 제외한다.
+- env 파일, secrets 폴더, client_secret.json, 가상환경, 대용량 렌더, OpenClaw 개인 메모리는 제외한다.
 
+## 7. Taehyung 목소리 고정 실패
+
+문제:
+- 코드 기본값은 Taehyung으로 되어 있어도 env의 ELEVENLABS_VOICE_ID가 다른 목소리로 덮어썼다.
+- 사용자는 Taehyung - Natural, Friendly and Clear를 고정 목소리로 원했다.
+
+결정:
+- 쇼츠 기본 TTS는 m3gJBS8OofDJfycyA2Ip로 강제한다.
+- 일회성 예외가 필요할 때만 MEDIA_AGENT_ALLOW_CUSTOM_ELEVENLABS_VOICE=1을 사용한다.
+- ElevenLabs 실패 시 조용히 fallback하지 않고, 최종 전달 전에 실패를 드러낸다.
+
+## 8. 팬더 캐릭터 일관성
+
+문제:
+- 이미지 생성 모델은 장면마다 팬더 얼굴, 안경, 나이대 인상을 다르게 만들 수 있다.
+- 팬더가 칠판 앞 선생님처럼 딱딱하게 나오면 사용자가 원하는 남자 내레이션형 쇼츠와 어긋난다.
+
+결정:
+- 팬더 얼굴 고정 조건을 visual planner와 image prompt exporter에 반복 주입한다.
+- 복장과 제스처는 장면별로 자연스럽게 바꾸되, 얼굴 비율과 안경/눈무늬는 고정한다.
+- 칠판 강의 구도보다 스마트캐주얼 금융 진행자 구도를 우선한다.
+
+## 9. 하단 프로그레스바
+
+문제:
+- 참고 레이아웃에서는 하단 프로그레스바가 필요하지 않고, 자막/하단 훅과 경쟁했다.
+
+결정:
+- Remotion 템플릿과 Pillow reference layout 렌더러에서 프로그레스바를 제거한다.
+- 최종 검수 시 하단 프로그레스바가 없는지 프레임으로 확인한다.

@@ -62,6 +62,7 @@ if os.getenv("MEDIA_AGENT_TTS_VOICE"):
     TTS_LOCAL["voice"] = os.getenv("MEDIA_AGENT_TTS_VOICE")
 TTS_FALLBACK = TTS_CONFIG.get("fallback", {})
 RENDER_CONFIG = PROVIDERS.get("render", {})
+REQUIRE_ELEVENLABS = os.getenv("MEDIA_AGENT_REQUIRE_ELEVENLABS", "1").strip().lower() not in {"0", "false", "no"}
 DEFAULT_MALE_VOICE_CANDIDATES = TTS_FALLBACK.get("voice_candidates") or ["Junwoo", "Jiho", "Minho", "Thomas", "Daniel"]
 FINAL_FALLBACK_VOICE = TTS_FALLBACK.get("final_fallback_voice", "Yuna")
 SUBTITLE_BOX_RATIO = float(RENDER_CONFIG.get("subtitle_box_ratio", 0.75))
@@ -506,9 +507,14 @@ def synthesize_audio(text: str, output_path: Path) -> Path:
         try:
             target = output_path.with_suffix(".mp3")
             elevenlabs_synthesize(spoken_text, target)
+            print("info=using_elevenlabs voice=Taehyung - Natural, Friendly and Clear")
             return target
         except Exception as e:
             print(f"warning=elevenlabs_failed reason={type(e).__name__}:{e}")
+            if REQUIRE_ELEVENLABS:
+                raise RuntimeError("ElevenLabs Taehyung TTS is required for final shorts") from e
+    elif REQUIRE_ELEVENLABS:
+        raise RuntimeError("ElevenLabs Taehyung TTS is required, but elevenlabs_tts could not be imported")
 
     if str(TTS_LOCAL.get("provider", "")).strip().lower() == "edge_tts" and edge_tts_local_synthesize is not None:
         try:
