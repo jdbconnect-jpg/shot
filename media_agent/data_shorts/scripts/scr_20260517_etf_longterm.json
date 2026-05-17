@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_etf_longterm",
+  "cluster_id": "manual_etf_longterm_20260517",
+  "title": "ETF 장기투자가 중요한 이유",
+  "tone": "educational_korean_finance_shorts_male",
+  "description": "ETF 장기투자가 중요한 이유를 초보자에게 교육 목적으로 설명하는 쇼츠. 특정 상품 매수/매도 권유가 아니다.",
+  "target_duration_sec": 50,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 특정 ETF나 증권의 매수/매도 추천이 아니라 개념 설명.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "longterm_hook",
+      "narration": "ETF 장기투자가 왜 중요할까요? 핵심은 시장이 매일 흔들려도, 긴 시간은 그 흔들림을 평균으로 바꿔준다는 데 있습니다.",
+      "spoken_narration": "ETF 장기투자가 왜 중요할까요? 핵심은 시장이 매일 흔들려도, 긴 시간은 그 흔들림을 평균으로 바꿔준다는 데 있습니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "longterm_noise",
+      "narration": "짧게 보면 ETF 가격은 뉴스, 금리, 환율에 계속 출렁입니다. 그래서 며칠 수익률만 보면 판단이 쉽게 흔들립니다.",
+      "spoken_narration": "짧게 보면 ETF 가격은 뉴스, 금리, 환율에 계속 출렁입니다. 그래서 며칠 수익률만 보면 판단이 쉽게 흔들립니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "longterm_compound",
+      "narration": "하지만 길게 가져가면 초점이 달라집니다. 정확한 매수 타이밍보다, 비용이 낮은 자산을 오래 보유하는 규칙이 더 중요해집니다.",
+      "spoken_narration": "하지만 길게 가져가면 초점이 달라집니다. 정확한 매수 타이밍보다, 비용이 낮은 자산을 오래 보유하는 규칙이 더 중요해집니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "longterm_risk",
+      "narration": "물론 장기투자가 손실을 없애주는 마법은 아닙니다. ETF의 구성 종목, 수수료, 환율 위험이 내 목표와 맞는지 확인해야 합니다.",
+      "spoken_narration": "물론 장기투자가 손실을 없애주는 마법은 아닙니다. ETF의 구성 종목, 수수료, 환율 위험이 내 목표와 맞는지 확인해야 합니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "longterm_close",
+      "narration": "정리하면 장기투자는 많이 버티라는 말이 아닙니다. 내가 이해한 ETF를, 생활비와 분리한 돈으로, 정한 규칙에 맞게 이어가는 태도입니다.",
+      "spoken_narration": "정리하면 장기투자는 많이 버티라는 말이 아닙니다. 내가 이해한 ETF를, 생활비와 분리한 돈으로, 정한 규칙에 맞게 이어가는 태도입니다."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}

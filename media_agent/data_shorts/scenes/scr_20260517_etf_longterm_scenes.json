@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_longterm",
+    "scene_id": "sc_001",
+    "objective": "longterm_hook",
+    "narration": "ETF 장기투자가 왜 중요할까요? 핵심은 시장이 매일 흔들려도, 긴 시간은 그 흔들림을 평균으로 바꿔준다는 데 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "장기투자",
+        "중요한 이유",
+        "흔들림의 평균"
+      ],
+      "subtitle_line": "긴 시간은 흔들림을 평균으로 바꿉니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_longterm_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_longterm_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_longterm",
+    "scene_id": "sc_002",
+    "objective": "longterm_noise",
+    "narration": "짧게 보면 ETF 가격은 뉴스, 금리, 환율에 계속 출렁입니다. 그래서 며칠 수익률만 보면 판단이 쉽게 흔들립니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "짧게 보면",
+        "계속 출렁",
+        "판단 흔들림"
+      ],
+      "subtitle_line": "며칠 수익률만 보면 판단이 흔들립니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_longterm_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_longterm_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_longterm",
+    "scene_id": "sc_003",
+    "objective": "longterm_compound",
+    "narration": "하지만 길게 가져가면 초점이 달라집니다. 정확한 매수 타이밍보다, 비용이 낮은 자산을 오래 보유하는 규칙이 더 중요해집니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "타이밍보다",
+        "보유 규칙",
+        "비용 확인"
+      ],
+      "subtitle_line": "타이밍보다 오래 보유할 규칙이 중요합니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_longterm_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_longterm_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_longterm",
+    "scene_id": "sc_004",
+    "objective": "longterm_risk",
+    "narration": "물론 장기투자가 손실을 없애주는 마법은 아닙니다. ETF의 구성 종목, 수수료, 환율 위험이 내 목표와 맞는지 확인해야 합니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "마법 아님",
+        "구성·수수료",
+        "목표 확인"
+      ],
+      "subtitle_line": "장기투자도 위험과 비용 확인이 먼저입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_longterm_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_longterm_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_longterm",
+    "scene_id": "sc_005",
+    "objective": "longterm_close",
+    "narration": "정리하면 장기투자는 많이 버티라는 말이 아닙니다. 내가 이해한 ETF를, 생활비와 분리한 돈으로, 정한 규칙에 맞게 이어가는 태도입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "버티기 아님",
+        "이해한 ETF",
+        "정한 규칙"
+      ],
+      "subtitle_line": "이해한 ETF를 정한 규칙으로 이어가는 태도입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_longterm_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_longterm_sc_005_audio.mp3"
+  }
+]

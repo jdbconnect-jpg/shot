@@ -1,227 +1,212 @@
 {
-  "scriptId": "scr_20260517_etf_dca",
+  "scriptId": "scr_20260517_etf_longterm",
   "fps": 30,
   "width": 720,
   "height": 1280,
-  "durationFrames": 1242,
+  "durationFrames": 1395,
   "scenes": [
     {
       "sceneId": "sc_001",
-      "objective": "dca_hook",
-      "durationFrames": 253,
+      "objective": "longterm_hook",
+      "durationFrames": 276,
       "startFrame": 0,
-      "card": "media/scr_20260517_etf_dca_sc_001_bg.jpg",
-      "audio": "media/scr_20260517_etf_dca_sc_001_audio.mp3",
+      "card": "media/scr_20260517_etf_longterm_sc_001_bg.jpg",
+      "audio": "media/scr_20260517_etf_longterm_sc_001_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_dca_sc_001_bg.jpg",
-      "backgroundLoopFrames": 253,
+      "backgroundImage": "media/scr_20260517_etf_longterm_sc_001_bg.jpg",
+      "backgroundLoopFrames": 276,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "ETF 적립식",
-          "투자란?",
-          "꾸준히 사기"
+          "장기투자",
+          "중요한 이유",
+          "흔들림의 평균"
         ],
-        "subtitle_line": "정해진 주기로 꾸준히 사는 방식입니다",
+        "subtitle_line": "긴 시간은 흔들림을 평균으로 바꿉니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "ETF 적립식 투자란 뭘까요?",
+          "text": "ETF 장기투자가 왜 중요할까요?",
           "startFrame": 0,
-          "durationFrames": 70
+          "durationFrames": 76
         },
         {
-          "text": "한 번에 큰돈을 넣는 대신,",
-          "startFrame": 70,
-          "durationFrames": 59
+          "text": "핵심은 시장이 매일 흔들려도,",
+          "startFrame": 76,
+          "durationFrames": 68
         },
         {
-          "text": "정해진 주기로 같은 ETF를 꾸준히 사는 방식입니다.",
-          "startFrame": 129,
-          "durationFrames": 123
+          "text": "긴 시간은 그 흔들림을 평균으로 바꿔준다는 데 있습니다.",
+          "startFrame": 144,
+          "durationFrames": 132
         }
       ]
     },
     {
       "sceneId": "sc_002",
-      "objective": "dca_how",
-      "durationFrames": 236,
-      "startFrame": 253,
-      "card": "media/scr_20260517_etf_dca_sc_002_bg.jpg",
-      "audio": "media/scr_20260517_etf_dca_sc_002_audio.mp3",
+      "objective": "longterm_noise",
+      "durationFrames": 271,
+      "startFrame": 276,
+      "card": "media/scr_20260517_etf_longterm_sc_002_bg.jpg",
+      "audio": "media/scr_20260517_etf_longterm_sc_002_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_dca_sc_002_bg.jpg",
-      "backgroundLoopFrames": 236,
+      "backgroundImage": "media/scr_20260517_etf_longterm_sc_002_bg.jpg",
+      "backgroundLoopFrames": 271,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "매달",
-          "일정 금액",
-          "반복"
+          "짧게 보면",
+          "계속 출렁",
+          "판단 흔들림"
         ],
-        "subtitle_line": "높을 때도 낮을 때도 같은 규칙으로 삽니다",
+        "subtitle_line": "며칠 수익률만 보면 판단이 흔들립니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "예를 들어 매달 월급날마다",
+          "text": "짧게 보면 ETF 가격은",
           "startFrame": 0,
-          "durationFrames": 59
+          "durationFrames": 57
         },
         {
-          "text": "일정 금액을 투자합니다.",
-          "startFrame": 59,
-          "durationFrames": 59
+          "text": "뉴스, 금리, 환율에 계속 출렁입니다.",
+          "startFrame": 57,
+          "durationFrames": 92
         },
         {
-          "text": "가격이 높을 때도 사고,",
-          "startFrame": 118,
-          "durationFrames": 53
-        },
-        {
-          "text": "낮을 때도 사는 구조입니다.",
-          "startFrame": 171,
-          "durationFrames": 64
+          "text": "그래서 며칠 수익률만 보면 판단이 쉽게 흔들립니다.",
+          "startFrame": 149,
+          "durationFrames": 122
         }
       ]
     },
     {
       "sceneId": "sc_003",
-      "objective": "dca_average",
-      "durationFrames": 243,
-      "startFrame": 489,
-      "card": "media/scr_20260517_etf_dca_sc_003_bg.jpg",
-      "audio": "media/scr_20260517_etf_dca_sc_003_audio.mp3",
+      "objective": "longterm_compound",
+      "durationFrames": 278,
+      "startFrame": 547,
+      "card": "media/scr_20260517_etf_longterm_sc_003_bg.jpg",
+      "audio": "media/scr_20260517_etf_longterm_sc_003_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_dca_sc_003_bg.jpg",
-      "backgroundLoopFrames": 243,
+      "backgroundImage": "media/scr_20260517_etf_longterm_sc_003_bg.jpg",
+      "backgroundLoopFrames": 278,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "타이밍 부담",
-          "줄이기",
-          "평균 단가"
+          "타이밍보다",
+          "보유 규칙",
+          "비용 확인"
         ],
-        "subtitle_line": "바닥을 맞히기보다 평균을 만들어갑니다",
+        "subtitle_line": "타이밍보다 오래 보유할 규칙이 중요합니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "이 방식의 장점은 타이밍 부담을 줄여준다는 겁니다.",
+          "text": "하지만 길게 가져가면 초점이 달라집니다.",
           "startFrame": 0,
-          "durationFrames": 113
+          "durationFrames": 91
         },
         {
-          "text": "바닥을 맞히려 하지 않고,",
-          "startFrame": 113,
-          "durationFrames": 57
+          "text": "정확한 매수 타이밍보다,",
+          "startFrame": 91,
+          "durationFrames": 54
         },
         {
-          "text": "평균 매입 단가를 만들어갑니다.",
-          "startFrame": 170,
-          "durationFrames": 72
+          "text": "비용이 낮은 자산을 오래 보유하는 규칙이 더 중요해집니다.",
+          "startFrame": 145,
+          "durationFrames": 133
         }
       ]
     },
     {
       "sceneId": "sc_004",
-      "objective": "dca_discipline",
-      "durationFrames": 249,
-      "startFrame": 732,
-      "card": "media/scr_20260517_etf_dca_sc_004_bg.jpg",
-      "audio": "media/scr_20260517_etf_dca_sc_004_audio.mp3",
+      "objective": "longterm_risk",
+      "durationFrames": 260,
+      "startFrame": 825,
+      "card": "media/scr_20260517_etf_longterm_sc_004_bg.jpg",
+      "audio": "media/scr_20260517_etf_longterm_sc_004_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_dca_sc_004_bg.jpg",
-      "backgroundLoopFrames": 249,
+      "backgroundImage": "media/scr_20260517_etf_longterm_sc_004_bg.jpg",
+      "backgroundLoopFrames": 260,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "무조건 안전",
-          "아님",
-          "생활비 분리"
+          "마법 아님",
+          "구성·수수료",
+          "목표 확인"
         ],
-        "subtitle_line": "생활비와 투자금은 반드시 분리하세요",
+        "subtitle_line": "장기투자도 위험과 비용 확인이 먼저입니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "하지만 적립식도 무조건 안전한 건 아닙니다.",
+          "text": "물론 장기투자가 손실을 없애주는 마법은 아닙니다.",
           "startFrame": 0,
-          "durationFrames": 94
+          "durationFrames": 102
         },
         {
-          "text": "오래 들고 갈 수 있는 자산인지,",
-          "startFrame": 94,
-          "durationFrames": 65
+          "text": "ETF의 구성 종목, 수수료, 환율 위험이",
+          "startFrame": 102,
+          "durationFrames": 87
         },
         {
-          "text": "내 생활비와 분리했는지 먼저 봐야 합니다.",
-          "startFrame": 159,
-          "durationFrames": 89
+          "text": "내 목표와 맞는지 확인해야 합니다.",
+          "startFrame": 189,
+          "durationFrames": 71
         }
       ]
     },
     {
       "sceneId": "sc_005",
-      "objective": "dca_close",
-      "durationFrames": 261,
-      "startFrame": 981,
-      "card": "media/scr_20260517_etf_dca_sc_005_bg.jpg",
-      "audio": "media/scr_20260517_etf_dca_sc_005_audio.mp3",
+      "objective": "longterm_close",
+      "durationFrames": 310,
+      "startFrame": 1085,
+      "card": "media/scr_20260517_etf_longterm_sc_005_bg.jpg",
+      "audio": "media/scr_20260517_etf_longterm_sc_005_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_dca_sc_005_bg.jpg",
-      "backgroundLoopFrames": 261,
+      "backgroundImage": "media/scr_20260517_etf_longterm_sc_005_bg.jpg",
+      "backgroundLoopFrames": 310,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "예측보다",
-          "습관",
-          "규칙"
+          "버티기 아님",
+          "이해한 ETF",
+          "정한 규칙"
         ],
-        "subtitle_line": "금액보다 오래 지속할 규칙이 먼저입니다",
+        "subtitle_line": "이해한 ETF를 정한 규칙으로 이어가는 태도입니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "정리하면 적립식 투자는 예측보다",
+          "text": "정리하면 장기투자는 많이 버티라는 말이 아닙니다.",
           "startFrame": 0,
-          "durationFrames": 72
+          "durationFrames": 113
         },
         {
-          "text": "습관에 가까운 전략입니다.",
-          "startFrame": 72,
-          "durationFrames": 61
+          "text": "내가 이해한 ETF를, 생활비와 분리한 돈으로,",
+          "startFrame": 113,
+          "durationFrames": 109
         },
         {
-          "text": "초보자라면 금액보다",
-          "startFrame": 133,
-          "durationFrames": 46
-        },
-        {
-          "text": "먼저,",
-          "startFrame": 179,
-          "durationFrames": 27
-        },
-        {
-          "text": "오래 지속할 규칙을 정하세요.",
-          "startFrame": 206,
-          "durationFrames": 55
+          "text": "정한 규칙에 맞게 이어가는 태도입니다.",
+          "startFrame": 222,
+          "durationFrames": 88
         }
       ]
     }
