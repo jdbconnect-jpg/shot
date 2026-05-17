@@ -1,0 +1,122 @@
+[
+  {
+    "script_id": "scr_20260517_etf_vs_fund",
+    "scene_id": "sc_001",
+    "objective": "fund_hook",
+    "narration": "ETF와 펀드, 둘 다 여러 자산을 담는 상품입니다. 하지만 가장 큰 차이는 사고파는 방식입니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF와 펀드",
+        "차이는?",
+        "거래 방식"
+      ],
+      "subtitle_line": "가장 큰 차이는 사고파는 방식입니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_vs_fund_sc_001_bg.jpg",
+    "audio": "media/scr_20260517_etf_vs_fund_sc_001_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_vs_fund",
+    "scene_id": "sc_002",
+    "objective": "fund_etf_trade",
+    "narration": "ETF는 주식처럼 거래소에서 장중에 사고팔 수 있습니다. 그래서 지금 보이는 가격으로 바로 거래되는 느낌에 가깝습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF는",
+        "장중 거래",
+        "주식처럼"
+      ],
+      "subtitle_line": "ETF는 주식처럼 장중에 거래됩니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_vs_fund_sc_002_bg.jpg",
+    "audio": "media/scr_20260517_etf_vs_fund_sc_002_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_vs_fund",
+    "scene_id": "sc_003",
+    "objective": "fund_mutual",
+    "narration": "반면 일반 펀드는 보통 하루가 끝난 뒤 계산되는 기준가로 거래됩니다. 내가 누른 순간의 실시간 가격이 아닐 수 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "펀드는",
+        "하루 기준가",
+        "실시간 아님"
+      ],
+      "subtitle_line": "펀드는 보통 하루 기준가로 거래됩니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_vs_fund_sc_003_bg.jpg",
+    "audio": "media/scr_20260517_etf_vs_fund_sc_003_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_vs_fund",
+    "scene_id": "sc_004",
+    "objective": "fund_cost",
+    "narration": "또 ETF는 가격과 보유 종목이 비교적 투명하게 보입니다. 펀드는 상품마다 환매 기간이나 비용 구조가 다를 수 있습니다.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "투명성",
+        "환매 기간",
+        "비용 구조"
+      ],
+      "subtitle_line": "환매 기간과 비용 구조도 다를 수 있습니다",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_vs_fund_sc_004_bg.jpg",
+    "audio": "media/scr_20260517_etf_vs_fund_sc_004_audio.mp3"
+  },
+  {
+    "script_id": "scr_20260517_etf_vs_fund",
+    "scene_id": "sc_005",
+    "objective": "fund_close",
+    "narration": "정리하면, 실시간으로 사고팔고 싶다면 ETF, 전문가에게 맡기는 구조를 원한다면 펀드에 가깝습니다. 초보자는 거래 방식부터 구분하세요.",
+    "visual_prompt": {
+      "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
+      "motion_direction": "slow editorial zoom",
+      "on_screen_emphasis": [
+        "ETF는 거래",
+        "펀드는 위탁",
+        "방식 구분"
+      ],
+      "subtitle_line": "초보자는 거래 방식부터 구분하세요",
+      "character_lock": "same panda face only; wardrobe and gesture flexible",
+      "tts_provider": "ElevenLabs",
+      "voice": "Taehyung - Natural, Friendly and Clear"
+    },
+    "asset_tags": [
+      "openai_generated_image_character_reference"
+    ],
+    "background_image": "media/scr_20260517_etf_vs_fund_sc_005_bg.jpg",
+    "audio": "media/scr_20260517_etf_vs_fund_sc_005_audio.mp3"
+  }
+]

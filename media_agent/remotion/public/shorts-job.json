@@ -1,207 +1,212 @@
 {
-  "scriptId": "scr_20260517_etf_price_moves",
+  "scriptId": "scr_20260517_etf_vs_fund",
   "fps": 30,
   "width": 720,
   "height": 1280,
-  "durationFrames": 1350,
+  "durationFrames": 1346,
   "scenes": [
     {
       "sceneId": "sc_001",
-      "objective": "price_hook",
-      "durationFrames": 247,
+      "objective": "fund_hook",
+      "durationFrames": 221,
       "startFrame": 0,
-      "card": "media/scr_20260517_etf_price_moves_sc_001_bg.jpg",
-      "audio": "media/scr_20260517_etf_price_moves_sc_001_audio.mp3",
+      "card": "media/scr_20260517_etf_vs_fund_sc_001_bg.jpg",
+      "audio": "media/scr_20260517_etf_vs_fund_sc_001_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_price_moves_sc_001_bg.jpg",
-      "backgroundLoopFrames": 247,
+      "backgroundImage": "media/scr_20260517_etf_vs_fund_sc_001_bg.jpg",
+      "backgroundLoopFrames": 221,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "ETF 가격은",
-          "왜 움직일까?",
-          "기준가와 거래"
+          "ETF와 펀드",
+          "차이는?",
+          "거래 방식"
         ],
-        "subtitle_line": "ETF도 거래소에서 사고팔기 때문입니다",
+        "subtitle_line": "가장 큰 차이는 사고파는 방식입니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "ETF 가격은 왜 계속 움직일까요?",
+          "text": "ETF와 펀드,",
           "startFrame": 0,
-          "durationFrames": 74
+          "durationFrames": 38
         },
         {
-          "text": "ETF도 거래소에서 사고파는 상품이라,",
-          "startFrame": 74,
-          "durationFrames": 89
+          "text": "둘 다",
+          "startFrame": 38,
+          "durationFrames": 27
         },
         {
-          "text": "주식처럼 실시간으로 가격이 변합니다.",
-          "startFrame": 163,
-          "durationFrames": 84
+          "text": "여러 자산을 담는 상품입니다.",
+          "startFrame": 65,
+          "durationFrames": 69
+        },
+        {
+          "text": "하지만 가장 큰 차이는 사고파는 방식입니다.",
+          "startFrame": 134,
+          "durationFrames": 86
         }
       ]
     },
     {
       "sceneId": "sc_002",
-      "objective": "price_assets",
-      "durationFrames": 301,
-      "startFrame": 247,
-      "card": "media/scr_20260517_etf_price_moves_sc_002_bg.jpg",
-      "audio": "media/scr_20260517_etf_price_moves_sc_002_audio.mp3",
+      "objective": "fund_etf_trade",
+      "durationFrames": 262,
+      "startFrame": 221,
+      "card": "media/scr_20260517_etf_vs_fund_sc_002_bg.jpg",
+      "audio": "media/scr_20260517_etf_vs_fund_sc_002_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_price_moves_sc_002_bg.jpg",
-      "backgroundLoopFrames": 301,
+      "backgroundImage": "media/scr_20260517_etf_vs_fund_sc_002_bg.jpg",
+      "backgroundLoopFrames": 262,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "안에 든",
-          "자산 가치",
-          "같이 움직임"
+          "ETF는",
+          "장중 거래",
+          "주식처럼"
         ],
-        "subtitle_line": "안에 든 자산 가치가 움직입니다",
+        "subtitle_line": "ETF는 주식처럼 장중에 거래됩니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "첫 번째 이유는 안에 든 자산 가치입니다.",
+          "text": "ETF는 주식처럼 거래소에서 장중에 사고팔 수 있습니다.",
           "startFrame": 0,
-          "durationFrames": 93
+          "durationFrames": 126
         },
         {
-          "text": "ETF가 담고 있는 주식이나 채권 가격이 움직이면,",
-          "startFrame": 93,
-          "durationFrames": 120
-        },
-        {
-          "text": "ETF의 기준가도 같이 흔들립니다.",
-          "startFrame": 213,
-          "durationFrames": 88
+          "text": "그래서 지금 보이는 가격으로 바로 거래되는 느낌에 가깝습니다.",
+          "startFrame": 126,
+          "durationFrames": 136
         }
       ]
     },
     {
       "sceneId": "sc_003",
-      "objective": "price_market",
-      "durationFrames": 278,
-      "startFrame": 548,
-      "card": "media/scr_20260517_etf_price_moves_sc_003_bg.jpg",
-      "audio": "media/scr_20260517_etf_price_moves_sc_003_audio.mp3",
+      "objective": "fund_mutual",
+      "durationFrames": 262,
+      "startFrame": 483,
+      "card": "media/scr_20260517_etf_vs_fund_sc_003_bg.jpg",
+      "audio": "media/scr_20260517_etf_vs_fund_sc_003_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_price_moves_sc_003_bg.jpg",
-      "backgroundLoopFrames": 278,
+      "backgroundImage": "media/scr_20260517_etf_vs_fund_sc_003_bg.jpg",
+      "backgroundLoopFrames": 262,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "사려는 힘",
-          "팔려는 힘",
-          "가격 변화"
+          "펀드는",
+          "하루 기준가",
+          "실시간 아님"
         ],
-        "subtitle_line": "수요와 공급도 가격을 움직입니다",
+        "subtitle_line": "펀드는 보통 하루 기준가로 거래됩니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "두 번째는 시장에서 실제로 사고파는 힘입니다.",
+          "text": "반면 일반 펀드는 보통 하루가 끝난 뒤 계산되는 기준가로 거래됩니다.",
           "startFrame": 0,
-          "durationFrames": 107
+          "durationFrames": 152
         },
         {
-          "text": "사려는 사람이 많으면 가격이 올라가고,",
-          "startFrame": 107,
-          "durationFrames": 90
-        },
-        {
-          "text": "팔려는 사람이 많으면 내려갑니다.",
-          "startFrame": 197,
-          "durationFrames": 80
+          "text": "내가 누른 순간의 실시간 가격이 아닐 수 있습니다.",
+          "startFrame": 152,
+          "durationFrames": 110
         }
       ]
     },
     {
       "sceneId": "sc_004",
-      "objective": "price_gap",
-      "durationFrames": 218,
-      "startFrame": 826,
-      "card": "media/scr_20260517_etf_price_moves_sc_004_bg.jpg",
-      "audio": "media/scr_20260517_etf_price_moves_sc_004_audio.mp3",
+      "objective": "fund_cost",
+      "durationFrames": 286,
+      "startFrame": 745,
+      "card": "media/scr_20260517_etf_vs_fund_sc_004_bg.jpg",
+      "audio": "media/scr_20260517_etf_vs_fund_sc_004_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_price_moves_sc_004_bg.jpg",
-      "backgroundLoopFrames": 218,
+      "backgroundImage": "media/scr_20260517_etf_vs_fund_sc_004_bg.jpg",
+      "backgroundLoopFrames": 286,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "기준가와",
-          "비슷하지만",
-          "차이 가능"
+          "투명성",
+          "환매 기간",
+          "비용 구조"
         ],
-        "subtitle_line": "순간적으로 기준가와 차이가 날 수 있습니다",
+        "subtitle_line": "환매 기간과 비용 구조도 다를 수 있습니다",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "그래서 ETF 가격은 기준가와 거의 비슷하게 움직이지만,",
+          "text": "또 ETF는 가격과 보유 종목이 비교적 투명하게 보입니다.",
           "startFrame": 0,
-          "durationFrames": 124
+          "durationFrames": 140
         },
         {
-          "text": "순간적으로는 조금 차이가 날 수도 있습니다.",
-          "startFrame": 124,
-          "durationFrames": 93
+          "text": "펀드는 상품마다",
+          "startFrame": 140,
+          "durationFrames": 39
+        },
+        {
+          "text": "환매 기간이나 비용 구조가 다를 수 있습니다.",
+          "startFrame": 179,
+          "durationFrames": 107
         }
       ]
     },
     {
       "sceneId": "sc_005",
-      "objective": "price_close",
-      "durationFrames": 306,
-      "startFrame": 1044,
-      "card": "media/scr_20260517_etf_price_moves_sc_005_bg.jpg",
-      "audio": "media/scr_20260517_etf_price_moves_sc_005_audio.mp3",
+      "objective": "fund_close",
+      "durationFrames": 315,
+      "startFrame": 1031,
+      "card": "media/scr_20260517_etf_vs_fund_sc_005_bg.jpg",
+      "audio": "media/scr_20260517_etf_vs_fund_sc_005_audio.mp3",
       "background": null,
-      "backgroundImage": "media/scr_20260517_etf_price_moves_sc_005_bg.jpg",
-      "backgroundLoopFrames": 306,
+      "backgroundImage": "media/scr_20260517_etf_vs_fund_sc_005_bg.jpg",
+      "backgroundLoopFrames": 315,
       "visualPrompt": {
         "visual_style": "bright_2026_finance_explainer_consistent_panda_face",
         "motion_direction": "slow editorial zoom",
         "on_screen_emphasis": [
-          "가격보다",
-          "내용물",
-          "먼저 확인"
+          "ETF는 거래",
+          "펀드는 위탁",
+          "방식 구분"
         ],
-        "subtitle_line": "가격보다 내용물을 먼저 확인하세요",
+        "subtitle_line": "초보자는 거래 방식부터 구분하세요",
         "character_lock": "same panda face only; wardrobe and gesture flexible",
         "tts_provider": "ElevenLabs",
         "voice": "Taehyung - Natural, Friendly and Clear"
       },
       "subtitles": [
         {
-          "text": "정리하면 ETF 가격은 안의 자산 가치와 거래 수요가 함께 만듭니다.",
+          "text": "정리하면,",
           "startFrame": 0,
-          "durationFrames": 155
+          "durationFrames": 27
         },
         {
-          "text": "초보자는 가격만 보지 말고,",
-          "startFrame": 155,
-          "durationFrames": 64
+          "text": "실시간으로 사고팔고 싶다면 ETF,",
+          "startFrame": 27,
+          "durationFrames": 83
         },
         {
-          "text": "무엇을 담은 ETF인지 먼저 보세요.",
-          "startFrame": 219,
-          "durationFrames": 86
+          "text": "전문가에게 맡기는 구조를 원한다면 펀드에 가깝습니다.",
+          "startFrame": 110,
+          "durationFrames": 123
+        },
+        {
+          "text": "초보자는 거래 방식부터 구분하세요.",
+          "startFrame": 233,
+          "durationFrames": 82
         }
       ]
     }

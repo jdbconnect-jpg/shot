@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_etf_vs_fund",
+  "cluster_id": "manual_etf_vs_fund_20260517",
+  "title": "ETF와 펀드 차이",
+  "tone": "young_smart_korean_finance_shorts_male",
+  "description": "ETF와 일반 펀드의 차이를 거래 방식과 기준가 관점에서 설명하는 쇼츠.",
+  "target_duration_sec": 48,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 특정 상품 매수/매도 추천이 아니라 개념 설명.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "fund_hook",
+      "narration": "ETF와 펀드, 둘 다 여러 자산을 담는 상품입니다. 하지만 가장 큰 차이는 사고파는 방식입니다.",
+      "spoken_narration": "ETF와 펀드, 둘 다 여러 자산을 담는 상품입니다. 하지만 가장 큰 차이는 사고파는 방식입니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "fund_etf_trade",
+      "narration": "ETF는 주식처럼 거래소에서 장중에 사고팔 수 있습니다. 그래서 지금 보이는 가격으로 바로 거래되는 느낌에 가깝습니다.",
+      "spoken_narration": "ETF는 주식처럼 거래소에서 장중에 사고팔 수 있습니다. 그래서 지금 보이는 가격으로 바로 거래되는 느낌에 가깝습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "fund_mutual",
+      "narration": "반면 일반 펀드는 보통 하루가 끝난 뒤 계산되는 기준가로 거래됩니다. 내가 누른 순간의 실시간 가격이 아닐 수 있습니다.",
+      "spoken_narration": "반면 일반 펀드는 보통 하루가 끝난 뒤 계산되는 기준가로 거래됩니다. 내가 누른 순간의 실시간 가격이 아닐 수 있습니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "fund_cost",
+      "narration": "또 ETF는 가격과 보유 종목이 비교적 투명하게 보입니다. 펀드는 상품마다 환매 기간이나 비용 구조가 다를 수 있습니다.",
+      "spoken_narration": "또 ETF는 가격과 보유 종목이 비교적 투명하게 보입니다. 펀드는 상품마다 환매 기간이나 비용 구조가 다를 수 있습니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "fund_close",
+      "narration": "정리하면, 실시간으로 사고팔고 싶다면 ETF, 전문가에게 맡기는 구조를 원한다면 펀드에 가깝습니다. 초보자는 거래 방식부터 구분하세요.",
+      "spoken_narration": "정리하면, 실시간으로 사고팔고 싶다면 ETF, 전문가에게 맡기는 구조를 원한다면 펀드에 가깝습니다. 초보자는 거래 방식부터 구분하세요."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}
