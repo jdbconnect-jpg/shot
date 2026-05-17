@@ -1,0 +1,48 @@
+{
+  "script_id": "scr_20260517_overseas_etf_tax",
+  "cluster_id": "manual_overseas_etf_tax_20260517",
+  "title": "해외 ETF 세금 구조",
+  "tone": "educational_korean_finance_shorts_male",
+  "description": "해외 ETF 세금 구조의 핵심 요소를 초보자에게 교육 목적으로 설명하는 쇼츠. 특정 상품 매수/매도 권유가 아니다.",
+  "target_duration_sec": 50,
+  "source_articles": [],
+  "data_note": "일반 투자 교육 콘텐츠. 세법은 국가, 상품, 계좌, 시점에 따라 달라질 수 있으며 특정 ETF 추천이 아니다.",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "objective": "overseas_tax_hook",
+      "narration": "해외 ETF 세금 구조는 국내 ETF보다 한 단계 더 봐야 합니다. 어디에 상장됐는지, 어떤 수익이 났는지에 따라 세금 포인트가 달라집니다.",
+      "spoken_narration": "해외 ETF 세금 구조는 국내 ETF보다 한 단계 더 봐야 합니다. 어디에 상장됐는지, 어떤 수익이 났는지에 따라 세금 포인트가 달라집니다."
+    },
+    {
+      "section_id": "sec_002",
+      "objective": "overseas_tax_distribution",
+      "narration": "첫 번째는 분배금입니다. 해외 ETF에서 배당이나 이자가 나오면, 현지에서 원천징수가 되고 국내에서도 과세 관계를 확인해야 할 수 있습니다.",
+      "spoken_narration": "첫 번째는 분배금입니다. 해외 ETF에서 배당이나 이자가 나오면, 현지에서 원천징수가 되고 국내에서도 과세 관계를 확인해야 할 수 있습니다."
+    },
+    {
+      "section_id": "sec_003",
+      "objective": "overseas_tax_gain",
+      "narration": "두 번째는 매매차익입니다. 해외 상장 ETF를 팔아 이익이 나면, 국내 상장 ETF와 다른 방식으로 과세될 수 있습니다.",
+      "spoken_narration": "두 번째는 매매차익입니다. 해외 상장 ETF를 팔아 이익이 나면, 국내 상장 ETF와 다른 방식으로 과세될 수 있습니다."
+    },
+    {
+      "section_id": "sec_004",
+      "objective": "overseas_tax_fx",
+      "narration": "세 번째는 환율입니다. 달러로 사고팔았다면 원화 기준 이익 계산이 중요합니다. 단순히 달러 수익률만 보면 실제 세금 계산과 다를 수 있습니다.",
+      "spoken_narration": "세 번째는 환율입니다. 달러로 사고팔았다면 원화 기준 이익 계산이 중요합니다. 단순히 달러 수익률만 보면 실제 세금 계산과 다를 수 있습니다."
+    },
+    {
+      "section_id": "sec_005",
+      "objective": "overseas_tax_close",
+      "narration": "정리하면 해외 ETF는 수익률만 보면 부족합니다. 분배금, 매매차익, 환율, 계좌 유형을 함께 확인하고 세부 규정은 최신 기준으로 봐야 합니다.",
+      "spoken_narration": "정리하면 해외 ETF는 수익률만 보면 부족합니다. 분배금, 매매차익, 환율, 계좌 유형을 함께 확인하고 세부 규정은 최신 기준으로 봐야 합니다."
+    }
+  ],
+  "tts": {
+    "provider": "ElevenLabs",
+    "voice_id": "m3gJBS8OofDJfycyA2Ip",
+    "voice_name": "Taehyung - Natural, Friendly and Clear",
+    "model_id": "eleven_multilingual_v2"
+  }
+}
